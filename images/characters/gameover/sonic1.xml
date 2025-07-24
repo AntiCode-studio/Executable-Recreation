@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="sonic1.png">
+<SubTexture name="10000" x="0" y="98" width="97" height="93" frameX="-15" frameY="-14" frameWidth="114" frameHeight="105" />
+<SubTexture name="10001" x="97" y="98" width="92" height="93" frameX="-15" frameY="-14" frameWidth="114" frameHeight="105" />
+<SubTexture name="20000" x="204" y="0" width="98" height="93" frameX="-14" frameY="-14" frameWidth="114" frameHeight="105" />
+<SubTexture name="20001" x="204" y="93" width="92" height="93" frameX="-14" frameY="-14" frameWidth="114" frameHeight="105" />
+<SubTexture name="30000" x="0" y="191" width="98" height="93" frameX="-14" frameY="-14" frameWidth="114" frameHeight="105" />
+<SubTexture name="30001" x="98" y="191" width="92" height="93" frameX="-14" frameY="-14" frameWidth="114" frameHeight="105" />
+<SubTexture name="40000" x="302" y="0" width="99" height="92" frameX="-13" frameY="-15" frameWidth="114" frameHeight="105" />
+<SubTexture name="40001" x="190" y="191" width="91" height="93" frameX="-14" frameY="-14" frameWidth="114" frameHeight="105" />
+<SubTexture name="40002" x="105" y="0" width="99" height="94" frameX="-13" frameY="-13" frameWidth="114" frameHeight="105" />
+<SubTexture name="40003" x="302" y="92" width="92" height="92" frameX="-14" frameY="-15" frameWidth="114" frameHeight="105" />
+<SubTexture name="50000" x="0" y="0" width="105" height="98" frameX="-7" frameY="-15" frameWidth="114" frameHeight="105" />
+</TextureAtlas>

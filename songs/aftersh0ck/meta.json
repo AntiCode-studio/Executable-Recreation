@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 178,
+	"difficulties": [
+		"",
+		"hard"
+	],
+	"parsedColor": -65536,
+	"displayName": "aftersh0ck",
+	"icon": "kn0ckback",
+	"name": "aftersh0ck",
+	"color": "#FF0000",
+	"customValues": {}
+}

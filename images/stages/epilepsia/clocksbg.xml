@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="clocksbg.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bgAnim0000" x="11" y="11" width="2668" height="1135"/>
+	<SubTexture name="bgAnim0001" x="11" y="11" width="2668" height="1135"/>
+	<SubTexture name="bgAnim0002" x="11" y="1157" width="2668" height="1135"/>
+	<SubTexture name="bgAnim0003" x="11" y="1157" width="2668" height="1135"/>
+</TextureAtlas>

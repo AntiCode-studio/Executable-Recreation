@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="gameover/gameover" icon="sprite-icon">
+	<anim name="idle" anim="Dad idle dance" x="0" y="0" fps="24" loop="false" indices="6"/>
+	<anim name="6" anim="6" x="0" y="0" fps="24" loop="false"/>
+	<anim name="5" anim="5" x="0" y="0" fps="24" loop="false"/>
+	<anim name="4" anim="4" x="0" y="0" fps="24" loop="false"/>
+	<anim name="3" anim="3" x="0" y="0" fps="24" loop="false"/>
+	<anim name="2" anim="2" x="0" y="0" fps="24" loop="false"/>
+	<anim name="1" anim="1" x="0" y="0" fps="24" loop="false"/>
+</character>

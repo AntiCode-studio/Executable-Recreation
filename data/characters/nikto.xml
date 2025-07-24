@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="1070" y="1090" icon="sprite-icon" sprite="nikto">
+	<anim loop="true" x="0" fps="5" y="0" anim="nothing" name="idle"/>
+</character>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="quatroDA" icon="sprite-icon">
+	<anim name="idle" anim="idle" x="0" y="0" fps="8" loop="true"/>
+	<anim name="singUP" anim="up" x="-1" y="-3" fps="8" loop="true"/>
+	<anim name="singLEFT" anim="left" x="-4" y="-2" fps="8" loop="true"/>
+	<anim name="singRIGHT" anim="right" x="-1" y="-2" fps="8" loop="true"/>
+	<anim name="singDOWN" anim="down" x="-1" y="-2" fps="8" loop="true"/>
+	<anim name="singRIGHT-alt" anim="altright" x="9" y="7" fps="15" loop="false"/>
+</character>

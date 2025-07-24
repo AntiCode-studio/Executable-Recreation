@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-240" icon="legend" camx="-130" y="-90" camy="-40" scale="0.5" color="#4B3948" flipX="true" sprite="legend/Legend_Assets">
+	<anim loop="false" x="288" fps="24" y="-34" anim="Legend_DOWN" name="singDOWN"/>
+
+	<anim loop="false" x="362" fps="24" y="36" anim="Legend_UP" name="singUP"/>
+
+	<anim loop="false" x="522" fps="24" y="-10" anim="Legend_RIGHT" name="singLEFT"/>
+
+	<anim loop="false" x="176" fps="24" y="12" anim="Legend_LEFT" name="singRIGHT"/>
+
+	<anim loop="false" x="300" fps="24" y="0" anim="Legend_IDLE" indices="0..13" name="idle"/>
+</character>

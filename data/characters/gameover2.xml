@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="gameover/sonic1" antialiasing="false" icon="sprite-icon">
+	<anim name="idle" anim="1" x="0" y="0" fps="8" loop="true"/>
+	<anim name="1" anim="1" x="0" y="0" fps="8" loop="true"/>
+	<anim name="2" anim="2" x="0" y="0" fps="8" loop="true"/>
+	<anim name="3" anim="3" x="0" y="0" fps="8" loop="true"/>
+	<anim name="4" anim="4" x="0" y="0" fps="8" loop="true"/>
+	<anim name="5" anim="5" x="0" y="0" fps="8" loop="true"/>
+</character>

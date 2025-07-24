@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" camx="-150" y="30" icon="sprite-icon" sprite="Bdos" camy="-170" scale="2.5">
+	<anim loop="true" x="0" fps="24" y="0" anim="idle" name="idle"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="up" name="singUP"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="left" name="singLEFT"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="right" name="singRIGHT"/>
+
+	<anim loop="false" x="0" fps="24" y="0" anim="down" name="singDOWN"/>
+</character>

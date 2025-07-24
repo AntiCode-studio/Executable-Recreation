@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nikto.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="nothing0000" x="0" y="0" width="386" height="353"/>
+	<SubTexture name="nothing0001" x="386" y="0" width="386" height="353"/>
+</TextureAtlas>

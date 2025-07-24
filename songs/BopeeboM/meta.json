@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 100,
+	"difficulties": [
+		"hard"
+	],
+	"parsedColor": -7319570,
+	"displayName": "Bopeebo",
+	"icon": "dad",
+	"name": "BopeeboM",
+	"color": "#904FEE",
+	"customValues": {}
+}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pen2.png">
+<SubTexture name="pendrive left0000" x="827" y="673" width="464" height="578" frameX="-327" frameY="-107" frameWidth="1280" frameHeight="720" />
+<SubTexture name="pendrive left0001" x="1356" y="572" width="437" height="571" frameX="-350" frameY="-114" frameWidth="1280" frameHeight="720" />
+<SubTexture name="pendrive down0000" x="903" y="1254" width="418" height="530" frameX="-406" frameY="-160" frameWidth="1280" frameHeight="720" />
+<SubTexture name="pendrive down0001" x="474" y="1254" width="429" height="544" frameX="-402" frameY="-146" frameWidth="1280" frameHeight="720" />
+<SubTexture name="pendrive right0000" x="1356" y="0" width="472" height="572" frameX="-523" frameY="-112" frameWidth="1280" frameHeight="720" />
+<SubTexture name="pendrive right0001" x="0" y="1254" width="474" height="572" frameX="-503" frameY="-112" frameWidth="1280" frameHeight="720" />
+<SubTexture name="pendrive up0000" x="0" y="0" width="460" height="673" frameX="-435" frameY="-17" frameWidth="1280" frameHeight="720" />
+<SubTexture name="pendrive up0001" x="460" y="0" width="476" height="647" frameX="-430" frameY="-43" frameWidth="1280" frameHeight="720" />
+<SubTexture name="pen2 idle0000" x="936" y="0" width="420" height="590" frameX="-12" frameY="-2" frameWidth="430" frameHeight="591" />
+<SubTexture name="pen2 idle0001" x="415" y="673" width="412" height="579" frameX="-15" frameY="-2" frameWidth="430" frameHeight="581" />
+<SubTexture name="pen2 idle0002" x="0" y="673" width="415" height="581" frameX="-14" frameY="0" frameWidth="430" frameHeight="581" />
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pen2" icon="sprite-icon" camx="-500" camy="-330" x="-150" y="0">
+	<anim name="idle" anim="pen2 idle" x="-205" y="-110" fps="24" loop="false"/>
+	<anim name="singUP" anim="pendrive up" x="304" y="5" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="pendrive left" x="315" y="-10" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="pendrive right" x="315" y="7" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="pendrive down" x="310" y="-10" fps="24" loop="false"/>
+</character>

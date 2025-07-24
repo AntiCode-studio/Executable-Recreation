@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgEPI.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="anim0000" x="11" y="11" width="640" height="640"/>
+	<SubTexture name="anim0001" x="11" y="11" width="640" height="640"/>
+	<SubTexture name="anim0002" x="662" y="11" width="640" height="640"/>
+	<SubTexture name="anim0003" x="662" y="11" width="640" height="640"/>
+	<SubTexture name="anim0004" x="1313" y="11" width="640" height="640"/>
+	<SubTexture name="anim0005" x="1313" y="11" width="640" height="640"/>
+	<SubTexture name="anim0006" x="11" y="662" width="640" height="640"/>
+	<SubTexture name="anim0007" x="11" y="662" width="640" height="640"/>
+</TextureAtlas>

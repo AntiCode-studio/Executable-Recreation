@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-650" y="-360" sprite="BlueUSB-real" scale="0.8" antialiasing="false" camx="-240" camy="-330" icon="pen2" holdTime="6.1">
+	<anim name="idle" anim="BLUEUSB-real idle" x="0" y="0" fps="8" loop="false"/>
+	<anim name="singLEFT" anim="BLUEUSB-real left" x="0" y="0" fps="8" loop="false"/>
+	<anim name="singDOWN" anim="BLUEUSB-real down" x="0" y="0" fps="8" loop="false"/>
+	<anim name="singUP" anim="BLUEUSB-real up" x="0" y="0" fps="8" loop="false"/>
+	<anim name="singRIGHT" anim="BLUEUSB-real right" x="0" y="0" fps="8" loop="false"/>
+</character>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="80" y="140" sprite="Buno" camx="-10" icon="sprite-icon" scale="2.5" camy="-70">
+	<anim x="0" loop="true" anim="idle" y="0" fps="24" name="idle"/>
+
+	<anim x="0" loop="false" anim="up" y="0" fps="24" name="singUP"/>
+
+	<anim x="0" loop="false" anim="left" y="0" fps="24" name="singLEFT"/>
+
+	<anim x="0" loop="false" anim="right" y="0" fps="24" name="singRIGHT"/>
+
+	<anim x="0" loop="false" anim="down" y="0" fps="24" name="singDOWN"/>
+</character>
