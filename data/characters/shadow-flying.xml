@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-1710" icon="shadow" camx="-210" y="-390" camy="-60" scale="0.7" color="#A1A1A1" holdTime="6.1" antialiasing="false" sprite="pace/shadow-flying">
+	<anim loop="false" x="0" fps="8" y="0" anim="shadow-flying left" indices="1,0" name="singLEFT"/>
+
+	<anim loop="false" x="0" fps="8" y="0" anim="shadow-flying down" indices="1,0" name="singDOWN"/>
+
+	<anim loop="false" x="0" fps="8" y="0" anim="shadow-flying up" indices="1,0" name="singUP"/>
+
+	<anim loop="false" x="0" fps="8" y="0" anim="shadow-flying right" indices="1,0" name="singRIGHT"/>
+
+	<anim loop="true" x="0" fps="8" y="0" anim="shadow-flying idle" name="idle"/>
+</character>

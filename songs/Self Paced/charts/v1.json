@@ -2,6 +2,13 @@
 	"events": [
 		{
 			"params": [
+				160
+			],
+			"name": "BPM Change",
+			"time": 0
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -44,17 +51,53 @@
 		},
 		{
 			"params": [
+				false,
+				-1,
+				16,
+				"camGame"
+			],
+			"time": 54000,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				"bgSet",
+				"1"
+			],
+			"time": 54000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 58500
+			"time": 57000
+		},
+		{
+			"params": [
+				false,
+				-1,
+				16,
+				"camGame"
+			],
+			"time": 60000,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				"bgSet",
+				"2"
+			],
+			"time": 60000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 61500
+			"time": 60000
 		},
 		{
 			"params": [
@@ -72,6 +115,34 @@
 		},
 		{
 			"params": [
+				false,
+				-1,
+				16,
+				"camGame"
+			],
+			"time": 69562.5,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				"paceRun",
+				""
+			],
+			"time": 69562.5,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0,
+				"shadow-flying",
+				0,
+				true
+			],
+			"name": "Change Character",
+			"time": 69562.5
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -82,77 +153,148 @@
 				0
 			],
 			"name": "Camera Movement",
-			"time": 84000
+			"time": 75000
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 90000
+			"time": 77812.5
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 96000
+			"time": 78562.5
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 103500
+			"time": 79312.5
 		},
 		{
 			"params": [
 				0
+			],
+			"name": "Camera Movement",
+			"time": 81000
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 87000
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 92250
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 99000
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 105000
+		},
+		{
+			"params": [
+				1
 			],
 			"name": "Camera Movement",
 			"time": 109500
 		},
 		{
 			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 112500
-		},
-		{
-			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 115500
+			"time": 111000
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 121500
+			"time": 117000
 		},
 		{
 			"params": [
 				0
+			],
+			"name": "Camera Movement",
+			"time": 123000
+		},
+		{
+			"params": [
+				1
 			],
 			"name": "Camera Movement",
 			"time": 127500
 		},
 		{
 			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 133500
-		},
-		{
-			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 141000
+			"time": 136500
+		},
+		{
+			"params": [
+				"paceRun",
+				"false"
+			],
+			"name": "HScript Call",
+			"time": 138000
+		},
+		{
+			"params": [
+				0,
+				"shadow",
+				0,
+				true
+			],
+			"name": "Change Character",
+			"time": 138000
+		},
+		{
+			"params": [
+				"dark",
+				"0"
+			],
+			"name": "HScript Call",
+			"time": 138000
+		},
+		{
+			"params": [
+				false,
+				-16777216,
+				16,
+				"camHUD"
+			],
+			"name": "Camera Flash",
+			"time": 138000
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 150000
 		},
 		{
 			"params": [
@@ -166,7 +308,50 @@
 				0
 			],
 			"name": "Camera Movement",
-			"time": 166500
+			"time": 161250
+		},
+		{
+			"params": [
+				false,
+				-65536,
+				8,
+				"camGame"
+			],
+			"name": "Camera Flash",
+			"time": 161250
+		},
+		{
+			"params": [
+				"dark",
+				"1"
+			],
+			"name": "HScript Call",
+			"time": 162000
+		},
+		{
+			"params": [
+				false,
+				-1,
+				16,
+				"camGame"
+			],
+			"name": "Camera Flash",
+			"time": 162000
+		},
+		{
+			"params": [
+				"bgSet",
+				"3"
+			],
+			"name": "HScript Call",
+			"time": 162000
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 168000
 		},
 		{
 			"params": [
@@ -180,7 +365,21 @@
 				0
 			],
 			"name": "Camera Movement",
+			"time": 174000
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
 			"time": 178500
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 180000
 		},
 		{
 			"params": [
@@ -194,7 +393,21 @@
 				0
 			],
 			"name": "Camera Movement",
+			"time": 186000
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
 			"time": 190500
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 192000
 		},
 		{
 			"params": [
@@ -208,7 +421,21 @@
 				0
 			],
 			"name": "Camera Movement",
+			"time": 198000
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
 			"time": 202500
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 204000
 		},
 		{
 			"params": [
@@ -222,6 +449,13 @@
 				0
 			],
 			"name": "Camera Movement",
+			"time": 211500
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
 			"time": 214500
 		},
 		{
@@ -229,7 +463,21 @@
 				1
 			],
 			"name": "Camera Movement",
+			"time": 225000
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
 			"time": 229500
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 232500
 		},
 		{
 			"params": [
@@ -249,7 +497,6 @@
 	"scrollSpeed": 3.3,
 	"strumLines": [
 		{
-			"visible": true,
 			"notes": [
 				{
 					"id": 2,
@@ -5256,14 +5503,21 @@
 					"type": 0
 				}
 			],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
 			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25,
 			"type": 0,
 			"characters": [
-				"shadow-pacenew"
+				"shadow"
 			]
 		},
 		{
-			"visible": true,
 			"notes": [
 				{
 					"id": 2,
@@ -9404,16 +9658,24 @@
 			"type": 1,
 			"characters": [
 				"Pace-Scared"
-			]
+			],
+			"visible": true
 		},
 		{
 			"notes": [],
-			"visible": false,
 			"position": "girlfriend",
+			"strumScale": 1,
+			"visible": false,
 			"type": 2,
 			"characters": [
-				"nochar"
-			]
+				"nikto"
+			],
+			"strumPos": [
+				0,
+				50
+			],
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		}
 	],
 	"codenameChart": true,

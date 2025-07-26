@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pace.png">
+<SubTexture name="pace fallin0000" x="3118" y="1893" width="37" height="44" frameX="-1762" frameY="-1082" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="pace fallin0001" x="2972" y="1893" width="146" height="168" frameX="-1721" frameY="-1011" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="pace fallin0002" x="2473" y="1893" width="499" height="591" frameX="-1586" frameY="-888" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="pace fallin0003" x="1663" y="1893" width="810" height="848" frameX="-1450" frameY="-678" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="pace fallin0004" x="0" y="1893" width="1663" height="1418" frameX="-899" frameY="-259" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="pace fallin0005" x="0" y="0" width="2814" height="1893" frameX="-229" frameY="0" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="pace fallin0006" x="2814" y="0" width="3600" height="1893" frameX="0" frameY="0" frameWidth="3600" frameHeight="1893" />
+</TextureAtlas>

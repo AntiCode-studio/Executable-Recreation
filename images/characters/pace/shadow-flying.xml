@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="shadow-flying.png">
+<SubTexture name="shadow-flying down0000" x="2452" y="2229" width="1120" height="602" frameX="-504" frameY="-726" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="shadow-flying down0001" x="1190" y="2229" width="1262" height="659" frameX="-429" frameY="-720" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="shadow-flying left0000" x="921" y="0" width="847" height="1123" frameX="-231" frameY="-225" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="shadow-flying left0001" x="0" y="0" width="921" height="1142" frameX="-179" frameY="-203" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="shadow-flying up0000" x="1768" y="0" width="1414" height="1122" frameX="-460" frameY="-26" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="shadow-flying up0001" x="0" y="1142" width="1488" height="1087" frameX="-407" frameY="0" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="shadow-flying right0000" x="3182" y="0" width="1370" height="997" frameX="-711" frameY="-250" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="shadow-flying right0001" x="1488" y="1142" width="1475" height="1013" frameX="-711" frameY="-234" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="shadow-flying idle0000" x="0" y="2229" width="1190" height="955" frameX="-517" frameY="-259" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="shadow-flying idle0001" x="3182" y="997" width="1190" height="980" frameX="-517" frameY="-234" frameWidth="3600" frameHeight="1893" />
+</TextureAtlas>

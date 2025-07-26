@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="thepace.png">
+<SubTexture name="thepace idle0000" x="0" y="0" width="3150" height="1893" frameX="-354" frameY="0" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="thepace idle0001" x="3150" y="0" width="3146" height="1893" frameX="-358" frameY="0" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="thepace idle0002" x="0" y="1893" width="3115" height="1893" frameX="-389" frameY="0" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="thepace idle0003" x="3115" y="1893" width="3111" height="1893" frameX="-393" frameY="0" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="thepace idle0004" x="0" y="3786" width="3121" height="1893" frameX="-383" frameY="0" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="thepace idle0005" x="3121" y="3786" width="3140" height="1893" frameX="-364" frameY="0" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="thepace idle0006" x="6296" y="0" width="3146" height="1893" frameX="-358" frameY="0" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="thepace idle0007" x="0" y="5679" width="3151" height="1893" frameX="-353" frameY="0" frameWidth="3600" frameHeight="1893" />
+</TextureAtlas>

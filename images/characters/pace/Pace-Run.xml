@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Pace-Run.png">
+<SubTexture name="Pace-Run idle0000" x="0" y="651" width="604" height="577" frameX="-2118" frameY="-822" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="Pace-Run idle0001" x="604" y="651" width="579" height="577" frameX="-2127" frameY="-826" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="Pace-Run idle0002" x="0" y="0" width="523" height="651" frameX="-2139" frameY="-845" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="Pace-Run idle0003" x="1045" y="0" width="523" height="636" frameX="-2148" frameY="-868" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="Pace-Run idle0004" x="1568" y="0" width="635" height="550" frameX="-2130" frameY="-817" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="Pace-Run idle0005" x="1568" y="550" width="602" height="550" frameX="-2156" frameY="-819" frameWidth="3600" frameHeight="1893" />
+<SubTexture name="Pace-Run idle0006" x="523" y="0" width="522" height="648" frameX="-2145" frameY="-855" frameWidth="3600" frameHeight="1893" />
+</TextureAtlas>
