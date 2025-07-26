@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="paceFalling.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="11" y="11" width="801" height="801"/>
+	<SubTexture name="idle0001" x="823" y="11" width="801" height="801"/>
+	<SubTexture name="pre-scared0000" x="11" y="11" width="801" height="801"/>
+	<SubTexture name="pre-scared0001" x="823" y="11" width="801" height="801"/>
+	<SubTexture name="pre-scared0002" x="1635" y="11" width="800" height="800"/>
+	<SubTexture name="pre-scared0003" x="2446" y="11" width="800" height="800"/>
+	<SubTexture name="pre-scared0004" x="3257" y="11" width="800" height="800"/>
+	<SubTexture name="scared0000" x="2446" y="11" width="800" height="800"/>
+	<SubTexture name="scared0001" x="3257" y="11" width="800" height="800"/>
+</TextureAtlas>

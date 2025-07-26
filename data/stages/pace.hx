@@ -7,16 +7,22 @@ aura = new CustomShader('Aura');
 var noteOffsets = [0,0];
 public var noteMoveAmt = 150;
 
+snowfall = new CustomShader('GlitchShaderA');
 var paceSky:FlxBackdrop;
 var pacefloor:FlxBackdrop;
 var fgtree:FlxBackdrop;
 function postCreate() {
     camGame.addShader(aura);
+    snowfall.glitchAmount = 0.0001;
+    camGame.addShader(snowfall);
+    camHUD.addShader(snowfall);
 }
 var isRun = false;
 function paceRun(trueOrFalse:Bool) {
     trace(trueOrFalse);
     if(trueOrFalse =="false"){
+        insert(members.indexOf(gf), backDrop);
+        backDrop.visible = false;
         fgtree.visible = false;
         paceSky.visible = false;
         pacefloor.visible = false;
@@ -26,6 +32,8 @@ function paceRun(trueOrFalse:Bool) {
     }else{
         //strumLines.members[0].characters[1].visible = true;
         //strumLines.members[0].characters[0].visible = false;
+        remove(backDrop);
+        backDrop.visible = true;
         prlBG.alpha = 0;
         redBG.alpha = 0;
         redBG2.alpha = 0;
@@ -42,17 +50,41 @@ function paceRun(trueOrFalse:Bool) {
     }
     
 }
-function dark(blabla:Int) {
+function dark(blabla) {
     trace(blabla);
     if(blabla == '0'){
+        
         bgB.alpha = 1;
+    }
+    if(blabla == '0.5'){
+        FlxTween.tween(paceFall, {y: -20}, 5, {ease: FlxEase.backOut});
+        FlxTween.tween(paceFall2, {y: 0}, 5, {ease: FlxEase.backOut});
     }
     if(blabla == '1'){
         bgB.alpha = 0;
+        paceFall2.visible = false;
+        paceFall.visible = false;
+    }
+    if(blabla == '3'){
+        paceFall2.animation.play('pre-scared');
+        paceFall.animation.play('pre-scared');
+    }
+    if(blabla == '4'){
+        paceFall2.animation.play('scared');
+        paceFall.animation.play('scared');
+    }
+    if(blabla == '5'){
+        strumLines.members[0].characters[0].visible = false;
+        strumLines.members[3].characters[0].visible = true;
+    }
+    if(blabla == '10'){
+        camGame.visible = false;
+        camHUD.visible = false;
     }
 }
 function bgSet(bgSetFun:Int) {
     if(bgSetFun == '0' || bgSetFun == 0){
+        blackP.visible = false;
         prlBG.alpha     = 1;
         redBG.alpha     = 0;
         redBG2.alpha    = 0;
@@ -77,7 +109,15 @@ function bgSet(bgSetFun:Int) {
         redFog2.alpha   = 1;
     }
 }
+
+function layerChange() {
+    remove(strumLines.members[1].characters[0]); // Временно убираем paceFall2
+    insert(members.indexOf(strumLines.members[2].characters[0]), strumLines.members[1].characters[0]);
+}
+
 function create() {
+    strumLines.members[0].characters[0].visible = true;
+    strumLines.members[3].characters[0].visible = false;
     gradiRed = FlxGradient.createGradientFlxSprite(1, 1080, [FlxColor.BLACK, FlxColor.PURPLE]);
     gradiRed.scale.x = FlxG.width + 1300;
     gradiRed.scale.y ++;
@@ -90,23 +130,6 @@ function create() {
 	//add(gradiRed);
     insert(members.indexOf(gf), gradiRed);
 
-    backDrop = new FlxBackdrop(Paths.image('menus/qube'));
-    backDrop.y = -500;
-    //backDrop.velocity.set(-150, 50);
-    backDrop.scale.set(1, 1);
-    insert(members.indexOf(gf), backDrop);
-    backDrop.blend = BlendMode.DARKEN;
-    backDrop1 = new FlxBackdrop(Paths.image('menus/Grid_lmao'));
-    backDrop1.y = -500;
-    //backDrop.velocity.set(-150, 50);
-    backDrop1.scale.set(2, 2);
-    insert(members.indexOf(gf), backDrop1);
-    backDrop1.blend = BlendMode.ADD;
-    //backDrop1.alpha = 0.3;
-    backDrop1.color = 0x41003D;
-    //backDrop1.angle = 140;
-    //FlxTween.tween(backDrop, {y: backDrop.y + 200}, 3, {ease: FlxEase.quadInOut, type: FlxTweenType.PINGPONG});
-
     paceSky = new FlxBackdrop(Paths.image('stages/pace/v1/prun/pacesky'), 1, 0);
     paceSky.scale.set(2, 2);
     paceSky.velocity.set(-650, 0);
@@ -117,6 +140,12 @@ function create() {
 	insert(members.indexOf(gf),sun);
     sun2 = new FlxSprite(500,250).loadGraphic(Paths.image('stages/pace/v1/prun/sun'));
 	insert(members.indexOf(gf),sun2);
+
+    backDrop = new FlxBackdrop(Paths.image('menus/qube'));
+    //backDrop.velocity.set(-150, 50);
+    backDrop.scale.set(1, 1);
+    insert(members.indexOf(prlBG), backDrop);
+    backDrop.blend = BlendMode.DARKEN;
 
     pacefloor = new FlxBackdrop(Paths.image('stages/pace/v1/prun/floor'), 1, 0);
     pacefloor.scale.set(1.3, 1.3);
@@ -129,7 +158,6 @@ function create() {
     fgtree.velocity.set(-1050, 0);
     add(fgtree);
     fgtree.y = 300;
-
     
     redFog2.visible = false;
     fgtree.visible = false;
@@ -138,31 +166,152 @@ function create() {
     sun.visible = false;
     sun2.visible = false;
 
-    bgSet(0);
+    paceFall = new FlxSprite();
+    paceFall.frames = Paths.getSparrowAtlas('stages/pace/v1/paceFalling');
+    paceFall.animation.addByPrefix('idle', 'idle', 5, true);
+    paceFall.animation.addByPrefix('pre-scared', 'pre-scared', 5, false);
+    paceFall.animation.addByPrefix('scared', 'scared', 5, true);
+    paceFall.updateHitbox();
+    paceFall.screenCenter();
+    paceFall.y = -600;
+    paceFall.animation.play('idle');
+    paceFall.scale.set(0.6, 0.6);
+    paceFall.camera = camHUD;
+    add(paceFall);
+    paceFall.visible = true;
+
+    paceFall2 = new FlxSprite();
+    paceFall2.frames = Paths.getSparrowAtlas('stages/pace/v1/pacecut');
+    paceFall2.animation.addByPrefix('idle', 'pacecut shake', 5, true);
+    paceFall2.animation.addByPrefix('pre-scared', 'pacecut look', 10, false);
+
+    // Разворачиваем кадры анимации 'pre-scared' в обратном порядке
+    var anim = paceFall2.animation.getByName('pre-scared');
+    if (anim != null) {
+        anim.frames.reverse(); // <- Вот это развернёт анимацию
+    }
+
+    paceFall2.scale.set(0.3, 0.3);
+    paceFall2.updateHitbox();
+    paceFall2.screenCenter();
+    paceFall2.y = -600;
+    paceFall2.animation.play('idle');
+    paceFall2.camera = camHUD;
+    paceFall2.angle = 180;
+    paceFall2.visible = false;
+    add(paceFall2);
 
     bgB = new FlxSprite(-700, 0);
-    bgB.loadGraphic(Paths.image('stages/pace/v2/p3/Untitled4126_Restored_Restored2_20230804185558'));
+    bgB.makeGraphic(1400, 1400, FlxColor.WHITE);
+    bgB.color = 0x000008;
     add(bgB);
     bgB.scale.set(3, 3);
     bgB.alpha = 0;
     bgB.blend = BlendMode.DARKEN;
+
+    blackP = new FlxSprite(0, 0);
+    blackP.makeGraphic(1400, 1400, FlxColor.BLACK);
+    blackP.updateHitbox();
+    blackP.screenCenter();
+    add(blackP);
+    blackP.camera = camHUD;
+
+    vignette = new FlxSprite(500,250).loadGraphic(Paths.image('stages/pace/v1/vignette'));
+    vignette.camera = camHUD;
+    vignette.screenCenter();
+	insert(members.indexOf(strumLines),vignette);
+
+    redFog.updateHitbox();
+    redFog2.updateHitbox();
+    redFog.screenCenter();
+    redFog2.screenCenter();
+
+    bgSet(0);
+
+    cut1bg = new FlxSprite(500,250).loadGraphic(Paths.image('stages/pace/v1/prun/cut1bg'));
+    cut1bg.visible = false;
+    cut1bg.screenCenter();
+    cut1bg.camera = camHUD;
+    add(cut1bg);
+
+    cut1floor = new FlxSprite(500,250).loadGraphic(Paths.image('stages/pace/v1/prun/cut1floor'));
+    cut1floor.visible = false;
+    cut1floor.screenCenter();
+    cut1floor.camera = camHUD;
+    add(cut1floor);
+
+    paceCut = new FlxSprite();
+    paceCut.frames = Paths.getSparrowAtlas('stages/pace/v1/prun/pace-falling');
+    paceCut.animation.addByPrefix('falling', 'pace-falling falling', 10, false);
+    var anim2 = paceCut.animation.getByName('falling');
+    if (anim2 != null) {
+        anim2.frames.reverse(); // <- Вот это развернёт анимацию
+    }
+    paceCut.camera = camHUD;
+    paceCut.scale.set(0.6, 0.6);
+    paceCut.screenCenter();
+    add(paceCut);
+    paceCut.visible = false;
+
+    paceCut2 = new FlxSprite();
+    paceCut2.frames = Paths.getSparrowAtlas('stages/pace/v1/prun/pace');
+    paceCut2.animation.addByPrefix('falling', 'pace fallin', 10, false);
+    var anim2 = paceCut2.animation.getByName('falling');
+    if (anim2 != null) {
+        anim2.frames.reverse(); // <- Вот это развернёт анимацию
+    }
+    paceCut2.camera = camHUD;
+    paceCut2.scale.set(0.6, 0.6);
+    paceCut2.screenCenter();
+    add(paceCut2);
+    paceCut2.visible = false;
+
+    //camHUD.alpha = 0;
 }
 //    	cameraNotePoint.x = FlxMath.lerp(cameraNotePoint.x, noteOffsets[0], camFollowRate); 
 //	cameraNotePoint.y = FlxMath.lerp(cameraNotePoint.y, noteOffsets[1], camFollowRate); 
 var localTime:Float = 0;
-var backDropAlpha = 0;
+var vignetteFade = 0;
+
+function cutsene() {
+    trace('hi');
+    paceCut.visible = true;
+    paceCut.animation.play('falling');
+    cut1bg.visible = true;
+    cut1floor.visible = true;
+    new FlxTimer().start(0.7, function(tmr:FlxTimer)
+    {
+        paceCut.visible = false;
+        cut1bg.visible = true;
+        cut1bg.color = 0x797979;
+        cut1floor.visible = false;
+        paceCut2.visible = true;
+        paceCut2.animation.play('falling');
+    });
+    new FlxTimer().start(1.5, function(tmr:FlxTimer)
+    {
+        paceCut.visible = false;
+        cut1bg.visible = false;
+        cut1bg.color = 0x797979;
+        cut1floor.visible = false;
+        paceCut2.visible = false;
+        paceCut2.animation.play('falling');
+    });
+}
 function update(elapsed:Float) {
     localTime += elapsed;
     aura.iTime = localTime;
     backDrop.angle -= 0.04;
+    snowfall.iTime = localTime;
+
+    vignette.alpha = FlxMath.lerp(vignette.alpha, vignetteFade, 0.15);
 
     sun.angle -= 0.04;
     sun2.angle += 0.04;
-    //backDrop1.angle += 0.04;
-    backDrop.alpha = FlxMath.lerp(backDrop.alpha, backDropAlpha, 0.15);
-    backDrop1.alpha = FlxMath.lerp(backDrop1.alpha, backDropAlpha, 0.15);
+
+    redFog2.angle -= 0.04;
+    redFog.angle += 0.04;
     backDrop.velocity.set(FlxMath.lerp(backDrop.velocity.x, noteOffsets[0], 0.04), FlxMath.lerp(backDrop.velocity.y, noteOffsets[1], 0.04));
-    backDrop1.velocity.set(FlxMath.lerp(backDrop1.velocity.x, noteOffsets[1], 0.04), FlxMath.lerp(backDrop1.velocity.y, noteOffsets[0], 0.04));
     for (i in strumLines.members[curCameraTarget].characters){
         switch(i.getAnimName()){
             case "singLEFT" | "singLEFT-alt":
@@ -184,8 +333,18 @@ function update(elapsed:Float) {
         strumLines.members[0].characters[0].scale.set(shadowScale, shadowScale);
         if(strumLines.members[curCameraTarget].characters[curCameraTarget] == strumLines.members[0].characters[0]){
             camGame.zoom = FlxMath.lerp(camGame.zoom, 1.2, 0.05);
+            vignetteFade = 1;
+        }else {
+            vignetteFade = 0;
         }
     }
     
 }
-
+var glitchTween:FlxTween;
+function shaderAnim() {
+    snowfall.glitchAmount = 1;
+    if(glitchTween != null) {
+		glitchTween.cancel();
+	}
+    glitchTween = FlxTween.tween(snowfall, {glitchAmount: 0.0001}, 0.5);
+}

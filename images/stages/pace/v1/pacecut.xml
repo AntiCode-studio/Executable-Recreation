@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pacecut.png">
+<SubTexture name="pacecut shake0000" x="1575" y="1424" width="844" height="1107" frameX="-1712" frameY="-947" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut shake0001" x="2419" y="1424" width="850" height="1103" frameX="-1709" frameY="-946" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut shake0002" x="3544" y="0" width="850" height="1097" frameX="-1710" frameY="-949" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut look0000" x="0" y="0" width="899" height="1424" frameX="-1681" frameY="-988" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut look0001" x="899" y="0" width="899" height="1424" frameX="-1681" frameY="-988" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut look0002" x="1798" y="0" width="893" height="1421" frameX="-1684" frameY="-991" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut look0003" x="2691" y="0" width="853" height="1413" frameX="-1703" frameY="-999" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut look0004" x="802" y="1424" width="773" height="1376" frameX="-1749" frameY="-1036" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut look0005" x="0" y="1424" width="802" height="1384" frameX="-1728" frameY="-1041" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut look0006" x="3544" y="1097" width="802" height="1051" frameX="-1728" frameY="-1058" frameWidth="4400" frameHeight="2650" />
+<SubTexture name="pacecut look0007" x="0" y="2808" width="851" height="1080" frameX="-1710" frameY="-966" frameWidth="4400" frameHeight="2650" />
+</TextureAtlas>

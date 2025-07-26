@@ -6,8 +6,8 @@
     <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="p1/p1bg" name="prlBG" scroll="0.8"/>
     <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="p2/p2bg" name="redBG" scroll="0.8"/>
     <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="p2/p2bg" name="redBG2" scroll="0.8"/>
-    <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="p2/circle" name="redFog" scroll="0.8"/>
-    <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="16538F44-BC17-4F26-8D6D-DB479DACEDBB_1" name="redFog2"/>
+    <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="p2/circle" name="redFog" scroll="0"/>
+    <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="16538F44-BC17-4F26-8D6D-DB479DACEDBB_1" name="redFog2" scroll="0"/>
     <dad x="738" y="103" alpha="1" scale="1" camxoffset="-250" camyoffset="200" flipX="false" scroll="1"/>
     <bf x="392" y="121" alpha="1" scale="1" camxoffset="0" camyoffset="0" flipX="true" scroll="1"/>
 </stage>
