@@ -2,7 +2,7 @@
 <stage zoom="0.8" startCamPosX="0" startCamPosY="0" folder="stages/pace/v1/">
 
     
-    <gf x="738" y="103" alpha="1" scale="1" camxoffset="-250" camyoffset="200" flipX="false" scroll="1"/>
+    <gf x="738" y="103" alpha="0" scale="1" camxoffset="-250" camyoffset="200" flipX="false" scroll="1"/>
     <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="p1/p1bg" name="prlBG" scroll="0.8"/>
     <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="p2/p2bg" name="redBG" scroll="0.8"/>
     <sprite x="-450" y="-300" alpha="1" scale="0.8" sprite="p2/p2bg" name="redBG2" scroll="0.8"/>

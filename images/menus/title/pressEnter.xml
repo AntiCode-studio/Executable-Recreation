@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pressEnter.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="11" y="11" width="414" height="311"/>
+	<SubTexture name="press0000" x="436" y="11" width="414" height="227" frameX="0" frameY="-64" frameWidth="414" frameHeight="346"/>
+	<SubTexture name="press0001" x="436" y="11" width="414" height="227" frameX="0" frameY="-64" frameWidth="414" frameHeight="346"/>
+	<SubTexture name="press0002" x="11" y="333" width="414" height="346"/>
+	<SubTexture name="press0003" x="11" y="333" width="414" height="346"/>
+	<SubTexture name="press0004" x="11" y="11" width="414" height="311" frameX="0" frameY="-19" frameWidth="414" frameHeight="311"/>
+	<SubTexture name="press0005" x="11" y="11" width="414" height="311" frameX="0" frameY="-19" frameWidth="414" frameHeight="311"/>
+</TextureAtlas>

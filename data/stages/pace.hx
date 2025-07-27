@@ -35,6 +35,24 @@ function cutseneRun(part) {
         paceCutG.visible = false;
     }
 }
+function paceBGcolor(par) {
+    if(par == 'red'){
+        fgtree.color = 0xff0000;
+        paceSky.color = 0xff0000;
+        pacefloor.color = 0xff0000;
+    }
+    if(par == 'black'){
+        fgtree.color = 0x141414;
+        paceSky.color = 0x141414;
+        pacefloor.color = 0x141414;
+    }
+    if(par == 'white'){
+        fgtree.color = 0xffffff;
+        paceSky.color = 0xffffff;
+        pacefloor.color = 0xffffff;
+    }
+    
+}
 function paceRun(trueOrFalse:Bool) {
     trace(trueOrFalse);
     if(trueOrFalse =="false"){
