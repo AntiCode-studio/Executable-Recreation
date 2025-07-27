@@ -30,7 +30,7 @@
 		{
 			"params": [
 				"bgSet",
-				"0"
+				"0.5"
 			],
 			"name": "HScript Call",
 			"time": 1500
@@ -89,6 +89,14 @@
 			],
 			"time": 15000,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 27000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -260,6 +268,22 @@
 		},
 		{
 			"params": [
+				"cutseneRun",
+				"0"
+			],
+			"name": "HScript Call",
+			"time": 66000
+		},
+		{
+			"params": [
+				"cutseneRun",
+				"1"
+			],
+			"name": "HScript Call",
+			"time": 68250
+		},
+		{
+			"params": [
 				0
 			],
 			"time": 69000,
@@ -273,7 +297,7 @@
 				"camGame"
 			],
 			"name": "Camera Flash",
-			"time": 69562.5
+			"time": 69000
 		},
 		{
 			"params": [
@@ -281,7 +305,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 69562.5
+			"time": 69000
 		},
 		{
 			"params": [
@@ -290,7 +314,7 @@
 				0,
 				true
 			],
-			"time": 69562.5,
+			"time": 69000,
 			"name": "Change Character"
 		},
 		{
@@ -299,7 +323,25 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 69562.5
+			"time": 69000
+		},
+		{
+			"params": [
+				"cutseneRun",
+				"2"
+			],
+			"name": "HScript Call",
+			"time": 69000
+		},
+		{
+			"params": [
+				1,
+				"paceRun",
+				0,
+				true
+			],
+			"time": 69000,
+			"name": "Change Character"
 		},
 		{
 			"params": [
@@ -548,6 +590,16 @@
 			],
 			"name": "Cinematics (Bar)",
 			"time": 136500
+		},
+		{
+			"params": [
+				1,
+				"Pace-Scared",
+				0,
+				true
+			],
+			"name": "Change Character",
+			"time": 138000
 		},
 		{
 			"params": [
@@ -10228,11 +10280,11 @@
 					"type": 0
 				}
 			],
-			"visible": true,
 			"type": 1,
 			"characters": [
 				"Pace-Scared"
-			]
+			],
+			"visible": true
 		},
 		{
 			"strumScale": 1,

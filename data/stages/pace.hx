@@ -18,10 +18,28 @@ function postCreate() {
     camHUD.addShader(snowfall);
 }
 var isRun = false;
+function cutseneRun(part) {
+    if(part == '0'){  
+        remove(blackP);
+        remove(paceCutG);
+        insert(members.indexOf(strumLines), blackP);
+        insert(members.indexOf(strumLines), paceCutG);
+        blackP.visible = true;
+        paceCutG.visible = true;
+    }
+    if(part == '1'){  
+        paceCutG.animation.play('pre-scared');
+    }
+    if(part == '2'){  
+        blackP.visible = false;
+        paceCutG.visible = false;
+    }
+}
 function paceRun(trueOrFalse:Bool) {
     trace(trueOrFalse);
     if(trueOrFalse =="false"){
         insert(members.indexOf(gf), backDrop);
+        paceLegs.visible = false;
         backDrop.visible = false;
         fgtree.visible = false;
         paceSky.visible = false;
@@ -33,6 +51,7 @@ function paceRun(trueOrFalse:Bool) {
         //strumLines.members[0].characters[1].visible = true;
         //strumLines.members[0].characters[0].visible = false;
         remove(backDrop);
+        paceLegs.visible = true;
         backDrop.visible = true;
         prlBG.alpha = 0;
         redBG.alpha = 0;
@@ -84,6 +103,12 @@ function dark(blabla) {
 }
 function bgSet(bgSetFun:Int) {
     if(bgSetFun == '0' || bgSetFun == 0){
+        prlBG.alpha     = 1;
+        redBG.alpha     = 0;
+        redBG2.alpha    = 0;
+        redFog.alpha    = 0;
+        redFog2.alpha   = 0;
+    }else if(bgSetFun == '0.5' || bgSetFun == 0.5){
         blackP.visible = false;
         prlBG.alpha     = 1;
         redBG.alpha     = 0;
@@ -148,10 +173,22 @@ function create() {
     backDrop.blend = BlendMode.DARKEN;
 
     pacefloor = new FlxBackdrop(Paths.image('stages/pace/v1/prun/floor'), 1, 0);
-    pacefloor.scale.set(1.3, 1.3);
+    pacefloor.scale.set(1.5, 1.5);
     pacefloor.velocity.set(-850, 0);
     insert(members.indexOf(gf), pacefloor);
     pacefloor.y = 1000;
+
+    paceLegs = new FlxSprite(700, 100);
+    paceLegs.frames = Paths.getSparrowAtlas('stages/pace/v1/prun/stanky-leg');
+    paceLegs.animation.addByPrefix('idle', 'stanky-leg idle', 15, true);
+    paceLegs.animation.play('idle');
+    paceLegs.updateHitbox();
+    paceLegs.screenCenter();
+    paceLegs.scale.set(0.6, 0.6);
+    paceLegs.y += 400;
+    paceLegs.x += 110;
+    insert(members.indexOf(boyfriend), paceLegs);
+    paceLegs.visible = false;
 
     fgtree = new FlxBackdrop(Paths.image('stages/pace/v1/prun/fgtree'), 1, 0);
     fgtree.scale.set(1.3, 3);
@@ -209,13 +246,6 @@ function create() {
     bgB.alpha = 0;
     bgB.blend = BlendMode.DARKEN;
 
-    blackP = new FlxSprite(0, 0);
-    blackP.makeGraphic(1400, 1400, FlxColor.BLACK);
-    blackP.updateHitbox();
-    blackP.screenCenter();
-    add(blackP);
-    blackP.camera = camHUD;
-
     vignette = new FlxSprite(500,250).loadGraphic(Paths.image('stages/pace/v1/vignette'));
     vignette.camera = camHUD;
     vignette.screenCenter();
@@ -225,6 +255,32 @@ function create() {
     redFog2.updateHitbox();
     redFog.screenCenter();
     redFog2.screenCenter();
+
+    blackP = new FlxSprite();
+    blackP.makeGraphic(1400, 1400, FlxColor.BLACK);
+    blackP.updateHitbox();
+    blackP.screenCenter();
+    add(blackP);
+    blackP.camera = camHUD;
+
+    paceCutG = new FlxSprite();
+    paceCutG.frames = Paths.getSparrowAtlas('stages/pace/v1/pacecut');
+    paceCutG.animation.addByPrefix('idle', 'pacecut shake', 5, true);
+    paceCutG.animation.addByPrefix('pre-scared', 'pacecut look', 10, false);
+
+    // Разворачиваем кадры анимации 'pre-scared' в обратном порядке
+    var anim = paceCutG.animation.getByName('pre-scared');
+    if (anim != null) {
+        anim.frames.reverse(); // <- Вот это развернёт анимацию
+    }
+
+    paceCutG.scale.set(0.3, 0.3);
+    paceCutG.updateHitbox();
+    paceCutG.screenCenter();
+    paceCutG.animation.play('idle');
+    paceCutG.camera = camHUD;
+    paceCutG.visible = false;
+    add(paceCutG);
 
     bgSet(0);
 
@@ -298,6 +354,7 @@ function cutsene() {
         paceCut2.animation.play('falling');
     });
 }
+
 function update(elapsed:Float) {
     localTime += elapsed;
     aura.iTime = localTime;

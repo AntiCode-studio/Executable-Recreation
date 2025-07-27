@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1" startCamPosX="0" startCamPosY="0" folder="stages/pace/v2/">
+    <sprite x="0" y="0" alpha="1" scroll="0.5" antialiasing="true" scale="1" flipX="false" flipY="false" updateHitbox="true" zoomfactor="0.5" sprite="bg" name="bg"/>
+    <sprite x="0" y="0" alpha="1" scroll="0.8" antialiasing="true" scale="1" flipX="false" flipY="false" updateHitbox="true" zoomfactor="0.8" sprite="bg1" name="bg1"/>
+    <gf x="280" y="-225" alpha="1" scale="1" camxoffset="0" camyoffset="0" flipX="false" scroll="1"/>
+    <dad x="400" y="50" alpha="1" scale="1" camxoffset="0" camyoffset="0" flipX="false" scroll="1"/>
+    <bf x="300" y="100" alpha="1" scale="1" camxoffset="0" camyoffset="0" flipX="true" scroll="1"/>
+</stage>
