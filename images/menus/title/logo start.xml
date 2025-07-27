@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="logo start.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="anim10000" x="11" y="11" width="402" height="147" frameX="-300" frameY="-212" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10001" x="424" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10002" x="1715" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10003" x="3006" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10004" x="4297" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10005" x="5588" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10006" x="6879" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10007" x="11" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10008" x="1302" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10009" x="2593" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10010" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10011" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10012" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10013" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10014" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10015" x="5175" y="742" width="1280" height="720" frameX="0" frameY="-25" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10016" x="6466" y="742" width="1280" height="720" frameX="0" frameY="-25" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10017" x="11" y="1473" width="1280" height="720" frameX="0" frameY="-25" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10018" x="5175" y="742" width="1280" height="720" frameX="0" frameY="-25" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10019" x="6466" y="742" width="1280" height="720" frameX="0" frameY="-25" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10020" x="11" y="1473" width="1280" height="720" frameX="0" frameY="-25" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10021" x="5175" y="742" width="1280" height="720" frameX="0" frameY="-25" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10022" x="6466" y="742" width="1280" height="720" frameX="0" frameY="-25" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10023" x="11" y="1473" width="1280" height="720" frameX="0" frameY="-25" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim10024" x="1302" y="1473" width="0" height="0" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20000" x="424" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20001" x="1715" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20002" x="3006" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20003" x="4297" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20004" x="5588" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20005" x="6879" y="11" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20006" x="11" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20007" x="1302" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20008" x="2593" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20009" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20010" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20011" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20012" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20013" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20014" x="3884" y="742" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="745"/>
+	<SubTexture name="anim20015" x="1313" y="1473" width="1280" height="720"/>
+	<SubTexture name="anim20016" x="2604" y="1473" width="1280" height="720"/>
+	<SubTexture name="anim20017" x="3895" y="1473" width="1280" height="720"/>
+	<SubTexture name="anim20018" x="5186" y="1473" width="1280" height="720"/>
+	<SubTexture name="anim20019" x="6477" y="1473" width="1280" height="720"/>
+	<SubTexture name="anim20020" x="11" y="2204" width="1280" height="720"/>
+	<SubTexture name="anim20021" x="1302" y="2204" width="1280" height="720"/>
+	<SubTexture name="anim20022" x="2593" y="2204" width="1280" height="720"/>
+	<SubTexture name="anim20023" x="3884" y="2204" width="1280" height="720"/>
+	<SubTexture name="anim20024" x="5175" y="2204" width="1280" height="720"/>
+</TextureAtlas>

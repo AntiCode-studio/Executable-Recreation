@@ -93,6 +93,14 @@ function create() {
     bgt.scale.set(3, 3);
     bgt.scrollFactor.set(0,0);
     bgt.alpha = 1;
+
+    titleCut = new FlxSprite();
+    titleCut.frames = Paths.getSparrowAtlas('menus/title/logo start');
+    titleCut.animation.addByPrefix('anim', 'anim1', 8, false);
+    titleCut.scale.set(0.6, 0.6);
+    titleCut.screenCenter();
+    add(titleCut);
+    titleCut.visible = false;
 }
 var localTime:Float = 0;
 function update(elapsed:Float) {
@@ -114,7 +122,12 @@ function update(elapsed:Float) {
 }
 function stepHit(curStep:Int) {
     switch (curStep) {
+        case 10:
+            titleCut.visible = true;
+            FlxTween.tween(titleCut.scale, {y: 1, x: 1}, 4, {ease: FlxEase.quintInOut});
+            titleCut.animation.play('anim');
         case 30: 
+            titleCut.visible = false;
             bgt.alpha = 0;
             FlxG.camera.flash(FlxColor.WHITE, 1);
             transitioning = false;
