@@ -175,7 +175,7 @@ function create() {
 
     paceSky = new FlxBackdrop(Paths.image('stages/pace/v1/prun/pacesky'), 1, 0);
     paceSky.scale.set(2, 2);
-    paceSky.velocity.set(-650, 0);
+    paceSky.velocity.set(-650 - 100, 0);
     insert(members.indexOf(gf), paceSky);
     paceSky.y = 200;
 
@@ -192,7 +192,7 @@ function create() {
 
     pacefloor = new FlxBackdrop(Paths.image('stages/pace/v1/prun/floor'), 1, 0);
     pacefloor.scale.set(1.5, 1.5);
-    pacefloor.velocity.set(-850, 0);
+    pacefloor.velocity.set(-850 - 100, 0);
     insert(members.indexOf(gf), pacefloor);
     pacefloor.y = 1000;
 
@@ -210,7 +210,7 @@ function create() {
 
     fgtree = new FlxBackdrop(Paths.image('stages/pace/v1/prun/fgtree'), 1, 0);
     fgtree.scale.set(1.3, 3);
-    fgtree.velocity.set(-1050, 0);
+    fgtree.velocity.set(-1050 - 100, 0);
     add(fgtree);
     fgtree.y = 300;
     

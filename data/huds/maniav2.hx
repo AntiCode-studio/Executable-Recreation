@@ -1,0 +1,1 @@
+for(i in [iconP2, iconP1, scoreTxt, accuracyTxt]) remove(i);

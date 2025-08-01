@@ -78,7 +78,7 @@ function create() {
     add(logo);
     FlxTween.tween(logo, {angle: 2}, 2, {ease: FlxEase.quintInOut, type: FlxTweenType.PINGPONG});
 
-    press = new FlxSprite(20, 200);
+    press = new FlxSprite(20, 240);
     press.frames = Paths.getSparrowAtlas('menus/title/pressEnter');
     press.animation.addByPrefix('idle', 'idle', 15, true);
     press.animation.addByPrefix('press', 'press', 15, false);
@@ -133,7 +133,7 @@ function stepHit(curStep:Int) {
             transitioning = false;
             backdrop.velocity.set(0, -30);
         case 40: 
-            FlxTween.tween(logo, {y: -20, x: -320, 'scale.x': 0.4, 'scale.y': 0.4}, 2, {ease: FlxEase.quintInOut});
+            FlxTween.tween(logo, {y: 20, x: -320, 'scale.x': 0.4, 'scale.y': 0.4}, 2, {ease: FlxEase.quintInOut});
         case 50:
             FlxTween.tween(press, {alpha: 1}, 2, {ease: FlxEase.quintInOut});
         case 120:
