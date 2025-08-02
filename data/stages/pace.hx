@@ -2,6 +2,7 @@ import flixel.addons.display.FlxBackdrop;
 import flixel.util.FlxGradient;
 import openfl.display.BlendMode;
 import flixel.tweens.FlxTween.FlxTweenType;
+import flixel.addons.effects.FlxTrail;
 
 aura = new CustomShader('Aura');
 var noteOffsets = [0,0];
@@ -11,6 +12,8 @@ snowfall = new CustomShader('GlitchShaderA');
 var paceSky:FlxBackdrop;
 var pacefloor:FlxBackdrop;
 var fgtree:FlxBackdrop;
+
+public var dadTrail:FlxTrail;
 function postCreate() {
     camGame.addShader(aura);
     snowfall.glitchAmount = 0.0001;
@@ -56,6 +59,7 @@ function paceBGcolor(par) {
 function paceRun(trueOrFalse:Bool) {
     trace(trueOrFalse);
     if(trueOrFalse =="false"){
+        dadTrail.visible = true;
         insert(members.indexOf(gf), backDrop);
         paceLegs.visible = false;
         backDrop.visible = false;
@@ -68,6 +72,7 @@ function paceRun(trueOrFalse:Bool) {
     }else{
         //strumLines.members[0].characters[1].visible = true;
         //strumLines.members[0].characters[0].visible = false;
+        dadTrail.visible = false;
         remove(backDrop);
         paceLegs.visible = true;
         backDrop.visible = true;
@@ -113,6 +118,7 @@ function dark(blabla) {
     if(blabla == '5'){
         strumLines.members[0].characters[0].visible = false;
         strumLines.members[3].characters[0].visible = true;
+        dadTrail.visible = false;
     }
     if(blabla == '10'){
         camGame.visible = false;
@@ -173,9 +179,12 @@ function create() {
 	//add(gradiRed);
     insert(members.indexOf(gf), gradiRed);
 
+    dadTrail = new FlxTrail(dad, null, 4, 10, 0.5, 0.069);
+    insert(members.indexOf(dad), dadTrail);
+
     paceSky = new FlxBackdrop(Paths.image('stages/pace/v1/prun/pacesky'), 1, 0);
     paceSky.scale.set(2, 2);
-    paceSky.velocity.set(-650 - 100, 0);
+    paceSky.velocity.set(-650 - 150, 0);
     insert(members.indexOf(gf), paceSky);
     paceSky.y = 200;
 
@@ -192,7 +201,7 @@ function create() {
 
     pacefloor = new FlxBackdrop(Paths.image('stages/pace/v1/prun/floor'), 1, 0);
     pacefloor.scale.set(1.5, 1.5);
-    pacefloor.velocity.set(-850 - 100, 0);
+    pacefloor.velocity.set(-850 - 150, 0);
     insert(members.indexOf(gf), pacefloor);
     pacefloor.y = 1000;
 
@@ -210,7 +219,7 @@ function create() {
 
     fgtree = new FlxBackdrop(Paths.image('stages/pace/v1/prun/fgtree'), 1, 0);
     fgtree.scale.set(1.3, 3);
-    fgtree.velocity.set(-1050 - 100, 0);
+    fgtree.velocity.set(-1050 - 150, 0);
     add(fgtree);
     fgtree.y = 300;
     

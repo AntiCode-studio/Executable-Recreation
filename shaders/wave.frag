@@ -1,49 +1,31 @@
+// Automatically converted with https://github.com/TheLeerName/ShadertoyToFlixel
+
 #pragma header
 
-vec2 fragCoord=openfl_TextureCoordv*openfl_TextureSize;
-
+#define iResolution vec3(openfl_TextureSize, 0.)
 uniform float iTime;
+#define iChannel0 bitmap
+#define texture flixel_texture2D
 
-uniform float speed;
-uniform float intensity;
-uniform float bloom;
+// end of ShadertoyToFlixel header
 
-const float blurSize=1./512.;
+uniform float frequency = 8.0;
+uniform float amplitude = 0.1;
 
-void main()
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
 {
-	vec4 sum = vec4(0);
-	vec2 texcoord=fragCoord.xy/openfl_TextureSize.xy;
+    vec2 texCoord = fragCoord.xy / iResolution.xy;
+    
+    vec2 pulse = sin(iTime - frequency * texCoord);
+    float dist = 2.0 * length(texCoord.y - 0.5);
+    
+    vec2 newCoord = texCoord + amplitude * vec2(0.0, pulse.x); // y-axis only; 
+    
+    vec2 interpCoord = mix(newCoord, texCoord, dist);
 	
-	// blur in y (vertical)
-	// take nine samples, with the distance blurSize between them
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x-4.*blurSize,texcoord.y))*.05;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x-3.*blurSize,texcoord.y))*.09;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x-2.*blurSize,texcoord.y))*.12;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x-blurSize,texcoord.y))*.15;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y))*.16;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x+blurSize,texcoord.y))*.15;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x+2.*blurSize,texcoord.y))*.12;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x+3.*blurSize,texcoord.y))*.09;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x+4.*blurSize,texcoord.y))*.05;
-	
-	// blur in y (vertical)
-	// take nine samples, with the distance blurSize between them
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y-4.*blurSize))*.05;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y-3.*blurSize))*.09;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y-2.*blurSize))*.12;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y-blurSize))*.15;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y))*.16;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y+blurSize))*.15;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y+2.*blurSize))*.12;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y+3.*blurSize))*.09;
-	sum+=flixel_texture2D(bitmap,vec2(texcoord.x,texcoord.y+4.*blurSize))*.05;
-	
-	vec2 uv=fragCoord.xy/openfl_TextureSize.xy;
-	uv.y+=(sin((uv.x+(iTime*.5))*10.)*speed)+
-	(sin((uv.x+(iTime*.2))*intensity)*.01);
-	
-	vec4 texColor=texture2D(bitmap,uv);
+	fragColor = texture(iChannel0, interpCoord);
+}
 
-	gl_FragColor= sum * bloom + texColor;
+void main() {
+	mainImage(gl_FragColor, openfl_TextureCoordv*openfl_TextureSize);
 }
