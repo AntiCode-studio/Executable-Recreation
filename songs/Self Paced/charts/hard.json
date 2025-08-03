@@ -7,16 +7,16 @@
 				15,
 				"camHUD"
 			],
-			"time": 0,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 0
 		},
 		{
 			"params": [
 				4,
 				"camHUD"
 			],
-			"time": 0,
-			"name": "Add Camera Zoom"
+			"name": "Add Camera Zoom",
+			"time": 0
 		},
 		{
 			"params": [
@@ -24,8 +24,8 @@
 				"sIdle",
 				true
 			],
-			"time": 0,
-			"name": "Play Animation"
+			"name": "Play Animation",
+			"time": 0
 		},
 		{
 			"params": [
@@ -33,15 +33,15 @@
 				"2",
 				"0.001"
 			],
-			"time": 0,
-			"name": "Shake Camera"
+			"name": "Shake Camera",
+			"time": 0
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 0,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 0
 		},
 		{
 			"params": [
@@ -49,89 +49,111 @@
 				"sStart",
 				true
 			],
-			"time": 1454.54545454545,
-			"name": "Play Animation"
+			"name": "Play Animation",
+			"time": 1454.54545454545
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 2727.27272727273
+			"time": 2727.27272727273,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"waveShader",
 				"0.8, 0.1"
 			],
-			"name": "HScript Call",
-			"time": 2727.27272727273
+			"time": 2727.27272727273,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 13818.1818181818,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 13818.1818181818
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 26909.0909090909,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 26909.0909090909
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 28363.6363636364,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 28363.6363636364
 		},
 		{
 			"params": [
 				"waveShader",
 				"1, 0.2"
 			],
-			"time": 28363.6363636364,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 28363.6363636364
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 28363.6363636364,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 28363.6363636364
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				16,
+				"quad",
+				"InOut",
+				"direct",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 28363.6363636364
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 34181.8181818182,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 34181.8181818182
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 40000,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 40000
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 45818.1818181818,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 45818.1818181818
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 50000,
+			"name": "HScript Call",
+			"time": 50000
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 50363.6363636364,
 			"name": "HScript Call"
 		},
 		{
@@ -140,45 +162,29 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 50363.6363636364
+			"time": 50727.2727272727
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 50727.2727272727,
+			"time": 51636.3636363636,
 			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
-			"time": 51636.3636363636
 		},
 		{
 			"params": [
 				"waveShader",
 				"2, 0.05"
 			],
-			"name": "HScript Call",
-			"time": 51636.3636363636
+			"time": 51636.3636363636,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 54545.4545454545,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
+			"name": "Camera Movement",
 			"time": 54545.4545454545
 		},
 		{
@@ -186,7 +192,7 @@
 				"shaderAnim",
 				""
 			],
-			"time": 57090.9090909091,
+			"time": 54545.4545454545,
 			"name": "HScript Call"
 		},
 		{
@@ -194,48 +200,56 @@
 				"shaderAnim",
 				""
 			],
-			"time": 57454.5454545455,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 57090.9090909091
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
+			"time": 57454.5454545455
 		},
 		{
 			"params": [
 				"waveShader",
 				"3, 0.3"
 			],
-			"time": 57454.5454545455,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 57454.5454545455
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 57454.5454545455,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 57454.5454545455
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 60363.6363636364,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 60363.6363636364
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 63272.7272727273,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 63272.7272727273
 		},
 		{
 			"params": [
-				"20",
+				"45",
 				"Circ",
 				"Out",
 				"1"
 			],
-			"name": "Cinematics (Bar)",
-			"time": 63272.7272727273
+			"time": 63272.7272727273,
+			"name": "Cinematics (Bar)"
 		},
 		{
 			"params": [
@@ -244,32 +258,32 @@
 				"InOut",
 				"1"
 			],
-			"name": "Cinematics (HUD)",
-			"time": 63272.7272727273
+			"time": 63272.7272727273,
+			"name": "Cinematics (HUD)"
 		},
 		{
 			"params": [
 				"cutseneRun",
 				"0"
 			],
-			"name": "HScript Call",
-			"time": 63272.7272727273
+			"time": 63272.7272727273,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"paceRun",
 				""
 			],
-			"time": 65454.5454545455,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 65454.5454545455
 		},
 		{
 			"params": [
 				"cutseneRun",
 				"1"
 			],
-			"name": "HScript Call",
-			"time": 65454.5454545455
+			"time": 65454.5454545455,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -278,8 +292,8 @@
 				0,
 				true
 			],
-			"name": "Change Character",
-			"time": 65454.5454545455
+			"time": 65454.5454545455,
+			"name": "Change Character"
 		},
 		{
 			"params": [
@@ -288,31 +302,37 @@
 				0,
 				true
 			],
-			"name": "Change Character",
-			"time": 65454.5454545455
+			"time": 65454.5454545455,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				true,
+				0.45,
+				"camGame",
+				16,
+				"circ",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 66181.8181818182
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 66727.2727272727
+			"time": 66727.2727272727,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"cutseneRun",
 				"2"
 			],
-			"name": "HScript Call",
-			"time": 66727.2727272727
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 68181.8181818182,
+			"time": 66727.2727272727,
 			"name": "HScript Call"
 		},
 		{
@@ -321,14 +341,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 70363.6363636364
+			"time": 68181.8181818182
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 72545.4545454545,
+			"time": 70363.6363636364,
 			"name": "HScript Call"
 		},
 		{
@@ -337,14 +357,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 74000
+			"time": 72545.4545454545
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 74727.2727272727,
+			"time": 74000,
 			"name": "HScript Call"
 		},
 		{
@@ -353,14 +373,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 75454.5454545455
+			"time": 74727.2727272727
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 76181.8181818182,
+			"time": 75454.5454545455,
 			"name": "HScript Call"
 		},
 		{
@@ -369,23 +389,29 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 77272.7272727273
+			"time": 76181.8181818182
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 77272.7272727273,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 77818.1818181818,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 77818.1818181818
 		},
 		{
 			"params": [
-				"0",
-				"Elastic",
-				"InOut",
-				"1"
+				"shaderAnim",
+				""
 			],
-			"name": "Cinematics (Bar)",
+			"name": "HScript Call",
 			"time": 78545.4545454545
 		},
 		{
@@ -393,7 +419,7 @@
 				"shaderAnim",
 				""
 			],
-			"time": 78545.4545454545,
+			"time": 80000,
 			"name": "HScript Call"
 		},
 		{
@@ -402,14 +428,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 80000
+			"time": 81454.5454545455
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 81454.5454545455,
+			"time": 82909.0909090909,
 			"name": "HScript Call"
 		},
 		{
@@ -418,37 +444,21 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 82909.0909090909
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 84363.6363636364,
-			"name": "HScript Call"
+			"time": 84363.6363636364
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 85090.9090909091,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 85090.9090909091
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 85818.1818181818
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 87272.7272727273,
+			"time": 85818.1818181818,
 			"name": "HScript Call"
 		},
 		{
@@ -457,7 +467,15 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 89090.9090909091
+			"time": 87272.7272727273
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 89090.9090909091,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -466,23 +484,31 @@
 				1,
 				"linear"
 			],
-			"name": "Camera Movement",
-			"time": 89090.9090909091
+			"time": 89090.9090909091,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 89272.7272727273,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 89272.7272727273
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 89454.5454545455,
+			"name": "HScript Call",
+			"time": 89454.5454545455
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 89636.3636363636,
 			"name": "HScript Call"
 		},
 		{
@@ -491,52 +517,44 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 89636.3636363636
+			"time": 89818.1818181818
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 89818.1818181818,
+			"time": 90000,
 			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
-			"time": 90000
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 90909.0909090909,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 90909.0909090909
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 96000,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 96000
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 96000
+			"time": 96000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 101818.181818182,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 101818.181818182
 		},
 		{
 			"params": [
@@ -545,23 +563,23 @@
 				16,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 101818.181818182
+			"time": 101818.181818182,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				"paceBGcolor",
 				"black"
 			],
-			"name": "HScript Call",
-			"time": 101818.181818182
+			"time": 101818.181818182,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 104727.272727273,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 104727.272727273
 		},
 		{
 			"params": [
@@ -570,30 +588,52 @@
 				16,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 107636.363636364
+			"time": 107636.363636364,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				"paceBGcolor",
 				"red"
 			],
-			"name": "HScript Call",
-			"time": 107636.363636364
+			"time": 107636.363636364,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 107636.363636364,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 107636.363636364
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 113454.545454545,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 113454.545454545
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 119272.727272727,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 119272.727272727
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 125090.909090909
 		},
 		{
 			"params": [
@@ -601,25 +641,11 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 119272.727272727
+			"time": 130909.090909091
 		},
 		{
 			"params": [
-				0
-			],
-			"time": 119272.727272727,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 125090.909090909,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				"shaderAnim",
+				"cutsene",
 				""
 			],
 			"time": 130909.090909091,
@@ -627,18 +653,10 @@
 		},
 		{
 			"params": [
-				"cutsene",
-				""
-			],
-			"name": "HScript Call",
-			"time": 130909.090909091
-		},
-		{
-			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 130909.090909091
+			"time": 130909.090909091,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -647,7 +665,17 @@
 				18,
 				"camHUD"
 			],
-			"name": "Camera Flash",
+			"time": 130909.090909091,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				false,
+				"Sine",
+				"InOut",
+				"1"
+			],
+			"name": "Cinematics (HUD)",
 			"time": 130909.090909091
 		},
 		{
@@ -657,34 +685,48 @@
 				"InOut",
 				"1"
 			],
-			"time": 130909.090909091,
-			"name": "Cinematics (HUD)"
-		},
-		{
-			"params": [
-				false,
-				"Sine",
-				"InOut",
-				"1"
-			],
-			"time": 130909.090909091,
-			"name": "Cinematics (Strums)"
+			"name": "Cinematics (Strums)",
+			"time": 130909.090909091
 		},
 		{
 			"params": [
 				"dark",
 				"0"
 			],
-			"time": 130909.090909091,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 130909.090909091
+		},
+		{
+			"params": [
+				"0",
+				"Sine",
+				"In",
+				"1"
+			],
+			"name": "Cinematics (Bar)",
+			"time": 130909.090909091
+		},
+		{
+			"params": [
+				true,
+				1.3,
+				"camGame",
+				16,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 130909.090909091
 		},
 		{
 			"params": [
 				"paceRun",
 				"false"
 			],
-			"time": 132363.636363636,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 132363.636363636
 		},
 		{
 			"params": [
@@ -693,8 +735,8 @@
 				0,
 				true
 			],
-			"name": "Change Character",
-			"time": 132363.636363636
+			"time": 132363.636363636,
+			"name": "Change Character"
 		},
 		{
 			"params": [
@@ -703,8 +745,8 @@
 				0,
 				true
 			],
-			"name": "Change Character",
-			"time": 132363.636363636
+			"time": 132363.636363636,
+			"name": "Change Character"
 		},
 		{
 			"params": [
@@ -713,24 +755,24 @@
 				16,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 132363.636363636
+			"time": 132363.636363636,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 133818.181818182
+			"time": 133818.181818182,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"dark",
 				"0.5"
 			],
-			"name": "HScript Call",
-			"time": 133818.181818182
+			"time": 133818.181818182,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -739,31 +781,31 @@
 				16,
 				"camHUD"
 			],
-			"name": "Camera Flash",
-			"time": 133818.181818182
+			"time": 133818.181818182,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				"dark",
 				"1"
 			],
-			"time": 133818.181818182,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 133818.181818182
 		},
 		{
 			"params": [
 				"dark",
 				"6"
 			],
-			"time": 133818.181818182,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 133818.181818182
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 136000,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 136000
 		},
 		{
 			"params": [
@@ -772,8 +814,8 @@
 				"InOut",
 				"5"
 			],
-			"time": 144000,
-			"name": "Cinematics (HUD)"
+			"name": "Cinematics (HUD)",
+			"time": 144000
 		},
 		{
 			"params": [
@@ -782,22 +824,38 @@
 				"InOut",
 				"5"
 			],
-			"time": 144000,
-			"name": "Cinematics (Strums)"
+			"name": "Cinematics (Strums)",
+			"time": 144000
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 149090.909090909,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 149090.909090909
 		},
 		{
 			"params": [
 				"dark",
 				"3"
 			],
-			"time": 155636.363636364,
+			"name": "HScript Call",
+			"time": 155636.363636364
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
+			"time": 156363.636363636
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 156454.545454545,
 			"name": "HScript Call"
 		},
 		{
@@ -805,7 +863,7 @@
 				"shaderAnim",
 				""
 			],
-			"time": 156363.636363636,
+			"time": 156545.454545455,
 			"name": "HScript Call"
 		},
 		{
@@ -814,22 +872,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 156454.545454545
+			"time": 156636.363636364
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 156545.454545455
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 156636.363636364,
+			"time": 156727.272727273,
 			"name": "HScript Call"
 		},
 		{
@@ -838,39 +888,31 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 156727.272727273
+			"time": 156818.181818182
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 156818.181818182,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 156909.090909091
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 156909.090909091,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 157000,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 157000
 		},
 		{
 			"params": [
 				"dark",
 				"1"
 			],
-			"time": 157090.909090909,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 157090.909090909
 		},
 		{
 			"params": [
@@ -879,46 +921,46 @@
 				16,
 				"camGame"
 			],
-			"time": 157090.909090909,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 157090.909090909
 		},
 		{
 			"params": [
 				"dark",
 				"7"
 			],
-			"time": 157090.909090909,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 157090.909090909
 		},
 		{
 			"params": [
 				"phaceChange",
 				""
 			],
-			"time": 157090.909090909,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 157090.909090909
 		},
 		{
 			"params": [
 				"waveShader",
 				"3, 0.1"
 			],
-			"time": 157090.909090909,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
+			"name": "HScript Call",
 			"time": 157090.909090909
 		},
 		{
 			"params": [
+				0
+			],
+			"time": 157090.909090909,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 162909.090909091
+			"time": 162909.090909091,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -927,23 +969,23 @@
 				1,
 				"sine"
 			],
-			"time": 169818.181818182,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
+			"name": "Camera Movement",
 			"time": 169818.181818182
 		},
 		{
 			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 169818.181818182,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 170181.818181818
+			"time": 170181.818181818,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -952,23 +994,23 @@
 				1,
 				"sine"
 			],
-			"name": "Camera Movement",
+			"time": 171272.727272727,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
 			"time": 171272.727272727
 		},
 		{
 			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 171272.727272727,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
 				1
 			],
-			"time": 171636.363636364,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 171636.363636364
 		},
 		{
 			"params": [
@@ -977,23 +1019,23 @@
 				1,
 				"sine"
 			],
-			"time": 172727.272727273,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
+			"name": "Camera Movement",
 			"time": 172727.272727273
 		},
 		{
 			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 172727.272727273,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 173090.909090909
+			"time": 173090.909090909,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -1002,22 +1044,7 @@
 				1,
 				"sine"
 			],
-			"name": "Camera Movement",
-			"time": 173818.181818182
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
 			"time": 173818.181818182,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 174545.454545455,
 			"name": "Camera Movement"
 		},
 		{
@@ -1026,35 +1053,50 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 174545.454545455
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 177454.545454545,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 178909.090909091,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 179636.363636364,
-			"name": "Camera Movement"
+			"time": 173818.181818182
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 180363.636363636
+			"time": 174545.454545455
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 174545.454545455,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 177454.545454545
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 178909.090909091
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 179636.363636364
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 180363.636363636,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -1063,15 +1105,15 @@
 				16,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 180363.636363636
+			"time": 180363.636363636,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 181818.181818182,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 181818.181818182
 		},
 		{
 			"params": [
@@ -1080,80 +1122,80 @@
 				4,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 181818.181818182
+			"time": 181818.181818182,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				"phaceChange",
 				"true"
 			],
-			"name": "HScript Call",
-			"time": 181818.181818182
+			"time": 181818.181818182,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"waveShader",
 				"8.0 , 0.1"
 			],
-			"name": "HScript Call",
-			"time": 181818.181818182
+			"time": 181818.181818182,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 187636.363636364,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 187636.363636364
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 193454.545454545,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 193454.545454545
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 198545.454545455,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 198545.454545455
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 204363.636363636,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 204363.636363636
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 210181.818181818,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 210181.818181818
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 217454.545454545,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 217454.545454545
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 223272.727272727,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 223272.727272727
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 229090.909090909,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 229090.909090909
 		},
 		{
 			"params": [
@@ -1162,365 +1204,500 @@
 				4,
 				"camHUD"
 			],
-			"time": 229090.909090909,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 229090.909090909
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 229090.909090909
+			"time": 229090.909090909,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"waveShader",
 				"1, 0.3"
 			],
-			"name": "HScript Call",
-			"time": 229090.909090909
+			"time": 229090.909090909,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				8,
+				"cube",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 229090.909090909,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1.5,
+				"camGame",
+				24,
+				"quad",
+				"In",
+				"stage",
+				false
+			],
+			"time": 229818.181818182,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 232000,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 232000
 		},
 		{
 			"params": [
 				"waveShader",
 				"0.8, 0.05"
 			],
-			"time": 232000,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 232000
 		},
 		{
 			"params": [
 				"phaceChange",
 				""
 			],
+			"name": "HScript Call",
+			"time": 232000
+		},
+		{
+			"params": [
+				"100",
+				"Linear",
+				"InOut",
+				"0.001"
+			],
 			"time": 232000,
+			"name": "Cinematics (Bar)"
+		},
+		{
+			"params": [
+				"phaceChange",
+				"final"
+			],
+			"time": 234181.818181818,
 			"name": "HScript Call"
 		},
 		{
 			"params": [
-				0
+				0,
+				"shadowTeeth",
+				0,
+				true
 			],
-			"name": "Camera Movement",
-			"time": 239454.545454545
+			"time": 234181.818181818,
+			"name": "Change Character"
 		},
 		{
 			"params": [
-				1
+				"0",
+				"Sine",
+				"InOut",
+				"1"
 			],
-			"name": "Camera Movement",
-			"time": 240727.272727273
+			"time": 237090.909090909,
+			"name": "Cinematics (Bar)"
 		},
 		{
 			"params": [
-				0
+				true,
+				0.6,
+				"camGame",
+				24,
+				"quart",
+				"InOut",
+				"stage",
+				false
 			],
-			"name": "Camera Movement",
-			"time": 242181.818181818
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 246545.454545455
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 248000
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 250909.090909091
+			"time": 237090.909090909,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 252000,
+			"time": 239454.545454545,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 253818.181818182,
+			"time": 240727.272727273,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 254909.090909091,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 256727.272727273,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 257818.181818182,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				5
-			],
-			"time": 259545.454545455,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 262545.454545455,
+			"time": 242181.818181818,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 272000
+			"time": 246545.454545455,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 248000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 250909.090909091,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 277090.909090909
-		},
-		{
-			"params": [
-				5
-			],
-			"name": "Camera Movement",
-			"time": 283090.909090909
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 288727.272727273
+			"time": 252000
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 291636.363636364
+			"time": 253818.181818182
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 294545.454545455
+			"time": 254909.090909091
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 297454.545454545
+			"time": 256727.272727273
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 257818.181818182
 		},
 		{
 			"params": [
 				5
 			],
 			"name": "Camera Movement",
-			"time": 299272.727272727
+			"time": 259545.454545455
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 300363.636363636
+			"time": 262545.454545455
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 265090.909090909,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
+			"time": 265181.818181818
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 265272.727272727,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
+			"time": 265363.636363636
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 265454.545454545,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				false,
+				-16777216,
+				16,
+				"camGame"
+			],
+			"time": 265454.545454545,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				"phaceChange",
+				"final2"
+			],
+			"time": 265454.545454545,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 303272.727272727
+			"time": 272000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 306181.818181818
+			"time": 277090.909090909,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				1
+				5
 			],
-			"name": "Camera Movement",
-			"time": 309090.909090909
+			"time": 283090.909090909,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 312000,
+			"time": 288727.272727273,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 317636.363636364
+			"time": 291636.363636364,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 323636.363636364,
+			"time": 294545.454545455,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 329272.727272727
+			"time": 297454.545454545,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				5
+			],
+			"time": 299272.727272727,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 331909.090909091
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 333818.181818182,
+			"time": 300363.636363636,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 341363.636363636
+			"time": 303272.727272727,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 347181.818181818
+			"time": 306181.818181818,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 349090.909090909
+			"time": 309090.909090909,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 353090.909090909
+			"time": 312000
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 358545.454545455
+			"time": 317636.363636364,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 360000
+			"time": 323636.363636364
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 329272.727272727,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 331909.090909091,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 333818.181818182
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 341363.636363636,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 347181.818181818,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 349090.909090909,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 353090.909090909,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 358545.454545455,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 360000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1,
 				"camGame"
 			],
-			"name": "Add Camera Zoom",
-			"time": 361454.545454545
+			"time": 361454.545454545,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 370181.818181818
+			"time": 370181.818181818,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 370909.090909091
+			"time": 370909.090909091,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 371636.363636364
+			"time": 371636.363636364,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 372363.636363636
+			"time": 372363.636363636,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 378909.090909091
+			"time": 378909.090909091,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 383272.727272727
+			"time": 383272.727272727,
+			"name": "Camera Movement"
 		}
 	],
 	"scrollSpeed": 3,
-	"codenameChart": true,
 	"strumLines": [
 		{
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -8405,828 +8582,6 @@
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 636.363636363647,
-					"time": 312000,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 312909.090909091,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 363.636363636353,
-					"time": 313181.818181818,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 313636.363636364,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 313818.181818182,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 313909.090909091,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 181.818181818177,
-					"time": 314000,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 181.818181818177,
-					"time": 314090.909090909,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 314363.636363636,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 314545.454545455,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 272.727272727294,
-					"time": 314727.272727273,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 315090.909090909,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 181.818181818177,
-					"time": 315454.545454545,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 181.818181818118,
-					"time": 315818.181818182,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 90.9090909090592,
-					"time": 316181.818181818,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 90.9090909091174,
-					"time": 316363.636363636,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 90.909090909001,
-					"time": 316636.363636364,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 316909.090909091,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 316909.090909091,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 317272.727272727,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 317272.727272727,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 818.181818181823,
-					"time": 317636.363636364,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 454.545454545412,
-					"time": 317636.363636364,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 363.636363636353,
-					"time": 323636.363636364,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 324181.818181818,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 272.727272727294,
-					"time": 324363.636363636,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 181.818181818177,
-					"time": 324727.272727273,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 325090.909090909,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 325272.727272727,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 181.818181818177,
-					"time": 325636.363636364,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 90.9090909090592,
-					"time": 326000,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 326181.818181818,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 363.636363636353,
-					"time": 326363.636363636,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 326909.090909091,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 326909.090909091,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 327272.727272727,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 327272.727272727,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 327636.363636364,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 327636.363636364,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 328000,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 328181.818181818,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 328545.454545455,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 328545.454545455,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 328545.454545455,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 272.727272727294,
-					"time": 328909.090909091,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 328909.090909091,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 328909.090909091,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 329272.727272727,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 329272.727272727,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 818.181818181823,
-					"time": 329272.727272727,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 363.636363636353,
-					"time": 329818.181818182,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 331909.090909091,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 332090.909090909,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 454.54545454547,
-					"time": 332272.727272727,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 181.818181818177,
-					"time": 332909.090909091,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 333272.727272727,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 636.363636363589,
-					"time": 333636.363636364,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 363.636363636353,
-					"time": 333909.090909091,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 363.636363636353,
-					"time": 334454.545454545,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 181.818181818177,
-					"time": 334636.363636364,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 272.727272727294,
-					"time": 334909.090909091,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 335454.545454545,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 335636.363636364,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 335818.181818182,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 90.9090909090592,
-					"time": 336000,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 90.9090909090592,
-					"time": 336181.818181818,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 336363.636363636,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 336545.454545455,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 336727.272727273,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 90.9090909090592,
-					"time": 336818.181818182,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 90.9090909091756,
-					"time": 336909.090909091,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 337090.909090909,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 181.818181818235,
-					"time": 337272.727272727,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 181.818181818177,
-					"time": 337454.545454545,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 337727.272727273,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 337909.090909091,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 454.54545454547,
-					"time": 338000,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 338545.454545455,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 338818.181818182,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 338909.090909091,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 339090.909090909,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 339272.727272727,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 272.727272727177,
-					"time": 339454.545454545,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 272.727272727177,
-					"time": 339454.545454545,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 90.9090909091756,
-					"time": 339909.090909091,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 90.9090909090592,
-					"time": 340181.818181818,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 340363.636363636,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 340454.545454545,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 340545.454545455,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 340636.363636364,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 340727.272727273,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 340818.181818182,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 340909.090909091,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 341000,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 181.818181818177,
-					"time": 341454.545454545,
-					"type": 1
-				},
-				{
-					"id": 2,
-					"sLen": 1363.63636363635,
-					"time": 341454.545454545,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 363.636363636353,
-					"time": 341454.545454545,
-					"type": 1
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 347181.818181818,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 181.818181818118,
-					"time": 347363.636363636,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 347727.272727273,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 181.818181818177,
-					"time": 347909.090909091,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 363.636363636411,
-					"time": 348272.727272727,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 272.727272727294,
-					"time": 348727.272727273,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 272.727272727352,
-					"time": 349090.909090909,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 181.818181818177,
-					"time": 349181.818181818,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 636.363636363647,
-					"time": 349818.181818182,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 181.818181818118,
-					"time": 350818.181818182,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 351181.818181818,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 351636.363636364,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 352000,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 352363.636363636,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 272.727272727352,
-					"time": 353090.909090909,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 353090.909090909,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 181.818181818177,
-					"time": 353454.545454545,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 353818.181818182,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 354000,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 354181.818181818,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 354363.636363636,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 354545.454545455,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 354727.272727273,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 354909.090909091,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 355090.909090909,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 181.818181818235,
-					"time": 355272.727272727,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 272.727272727236,
-					"time": 355636.363636364,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 90.9090909090592,
-					"time": 356000,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 356181.818181818,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 356363.636363636,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 356545.454545455,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 356727.272727273,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 356909.090909091,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 357090.909090909,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 357090.909090909,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 357454.545454545,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 357454.545454545,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 357636.363636364,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 363.636363636353,
-					"time": 357727.272727273,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 545.454545454588,
-					"time": 357909.090909091,
-					"type": 0
-				},
-				{
 					"id": 1,
 					"sLen": 636.363636363647,
 					"time": 362181.818181818,
@@ -9551,21 +8906,21 @@
 					"type": 1
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"visible": false,
+			"type": 0,
 			"characters": [
 				"shadowv2"
 			],
-			"type": 0,
-			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		},
 		{
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -15587,7 +14942,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 818.181818181765,
+					"sLen": 454.545454545412,
 					"time": 339454.545454545,
 					"type": 0
 				},
@@ -15599,8 +14954,8 @@
 				},
 				{
 					"id": 1,
-					"sLen": 363.636363636353,
-					"time": 341363.636363636,
+					"sLen": 454.545454545412,
+					"time": 341272.727272727,
 					"type": 0
 				},
 				{
@@ -16312,35 +15667,879 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"pace1"
 			],
-			"type": 1,
-			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.75,
+			"vocalsSuffix": ""
 		},
 		{
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"visible": false,
+			"type": 2,
 			"characters": [
 				"nikto"
 			],
-			"type": 2,
+			"strumPos": [
+				0,
+				50
+			],
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
+		},
+		{
+			"notes": [
+				{
+					"id": 3,
+					"sLen": 636.363636363647,
+					"time": 311999.99639956,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 312909.087308651,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 363.636363636411,
+					"time": 313181.814581378,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 313636.360035924,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 313818.178217742,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 313909.087308651,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 181.818181818177,
+					"time": 313999.99639956,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 181.818181818177,
+					"time": 314090.905490469,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 314363.632763196,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 314545.450945015,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 272.727272727236,
+					"time": 314727.269126833,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 315090.905490469,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 181.818181818177,
+					"time": 315454.541854105,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 181.81818181806,
+					"time": 315818.178217742,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 90.9090909090592,
+					"time": 316181.814581378,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 90.9090909090592,
+					"time": 316363.632763196,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 90.9090909090592,
+					"time": 316636.360035924,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 316909.087308651,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 316909.087308651,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 317272.723672287,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 317272.723672287,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 818.181818181823,
+					"time": 317636.360035924,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 454.545454545412,
+					"time": 317636.360035924,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 363.636363636411,
+					"time": 323636.360035924,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 324181.814581378,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 272.727272727236,
+					"time": 324363.632763196,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 181.818181818177,
+					"time": 324727.269126833,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 325090.905490469,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 325272.723672287,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 181.818181818177,
+					"time": 325636.360035924,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 90.9090909090592,
+					"time": 325999.99639956,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 326181.814581378,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 363.636363636295,
+					"time": 326363.632763196,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 326909.087308651,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 326909.087308651,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 327272.723672287,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 327272.723672287,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 327636.360035924,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 327636.360035924,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 327999.99639956,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 328181.814581378,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 328545.450945015,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 328545.450945015,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 328545.450945015,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 272.727272727294,
+					"time": 328909.087308651,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 328909.087308651,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 328909.087308651,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 329272.723672287,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 329272.723672287,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 818.181818181765,
+					"time": 329272.723672287,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 363.636363636295,
+					"time": 329818.178217742,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 331909.087308651,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 332090.905490469,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 454.545454545412,
+					"time": 332272.723672287,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 181.818181818177,
+					"time": 332909.087308651,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 333272.723672287,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 636.363636363647,
+					"time": 333636.360035924,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 363.636363636353,
+					"time": 333909.087308651,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 363.636363636353,
+					"time": 334454.541854105,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 181.818181818177,
+					"time": 334636.360035924,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 272.727272727294,
+					"time": 334909.087308651,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 335454.541854105,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 335636.360035924,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 335818.178217742,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 90.9090909090592,
+					"time": 335999.99639956,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 90.9090909090592,
+					"time": 336181.814581378,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 336363.632763196,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 336545.450945015,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 336727.269126833,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 90.909090909001,
+					"time": 336818.178217742,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 90.9090909091756,
+					"time": 336909.087308651,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 337090.905490469,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 181.818181818177,
+					"time": 337272.723672287,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 181.818181818177,
+					"time": 337454.541854105,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 337727.269126833,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 337909.087308651,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 454.545454545529,
+					"time": 337999.99639956,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 338545.450945015,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 338818.178217742,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 338909.087308651,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 339090.905490469,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 339272.723672287,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 272.727272727177,
+					"time": 339454.541854105,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 272.727272727177,
+					"time": 339454.541854105,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 90.9090909091756,
+					"time": 339909.087308651,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 90.9090909090592,
+					"time": 340181.814581378,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 340363.632763196,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 340454.541854105,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 340545.450945015,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 340636.360035924,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 340727.269126833,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 340818.178217742,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 340909.087308651,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 340999.99639956,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 181.818181818177,
+					"time": 341454.541854105,
+					"type": 1
+				},
+				{
+					"id": 2,
+					"sLen": 1363.63636363635,
+					"time": 341454.541854105,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 363.636363636353,
+					"time": 341454.541854105,
+					"type": 1
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 347181.814581378,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 181.81818181806,
+					"time": 347363.632763196,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 347727.269126833,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 181.818181818177,
+					"time": 347909.087308651,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 363.636363636353,
+					"time": 348272.723672287,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 272.727272727236,
+					"time": 348727.269126833,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 272.727272727352,
+					"time": 349090.905490469,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 181.818181818235,
+					"time": 349181.814581378,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 636.363636363589,
+					"time": 349818.178217742,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 181.81818181806,
+					"time": 350818.178217742,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 351181.814581378,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 351636.360035924,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 351999.99639956,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 352363.632763196,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 272.727272727352,
+					"time": 353090.905490469,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 353090.905490469,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 181.818181818177,
+					"time": 353454.541854105,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 353818.178217742,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 353999.99639956,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 354181.814581378,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 354363.632763196,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 354545.450945015,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 354727.269126833,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 354909.087308651,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 355090.905490469,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 181.818181818177,
+					"time": 355272.723672287,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 272.727272727236,
+					"time": 355636.360035924,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 90.9090909090592,
+					"time": 355999.99639956,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 356181.814581378,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 356363.632763196,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 356545.450945015,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 356727.269126833,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 356909.087308651,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 357090.905490469,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 357090.905490469,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 357454.541854105,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 357454.541854105,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 357636.360035924,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 363.636363636353,
+					"time": 357727.269126833,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 545.454545454588,
+					"time": 357909.087308651,
+					"type": 0
+				}
+			],
 			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"type": 0,
+			"characters": [
+				"shadowTeeth",
+				"shadowTeeth",
+				"shadowTeeth"
+			]
 		}
 	],
+	"codenameChart": true,
 	"stage": "pacev2",
 	"noteTypes": [
 		"No Anim Note",

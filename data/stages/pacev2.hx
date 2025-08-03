@@ -67,6 +67,36 @@ function phaceChange(phace:Bool) {
         bg1p3.visible = true;
         bgp3.visible = true;
     }
+    if (phace == 'final'){
+        dadTrail.visible = false;
+        isRun = true;
+        bgF.visible = true;
+        //shadowFake.visible = true;
+        ostrov.visible = true;
+        //shadowBig.visible = true;
+    }
+    if (phace == 'final2'){
+        for (i in [strumLines.members[3].characters[0], strumLines.members[3].characters[1], strumLines.members[3].characters[2]]){
+            //remove(i);
+            //insert(members.indexOf(shadowBig), i);
+        }
+        strumLines.members[3].characters[0].x -= 800;
+        strumLines.members[3].characters[0].y += 400;
+        strumLines.members[3].characters[0].angle = -10;
+        strumLines.members[3].characters[0].scale.set(1.2, 1.2);
+
+        strumLines.members[3].characters[0].x -= 800;
+        strumLines.members[3].characters[0].y += 400;
+        strumLines.members[3].characters[0].angle = -10;
+        strumLines.members[3].characters[0].scale.set(1.2, 1.2);
+
+        dadTrail.visible = false;
+        isRun = true;
+        bgF.visible = true;
+        //shadowFake.visible = true;
+        ostrov.visible = true;
+        shadowBig.visible = true;
+    }
 }
 
 function dark(blabla) {
@@ -173,15 +203,15 @@ function postCreate() {
 
     fgtree = new FlxBackdrop(Paths.image('stages/pace/v1/prun/fgtree'), 1, 0);
     fgtree.scale.set(1.3, 3);
-    fgtree.velocity.set(-1050 - 250, 0);
+    fgtree.velocity.set(-1050 - 350, 0);
     add(fgtree);
     fgtree.y = 300;
 
     paceSky = new FlxBackdrop(Paths.image('stages/pace/v1/prun/pacesky'), 1, 0);
     paceSky.scale.set(2, 2);
-    paceSky.velocity.set(-650 - 250, 0);
+    paceSky.velocity.set(-650 - 350, 0);
     insert(members.indexOf(gf), paceSky);
-    paceSky.y = 200;
+    paceSky.y = 220;
 
     sun = new FlxSprite(500,250).loadGraphic(Paths.image('stages/pace/v1/prun/sun'));
 	insert(members.indexOf(gf),sun);
@@ -190,9 +220,9 @@ function postCreate() {
 
     pacefloor = new FlxBackdrop(Paths.image('stages/pace/v1/prun/floor'), 1, 0);
     pacefloor.scale.set(1.5, 1.5);
-    pacefloor.velocity.set(-850 - 250, 0);
+    pacefloor.velocity.set(-850 - 350, 0);
     insert(members.indexOf(gf), pacefloor);
-    pacefloor.y = 1000;
+    pacefloor.y = 1050;
 
     fgtree.visible = false;
     paceSky.visible = false;
@@ -311,6 +341,32 @@ function postCreate() {
     paceCut2.screenCenter();
     add(paceCut2);
     paceCut2.visible = false;
+
+    bgF = new FlxSprite(-700, 0);
+    bgF.makeGraphic(1400, 1400, FlxColor.BLACK);
+    bgF.scrollFactor.set(0,0);
+    insert(members.indexOf(gf), bgF);
+    bgF.scale.set(3, 3);
+    bgF.visible = false;
+    
+    shadowBig = new FlxSprite(-800,-300).loadGraphic(Paths.image('stages/pace/v2/finale/shadow big'));
+    shadowBig.scale.set(1, 1);
+    shadowBig.updateHitbox();
+    insert(members.indexOf(gf), shadowBig);
+    shadowBig.visible = false;
+
+    ostrov = new FlxSprite(shadowBig.x,shadowBig.y).loadGraphic(Paths.image('stages/pace/v2/finale/flor'));
+    ostrov.scale.set(shadowBig.scale.x, shadowBig.scale.y);
+    ostrov.updateHitbox();
+    insert(members.indexOf(gf), ostrov);
+    ostrov.visible = false;
+
+    shadowFake = new FlxSprite(shadowBig.x,shadowBig.y).loadGraphic(Paths.image('stages/pace/v2/finale/shadow'));
+    shadowFake.scale.set(shadowBig.scale.x, shadowBig.scale.y);
+    shadowFake.updateHitbox();
+    insert(members.indexOf(gf), shadowFake);
+    shadowFake.visible = false;
+    
 }
 function cutsene() {
     trace('hi');
