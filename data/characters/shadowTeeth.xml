@@ -1,12 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="100" y="-280" camx="-151" icon="shadow" sprite="pace/shadow teeth" camy="361" color="#000000">
-	<anim loop="true" x="0" fps="10" y="0" anim="idle" name="idle"/>
+<character x="100" sprite="pace/shadow teeth" icon="shadow" camx="-151" y="-280" camy="361" color="#000000">
+	<anim x="0" loop="true" anim="idle" y="0" fps="10" name="idle"/>
 
-	<anim loop="false" x="69" fps="30" y="160" anim="up" name="singUP"/>
+	<anim x="69" loop="false" anim="up" y="80" fps="30" name="singUP"/>
 
-	<anim loop="false" x="150" fps="30" y="45" anim="left" name="singLEFT"/>
+	<anim x="60" loop="false" anim="left" y="45" fps="30" name="singLEFT"/>
 
-	<anim loop="false" x="-60" fps="30" y="-33" anim="right" name="singRIGHT"/>
+	<anim x="70" loop="false" anim="right" y="17" fps="30" name="singRIGHT"/>
 
-	<anim loop="false" x="-9" fps="30" y="-65" anim="down" name="singDOWN"/>
+	<anim x="-1" loop="false" anim="down" y="-5" fps="30" name="singDOWN"/>
 </character>

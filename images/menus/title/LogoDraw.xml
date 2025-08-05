@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="LogoDraw.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="draw0000" x="2935" y="1770" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0001" x="2648" y="1770" width="287" height="265" frameX="-347" frameY="-201" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0002" x="2075" y="1770" width="573" height="270" frameX="-273" frameY="-200" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0003" x="0" y="2637" width="523" height="277" frameX="-314" frameY="-199" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0004" x="1744" y="2344" width="816" height="293" frameX="-285" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0005" x="0" y="2344" width="878" height="293" frameX="-223" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0006" x="878" y="2344" width="866" height="293" frameX="-235" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0007" x="1936" y="2049" width="944" height="293" frameX="-157" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0008" x="968" y="2049" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0009" x="878" y="657" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0010" x="2075" y="0" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0011" x="0" y="1164" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0012" x="2075" y="1180" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0013" x="2075" y="295" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0014" x="2075" y="590" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0015" x="0" y="1459" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0016" x="0" y="1754" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0017" x="2075" y="1475" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0018" x="968" y="1459" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0019" x="2075" y="885" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0020" x="968" y="1754" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0021" x="0" y="2049" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0022" x="968" y="1164" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0023" x="968" y="1164" width="968" height="295" frameX="-133" frameY="-198" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0024" x="0" y="0" width="1011" height="657" frameX="-122" frameY="-26" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0025" x="1011" y="0" width="1064" height="520" frameX="-125" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="draw0026" x="0" y="657" width="878" height="507" frameX="-177" frameY="-76" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

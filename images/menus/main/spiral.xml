@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="spiral.png" width="1836" height="3233">
+	<SubTexture name="spiral" x="1" y="1" width="1814" height="1245" frameX="-1014" frameY="-17" frameWidth="2840" frameHeight="1370"/>
+	<SubTexture name="spiral2" x="1" y="1256" width="1834" height="918" frameX="-1006" frameY="-0" frameWidth="2840" frameHeight="1370"/>
+	<SubTexture name="spiral3" x="1" y="2184" width="1830" height="1048" frameX="-1010" frameY="-5" frameWidth="2840" frameHeight="1370"/>
+</TextureAtlas>

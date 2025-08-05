@@ -1,18 +1,18 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 165,
 	"difficulties": [
 		"hard",
 		"v1",
 		"v3"
 	],
-	"parsedColor": -15466457,
-	"displayName": "Self Paced",
 	"icon": "shadow",
+	"coopAllowed": false,
 	"name": "Self Paced",
-	"color": "#140027",
-	"customValues": {}
+	"color": -15466457,
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "Self Paced",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 165
 }

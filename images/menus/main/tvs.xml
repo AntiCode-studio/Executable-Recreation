@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="tvs.png" width="3979" height="3513">
+	<SubTexture name="credits_i" x="911" y="1942" width="551" height="602" rotated="true" frameX="-1507" frameY="-1090" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="credits_selected0000" x="743" y="2672" width="765" height="614" frameX="-1443" frameY="-1075" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="credits_selected0001" x="1508" y="2794" width="766" height="611" frameX="-1441" frameY="-1073" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="gallery_i" x="2430" y="1403" width="927" height="1372" rotated="true" frameX="-1782" frameY="-865" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="gallery_selected0000" x="0" y="976" width="1512" height="966" frameX="-1661" frameY="-826" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="gallery_selected0001" x="0" y="0" width="1524" height="976" frameX="-1668" frameY="-816" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="locked_i" x="3324" y="732" width="648" height="608" frameX="-1741" frameY="-371" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="locked_selected000" x="3324" y="0" width="627" height="732" rotated="true" frameX="-1730" frameY="-359" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="locked_selected0001" x="3345" y="2775" width="634" height="738" rotated="true" frameX="-1726" frameY="-354" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="mania_i" x="2446" y="0" width="878" height="1076" rotated="true" frameX="-544" frameY="-391" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="mania_selected0000" x="1512" y="1403" width="918" height="1391" rotated="true" frameX="-380" frameY="-377" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="mania_selected0001" x="1524" y="0" width="922" height="1403" rotated="true" frameX="-374" frameY="-360" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="options_i" x="0" y="2672" width="743" height="671" frameX="-123" frameY="-1121" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="options_selected0000" x="0" y="1942" width="911" height="730" frameX="-80" frameY="-1062" frameWidth="3200" frameHeight="1792"/>
+	<SubTexture name="options_selected0001" x="2430" y="2775" width="915" height="718" frameX="-86" frameY="-1074" frameWidth="3200" frameHeight="1792"/>
+</TextureAtlas>

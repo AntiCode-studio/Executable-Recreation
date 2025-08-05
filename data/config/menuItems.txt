@@ -1,0 +1,5 @@
+mania
+locked
+options
+credits
+gallery

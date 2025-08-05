@@ -25,7 +25,7 @@ function create() {
     port1.repeatAxes = FlxAxes.X;
     port1.scale.set(0.8,0.8);
     port1.updateHitbox();
-    port1.velocity.set(-30, 0);
+    port1.velocity.set(-60, 0);
     port1.alpha = 0;
     port1.scrollFactor.set(0,0);
     add(port1);
@@ -42,7 +42,7 @@ function create() {
     port3.repeatAxes = FlxAxes.X;
     port3.scale.set(0.8,0.8);
     port3.updateHitbox();
-    port3.velocity.set(-30, 0);
+    port3.velocity.set(-20, 0);
     port3.y += 540;
     port3.alpha = 0;
     port3.scrollFactor.set(0,0);
@@ -56,13 +56,21 @@ function create() {
     bgB.scrollFactor.set(0,0);
     bgB.alpha = 0.5;
 
-    backdrop = new FlxBackdrop(Paths.image('menus/title/port'));
+    backdrop = new FlxBackdrop(Paths.image('menus/title/card'));
     backdrop.repeatAxes = FlxAxes.Y;
-    backdrop.scale.set(0.7,0.7);
+    backdrop.scale.set(0.755,0.755);
     backdrop.updateHitbox();
     backdrop.x += 450;
     add(backdrop);
     //backdrop.shader = scrollTest;
+
+    whiteLine = new FlxSprite();
+    whiteLine.makeGraphic(10, 720, FlxColor.WHITE);
+    whiteLine.updateHitbox();
+    whiteLine.screenCenter();
+    whiteLine.scrollFactor.set(0,0);
+    whiteLine.x -= 190;
+    add(whiteLine);
     
     port = new FlxSprite();
     port.loadGraphic(Paths.image('menus/title/port'));
@@ -71,21 +79,28 @@ function create() {
     //add(port);
 
     logo = new FlxSprite();
-    logo.loadGraphic(Paths.image('menus/logo'));
+    logo.loadGraphic(Paths.image('menus/title/logo'));
     logo.updateHitbox();
     logo.screenCenter();
     logo.angle -= 2;
     add(logo);
     FlxTween.tween(logo, {angle: 2}, 2, {ease: FlxEase.quintInOut, type: FlxTweenType.PINGPONG});
 
-    press = new FlxSprite(20, 240);
+    press = new FlxSprite(10, 340);
     press.frames = Paths.getSparrowAtlas('menus/title/pressEnter');
     press.animation.addByPrefix('idle', 'idle', 15, true);
     press.animation.addByPrefix('press', 'press', 15, false);
     press.animation.play('idle');
     press.alpha = 0;
     press.updateHitbox();
-    add(press);
+    //add(press);
+
+    press2 = new FlxSprite(25, 450);
+    press2.loadGraphic(Paths.image('menus/title/press'));
+    press2.scale.set(0.4,0.4);
+    press2.alpha = 0;
+    press2.updateHitbox();
+    add(press2);
 
     bgt = new FlxSprite(-700, 0);
     bgt.makeGraphic(1400, 1400, FlxColor.BLACK);
@@ -95,8 +110,8 @@ function create() {
     bgt.alpha = 1;
 
     titleCut = new FlxSprite();
-    titleCut.frames = Paths.getSparrowAtlas('menus/title/logo start');
-    titleCut.animation.addByPrefix('anim', 'anim1', 8, false);
+    titleCut.frames = Paths.getSparrowAtlas('menus/title/LogoDraw');
+    titleCut.animation.addByPrefix('anim', 'draw', 15, false);
     titleCut.scale.set(0.6, 0.6);
     titleCut.screenCenter();
     add(titleCut);
@@ -113,7 +128,7 @@ function update(elapsed:Float) {
             FlxTween.tween(FlxG.camera, {'scroll.y': 5000}, 2, {ease: FlxEase.quintInOut});
             FlxTween.tween(bgt, {'alpha': 1}, 1.4, {ease: FlxEase.quintInOut});
             transitioning = true;
-			FlxG.sound.play(Paths.sound("CS_confirm"), 0.7);
+			FlxG.sound.play(Paths.sound("confirmMenu"), 0.7);
 			new FlxTimer().start(1.4, (_) -> [
                 FlxG.switchState(new MainMenuState())
             ]);
@@ -122,9 +137,9 @@ function update(elapsed:Float) {
 }
 function stepHit(curStep:Int) {
     switch (curStep) {
-        case 10:
+        case 15:
             titleCut.visible = true;
-            FlxTween.tween(titleCut.scale, {y: 1, x: 1}, 4, {ease: FlxEase.quintInOut});
+            FlxTween.tween(titleCut.scale, {y: 1, x: 1}, 2, {ease: FlxEase.quintInOut});
             titleCut.animation.play('anim');
         case 30: 
             titleCut.visible = false;
@@ -133,9 +148,10 @@ function stepHit(curStep:Int) {
             transitioning = false;
             backdrop.velocity.set(0, -30);
         case 40: 
-            FlxTween.tween(logo, {y: 20, x: -320, 'scale.x': 0.4, 'scale.y': 0.4}, 2, {ease: FlxEase.quintInOut});
+            FlxTween.tween(logo, {y: 120, x: -320, 'scale.x': 0.4, 'scale.y': 0.4}, 2, {ease: FlxEase.quintInOut});
         case 50:
             FlxTween.tween(press, {alpha: 1}, 2, {ease: FlxEase.quintInOut});
+            FlxTween.tween(press2, {alpha: 1}, 2, {ease: FlxEase.quintInOut});
         case 120:
             FlxTween.tween(port1, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
             FlxTween.tween(port2, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});

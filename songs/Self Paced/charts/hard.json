@@ -7,16 +7,16 @@
 				15,
 				"camHUD"
 			],
-			"name": "Camera Flash",
-			"time": 0
+			"time": 0,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				4,
 				"camHUD"
 			],
-			"name": "Add Camera Zoom",
-			"time": 0
+			"time": 0,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -24,8 +24,8 @@
 				"sIdle",
 				true
 			],
-			"name": "Play Animation",
-			"time": 0
+			"time": 0,
+			"name": "Play Animation"
 		},
 		{
 			"params": [
@@ -33,14 +33,28 @@
 				"2",
 				"0.001"
 			],
-			"name": "Shake Camera",
-			"time": 0
+			"time": 0,
+			"name": "Shake Camera"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
+			"time": 0,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1.5,
+				"camGame",
+				24,
+				"cube",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
 			"time": 0
 		},
 		{
@@ -49,61 +63,75 @@
 				"sStart",
 				true
 			],
-			"name": "Play Animation",
-			"time": 1454.54545454545
+			"time": 1454.54545454545,
+			"name": "Play Animation"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 2727.27272727273,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 2727.27272727273
 		},
 		{
 			"params": [
 				"waveShader",
 				"0.8, 0.1"
 			],
-			"time": 2727.27272727273,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 2727.27272727273
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				4,
+				"smoothStep",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 2727.27272727273
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 13818.1818181818
+			"time": 13818.1818181818,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 26909.0909090909
+			"time": 26909.0909090909,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 28363.6363636364
+			"time": 28363.6363636364,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"waveShader",
 				"1, 0.2"
 			],
-			"name": "HScript Call",
-			"time": 28363.6363636364
+			"time": 28363.6363636364,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 28363.6363636364
+			"time": 28363.6363636364,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -116,44 +144,36 @@
 				"direct",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 28363.6363636364
+			"time": 28363.6363636364,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 34181.8181818182
+			"time": 34181.8181818182,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 40000
+			"time": 40000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 45818.1818181818
+			"time": 45818.1818181818,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 50000
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 50363.6363636364,
+			"time": 50000,
 			"name": "HScript Call"
 		},
 		{
@@ -162,29 +182,45 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 50727.2727272727
+			"time": 50363.6363636364
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 51636.3636363636,
+			"time": 50727.2727272727,
 			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
+			"time": 51636.3636363636
 		},
 		{
 			"params": [
 				"waveShader",
 				"2, 0.05"
 			],
-			"time": 51636.3636363636,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 51636.3636363636
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
+			"time": 54545.4545454545,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
 			"time": 54545.4545454545
 		},
 		{
@@ -192,7 +228,7 @@
 				"shaderAnim",
 				""
 			],
-			"time": 54545.4545454545,
+			"time": 57090.9090909091,
 			"name": "HScript Call"
 		},
 		{
@@ -200,46 +236,38 @@
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 57090.9090909091
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
-			"time": 57454.5454545455
+			"time": 57454.5454545455,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"waveShader",
 				"3, 0.3"
 			],
-			"name": "HScript Call",
-			"time": 57454.5454545455
+			"time": 57454.5454545455,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 57454.5454545455
+			"time": 57454.5454545455,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 60363.6363636364
+			"time": 60363.6363636364,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 63272.7272727273
+			"time": 63272.7272727273,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -248,8 +276,8 @@
 				"Out",
 				"1"
 			],
-			"time": 63272.7272727273,
-			"name": "Cinematics (Bar)"
+			"name": "Cinematics (Bar)",
+			"time": 63272.7272727273
 		},
 		{
 			"params": [
@@ -258,42 +286,16 @@
 				"InOut",
 				"1"
 			],
-			"time": 63272.7272727273,
-			"name": "Cinematics (HUD)"
+			"name": "Cinematics (HUD)",
+			"time": 63272.7272727273
 		},
 		{
 			"params": [
 				"cutseneRun",
 				"0"
 			],
-			"time": 63272.7272727273,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"paceRun",
-				""
-			],
 			"name": "HScript Call",
-			"time": 65454.5454545455
-		},
-		{
-			"params": [
-				"cutseneRun",
-				"1"
-			],
-			"time": 65454.5454545455,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				0,
-				"shadow-flying",
-				0,
-				true
-			],
-			"time": 65454.5454545455,
-			"name": "Change Character"
+			"time": 63272.7272727273
 		},
 		{
 			"params": [
@@ -302,8 +304,34 @@
 				0,
 				true
 			],
+			"name": "Change Character",
+			"time": 65454.5454545455
+		},
+		{
+			"params": [
+				"paceRun",
+				""
+			],
+			"time": 65454.5454545455,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0,
+				"ShadowFlyingNew",
+				0,
+				true
+			],
 			"time": 65454.5454545455,
 			"name": "Change Character"
+		},
+		{
+			"params": [
+				"cutseneRun",
+				"1"
+			],
+			"name": "HScript Call",
+			"time": 65454.5454545455
 		},
 		{
 			"params": [
@@ -316,23 +344,31 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 66181.8181818182
+			"time": 66181.8181818182,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 66727.2727272727,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 66727.2727272727
 		},
 		{
 			"params": [
 				"cutseneRun",
 				"2"
 			],
-			"time": 66727.2727272727,
+			"name": "HScript Call",
+			"time": 66727.2727272727
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 68181.8181818182,
 			"name": "HScript Call"
 		},
 		{
@@ -341,14 +377,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 68181.8181818182
+			"time": 70363.6363636364
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 70363.6363636364,
+			"time": 72545.4545454545,
 			"name": "HScript Call"
 		},
 		{
@@ -357,14 +393,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 72545.4545454545
+			"time": 74000
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 74000,
+			"time": 74727.2727272727,
 			"name": "HScript Call"
 		},
 		{
@@ -373,14 +409,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 74727.2727272727
+			"time": 75454.5454545455
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 75454.5454545455,
+			"time": 76181.8181818182,
 			"name": "HScript Call"
 		},
 		{
@@ -389,37 +425,21 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 76181.8181818182
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 77272.7272727273,
-			"name": "HScript Call"
+			"time": 77272.7272727273
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 77818.1818181818
+			"time": 77818.1818181818,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 78545.4545454545
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 80000,
+			"time": 78545.4545454545,
 			"name": "HScript Call"
 		},
 		{
@@ -428,14 +448,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 81454.5454545455
+			"time": 80000
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 82909.0909090909,
+			"time": 81454.5454545455,
 			"name": "HScript Call"
 		},
 		{
@@ -444,21 +464,37 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 84363.6363636364
+			"time": 82909.0909090909
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 84363.6363636364,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 85090.9090909091
+			"time": 85090.9090909091,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 85818.1818181818,
+			"name": "HScript Call",
+			"time": 85818.1818181818
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 87272.7272727273,
 			"name": "HScript Call"
 		},
 		{
@@ -467,15 +503,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 87272.7272727273
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 89090.9090909091,
-			"name": "HScript Call"
+			"time": 89090.9090909091
 		},
 		{
 			"params": [
@@ -484,7 +512,61 @@
 				1,
 				"linear"
 			],
-			"time": 89090.9090909091,
+			"name": "Camera Movement",
+			"time": 89090.9090909091
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 89272.7272727273,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 89454.5454545455,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
+			"time": 89636.3636363636
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 89818.1818181818,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
+			"time": 90000
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 90909.0909090909,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 96000,
 			"name": "Camera Movement"
 		},
 		{
@@ -493,68 +575,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 89272.7272727273
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
-			"time": 89454.5454545455
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 89636.3636363636,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
-			"time": 89818.1818181818
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 90000,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 90909.0909090909
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
 			"time": 96000
 		},
 		{
 			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 96000,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 101818.181818182
+			"time": 101818.181818182,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -563,23 +591,23 @@
 				16,
 				"camGame"
 			],
-			"time": 101818.181818182,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 101818.181818182
 		},
 		{
 			"params": [
 				"paceBGcolor",
 				"black"
 			],
-			"time": 101818.181818182,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 101818.181818182
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 104727.272727273
+			"time": 104727.272727273,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -588,52 +616,30 @@
 				16,
 				"camGame"
 			],
-			"time": 107636.363636364,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 107636.363636364
 		},
 		{
 			"params": [
 				"paceBGcolor",
 				"red"
 			],
-			"time": 107636.363636364,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
+			"name": "HScript Call",
 			"time": 107636.363636364
 		},
 		{
 			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 113454.545454545
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 119272.727272727,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 119272.727272727
+			"time": 107636.363636364,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 125090.909090909
+			"time": 113454.545454545,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -641,11 +647,25 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 130909.090909091
+			"time": 119272.727272727
 		},
 		{
 			"params": [
-				"cutsene",
+				0
+			],
+			"time": 119272.727272727,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 125090.909090909,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"shaderAnim",
 				""
 			],
 			"time": 130909.090909091,
@@ -653,10 +673,18 @@
 		},
 		{
 			"params": [
+				"cutsene",
+				""
+			],
+			"name": "HScript Call",
+			"time": 130909.090909091
+		},
+		{
+			"params": [
 				0
 			],
-			"time": 130909.090909091,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 130909.090909091
 		},
 		{
 			"params": [
@@ -665,8 +693,18 @@
 				18,
 				"camHUD"
 			],
+			"name": "Camera Flash",
+			"time": 130909.090909091
+		},
+		{
+			"params": [
+				false,
+				"Sine",
+				"InOut",
+				"1"
+			],
 			"time": 130909.090909091,
-			"name": "Camera Flash"
+			"name": "Cinematics (HUD)"
 		},
 		{
 			"params": [
@@ -675,26 +713,16 @@
 				"InOut",
 				"1"
 			],
-			"name": "Cinematics (HUD)",
-			"time": 130909.090909091
-		},
-		{
-			"params": [
-				false,
-				"Sine",
-				"InOut",
-				"1"
-			],
-			"name": "Cinematics (Strums)",
-			"time": 130909.090909091
+			"time": 130909.090909091,
+			"name": "Cinematics (Strums)"
 		},
 		{
 			"params": [
 				"dark",
 				"0"
 			],
-			"name": "HScript Call",
-			"time": 130909.090909091
+			"time": 130909.090909091,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -703,8 +731,8 @@
 				"In",
 				"1"
 			],
-			"name": "Cinematics (Bar)",
-			"time": 130909.090909091
+			"time": 130909.090909091,
+			"name": "Cinematics (Bar)"
 		},
 		{
 			"params": [
@@ -717,16 +745,16 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 130909.090909091
+			"time": 130909.090909091,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
 				"paceRun",
 				"false"
 			],
-			"name": "HScript Call",
-			"time": 132363.636363636
+			"time": 132363.636363636,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -735,8 +763,8 @@
 				0,
 				true
 			],
-			"time": 132363.636363636,
-			"name": "Change Character"
+			"name": "Change Character",
+			"time": 132363.636363636
 		},
 		{
 			"params": [
@@ -745,8 +773,8 @@
 				0,
 				true
 			],
-			"time": 132363.636363636,
-			"name": "Change Character"
+			"name": "Change Character",
+			"time": 132363.636363636
 		},
 		{
 			"params": [
@@ -755,24 +783,24 @@
 				16,
 				"camGame"
 			],
-			"time": 132363.636363636,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 132363.636363636
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 133818.181818182,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 133818.181818182
 		},
 		{
 			"params": [
 				"dark",
 				"0.5"
 			],
-			"time": 133818.181818182,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 133818.181818182
 		},
 		{
 			"params": [
@@ -781,31 +809,31 @@
 				16,
 				"camHUD"
 			],
-			"time": 133818.181818182,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 133818.181818182
 		},
 		{
 			"params": [
 				"dark",
 				"1"
 			],
-			"name": "HScript Call",
-			"time": 133818.181818182
+			"time": 133818.181818182,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"dark",
 				"6"
 			],
-			"name": "HScript Call",
-			"time": 133818.181818182
+			"time": 133818.181818182,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 136000
+			"time": 136000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -814,8 +842,8 @@
 				"InOut",
 				"5"
 			],
-			"name": "Cinematics (HUD)",
-			"time": 144000
+			"time": 144000,
+			"name": "Cinematics (HUD)"
 		},
 		{
 			"params": [
@@ -824,38 +852,22 @@
 				"InOut",
 				"5"
 			],
-			"name": "Cinematics (Strums)",
-			"time": 144000
+			"time": 144000,
+			"name": "Cinematics (Strums)"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 149090.909090909
+			"time": 149090.909090909,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"dark",
 				"3"
 			],
-			"name": "HScript Call",
-			"time": 155636.363636364
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
-			"time": 156363.636363636
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 156454.545454545,
+			"time": 155636.363636364,
 			"name": "HScript Call"
 		},
 		{
@@ -863,7 +875,7 @@
 				"shaderAnim",
 				""
 			],
-			"time": 156545.454545455,
+			"time": 156363.636363636,
 			"name": "HScript Call"
 		},
 		{
@@ -872,14 +884,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 156636.363636364
+			"time": 156454.545454545
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 156727.272727273,
+			"name": "HScript Call",
+			"time": 156545.454545455
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 156636.363636364,
 			"name": "HScript Call"
 		},
 		{
@@ -888,31 +908,39 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 156818.181818182
+			"time": 156727.272727273
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 156909.090909091
+			"time": 156818.181818182,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 157000
+			"time": 156909.090909091,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 157000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"dark",
 				"1"
 			],
-			"name": "HScript Call",
-			"time": 157090.909090909
+			"time": 157090.909090909,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -921,46 +949,46 @@
 				16,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 157090.909090909
+			"time": 157090.909090909,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				"dark",
 				"7"
 			],
-			"name": "HScript Call",
-			"time": 157090.909090909
+			"time": 157090.909090909,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"phaceChange",
 				""
 			],
-			"name": "HScript Call",
-			"time": 157090.909090909
+			"time": 157090.909090909,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"waveShader",
 				"3, 0.1"
 			],
-			"name": "HScript Call",
+			"time": 157090.909090909,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
 			"time": 157090.909090909
 		},
 		{
 			"params": [
-				0
-			],
-			"time": 157090.909090909,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
 				1
 			],
-			"time": 162909.090909091,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 162909.090909091
 		},
 		{
 			"params": [
@@ -969,23 +997,23 @@
 				1,
 				"sine"
 			],
-			"name": "Camera Movement",
+			"time": 169818.181818182,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
 			"time": 169818.181818182
 		},
 		{
 			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 169818.181818182,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
 				1
 			],
-			"time": 170181.818181818,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 170181.818181818
 		},
 		{
 			"params": [
@@ -994,47 +1022,22 @@
 				1,
 				"sine"
 			],
-			"time": 171272.727272727,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"name": "HScript Call",
+			"name": "Camera Movement",
 			"time": 171272.727272727
 		},
 		{
 			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 171636.363636364
-		},
-		{
-			"params": [
-				0,
-				true,
-				1,
-				"sine"
-			],
-			"name": "Camera Movement",
-			"time": 172727.272727273
-		},
-		{
-			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 172727.272727273,
+			"time": 171272.727272727,
 			"name": "HScript Call"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 173090.909090909,
+			"time": 171636.363636364,
 			"name": "Camera Movement"
 		},
 		{
@@ -1044,7 +1047,7 @@
 				1,
 				"sine"
 			],
-			"time": 173818.181818182,
+			"time": 172727.272727273,
 			"name": "Camera Movement"
 		},
 		{
@@ -1053,50 +1056,75 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 173818.181818182
+			"time": 172727.272727273
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 174545.454545455
+			"time": 173090.909090909
+		},
+		{
+			"params": [
+				0,
+				true,
+				1,
+				"sine"
+			],
+			"name": "Camera Movement",
+			"time": 173818.181818182
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 174545.454545455,
+			"time": 173818.181818182,
 			"name": "HScript Call"
 		},
 		{
 			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 177454.545454545
-		},
-		{
-			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 178909.090909091
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 179636.363636364
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 180363.636363636,
+			"time": 174545.454545455,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"name": "HScript Call",
+			"time": 174545.454545455
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 177454.545454545,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 178909.090909091,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 179636.363636364,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 180363.636363636
 		},
 		{
 			"params": [
@@ -1105,15 +1133,15 @@
 				16,
 				"camGame"
 			],
-			"time": 180363.636363636,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 180363.636363636
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 181818.181818182
+			"time": 181818.181818182,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -1122,80 +1150,80 @@
 				4,
 				"camGame"
 			],
-			"time": 181818.181818182,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 181818.181818182
 		},
 		{
 			"params": [
 				"phaceChange",
 				"true"
 			],
-			"time": 181818.181818182,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 181818.181818182
 		},
 		{
 			"params": [
 				"waveShader",
 				"8.0 , 0.1"
 			],
-			"time": 181818.181818182,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 181818.181818182
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 187636.363636364
+			"time": 187636.363636364,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 193454.545454545
+			"time": 193454.545454545,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 198545.454545455
+			"time": 198545.454545455,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 204363.636363636
+			"time": 204363.636363636,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 210181.818181818
+			"time": 210181.818181818,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 217454.545454545
+			"time": 217454.545454545,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 223272.727272727
+			"time": 223272.727272727,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 229090.909090909
+			"time": 229090.909090909,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -1204,24 +1232,24 @@
 				4,
 				"camHUD"
 			],
-			"name": "Camera Flash",
-			"time": 229090.909090909
+			"time": 229090.909090909,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 229090.909090909,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 229090.909090909
 		},
 		{
 			"params": [
 				"waveShader",
 				"1, 0.3"
 			],
-			"time": 229090.909090909,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 229090.909090909
 		},
 		{
 			"params": [
@@ -1234,8 +1262,8 @@
 				"stage",
 				false
 			],
-			"time": 229090.909090909,
-			"name": "Camera Zoom"
+			"name": "Camera Zoom",
+			"time": 229090.909090909
 		},
 		{
 			"params": [
@@ -1248,32 +1276,32 @@
 				"stage",
 				false
 			],
-			"time": 229818.181818182,
-			"name": "Camera Zoom"
+			"name": "Camera Zoom",
+			"time": 229818.181818182
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"name": "HScript Call",
-			"time": 232000
+			"time": 232000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"waveShader",
 				"0.8, 0.05"
 			],
-			"name": "HScript Call",
-			"time": 232000
+			"time": 232000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"phaceChange",
 				""
 			],
-			"name": "HScript Call",
-			"time": 232000
+			"time": 232000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -1282,16 +1310,16 @@
 				"InOut",
 				"0.001"
 			],
-			"time": 232000,
-			"name": "Cinematics (Bar)"
+			"name": "Cinematics (Bar)",
+			"time": 232000
 		},
 		{
 			"params": [
 				"phaceChange",
 				"final"
 			],
-			"time": 234181.818181818,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 234181.818181818
 		},
 		{
 			"params": [
@@ -1300,8 +1328,8 @@
 				0,
 				true
 			],
-			"time": 234181.818181818,
-			"name": "Change Character"
+			"name": "Change Character",
+			"time": 234181.818181818
 		},
 		{
 			"params": [
@@ -1310,13 +1338,13 @@
 				"InOut",
 				"1"
 			],
-			"time": 237090.909090909,
-			"name": "Cinematics (Bar)"
+			"name": "Cinematics (Bar)",
+			"time": 237090.909090909
 		},
 		{
 			"params": [
 				true,
-				0.6,
+				0.65,
 				"camGame",
 				24,
 				"quart",
@@ -1324,106 +1352,114 @@
 				"stage",
 				false
 			],
-			"time": 237090.909090909,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 239454.545454545,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 240727.272727273,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 242181.818181818,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 246545.454545455,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 248000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 250909.090909091,
-			"name": "Camera Movement"
+			"name": "Camera Zoom",
+			"time": 237090.909090909
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 252000
+			"time": 239454.545454545
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 253818.181818182
+			"time": 240727.272727273
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 254909.090909091
+			"time": 242181.818181818
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 256727.272727273
+			"time": 246545.454545455
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 257818.181818182
+			"time": 248000
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 250909.090909091
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 252000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 253818.181818182,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 254909.090909091,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 256727.272727273,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 257818.181818182,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				5
 			],
-			"name": "Camera Movement",
-			"time": 259545.454545455
+			"time": 259545.454545455,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 262545.454545455
+			"time": 262545.454545455,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 265090.909090909,
+			"name": "HScript Call",
+			"time": 265090.909090909
+		},
+		{
+			"params": [
+				"shaderAnim",
+				""
+			],
+			"time": 265181.818181818,
 			"name": "HScript Call"
 		},
 		{
@@ -1432,14 +1468,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 265181.818181818
+			"time": 265272.727272727
 		},
 		{
 			"params": [
 				"shaderAnim",
 				""
 			],
-			"time": 265272.727272727,
+			"time": 265363.636363636,
 			"name": "HScript Call"
 		},
 		{
@@ -1448,15 +1484,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 265363.636363636
-		},
-		{
-			"params": [
-				"shaderAnim",
-				""
-			],
-			"time": 265454.545454545,
-			"name": "HScript Call"
+			"time": 265454.545454545
 		},
 		{
 			"params": [
@@ -1465,107 +1493,135 @@
 				16,
 				"camGame"
 			],
-			"time": 265454.545454545,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 265454.545454545
 		},
 		{
 			"params": [
 				"phaceChange",
 				"final2"
 			],
-			"time": 265454.545454545,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 265454.545454545
+		},
+		{
+			"params": [
+				1,
+				"paceSoules",
+				0,
+				true
+			],
+			"name": "Change Character",
+			"time": 265454.545454545
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 272000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 277090.909090909,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				5
-			],
-			"time": 283090.909090909,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 288727.272727273,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 291636.363636364,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 294545.454545455,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 297454.545454545,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				5
-			],
-			"time": 299272.727272727,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 300363.636363636,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 303272.727272727,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 306181.818181818,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 309090.909090909,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 272000
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 312000
+			"time": 277090.909090909
+		},
+		{
+			"params": [
+				5
+			],
+			"name": "Camera Movement",
+			"time": 283090.909090909
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 288727.272727273
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 291636.363636364
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 294545.454545455
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 297454.545454545
+		},
+		{
+			"params": [
+				5
+			],
+			"name": "Camera Movement",
+			"time": 299272.727272727
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 300363.636363636
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 303272.727272727
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 306181.818181818
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 309090.909090909
+		},
+		{
+			"params": [
+				-200,
+				400,
+				true,
+				4,
+				"quart"
+			],
+			"time": 312000,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				4,
+				"quad",
+				"In",
+				"stage",
+				false
+			],
+			"time": 312000,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -1576,128 +1632,557 @@
 		},
 		{
 			"params": [
-				0
+				true,
+				0.65,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"stage",
+				false
 			],
-			"name": "Camera Movement",
+			"name": "Camera Zoom",
+			"time": 317636.363636364
+		},
+		{
+			"params": [
+				1000,
+				500,
+				true,
+				4,
+				"quart"
+			],
+			"name": "Camera Position",
+			"time": 323636.363636364
+		},
+		{
+			"params": [
+				true,
+				1.5,
+				"camGame",
+				4,
+				"quad",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
 			"time": 323636.363636364
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 329272.727272727,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 329272.727272727
 		},
 		{
 			"params": [
-				0
+				true,
+				0.65,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"stage",
+				false
 			],
-			"time": 331909.090909091,
-			"name": "Camera Movement"
+			"time": 329272.727272727,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1500,
+				800,
+				true,
+				4,
+				"quart"
+			],
+			"time": 334545.454545455,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"quad",
+				"In",
+				"stage",
+				false
+			],
+			"time": 334545.454545455,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 341363.636363636
+		},
+		{
+			"params": [
+				1500,
+				800,
+				true,
+				4,
+				"quart"
+			],
+			"name": "Camera Position",
+			"time": 347090.909090909
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"quad",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 347090.909090909
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 333818.181818182
+			"time": 358545.454545455
 		},
 		{
 			"params": [
-				1
-			],
-			"time": 341363.636363636,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 347181.818181818,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 349090.909090909,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 353090.909090909,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
+				true,
+				0.65,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"stage",
+				false
 			],
 			"time": 358545.454545455,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 360000,
-			"name": "Camera Movement"
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
 				1,
 				"camGame"
 			],
+			"name": "Add Camera Zoom",
+			"time": 361454.545454545
+		},
+		{
+			"params": [
+				"phaceChange",
+				"final3"
+			],
 			"time": 361454.545454545,
-			"name": "Add Camera Zoom"
+			"name": "HScript Call"
 		},
 		{
 			"params": [
-				1
+				0,
+				100,
+				true,
+				16,
+				"elastic",
+				"InOut",
+				true
 			],
-			"time": 370181.818181818,
-			"name": "Camera Movement"
+			"time": 361454.545454545,
+			"name": "Camera Position"
 		},
 		{
 			"params": [
-				0
+				true,
+				0.55,
+				"camGame",
+				16,
+				"elastic",
+				"InOut",
+				"stage",
+				false
 			],
-			"time": 370909.090909091,
-			"name": "Camera Movement"
+			"time": 361454.545454545,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
-				1
+				"camHUD",
+				0.1,
+				0,
+				"linear"
 			],
-			"time": 371636.363636364,
-			"name": "Camera Movement"
+			"time": 385454.545454545,
+			"name": "Camera Fade"
 		},
 		{
 			"params": [
-				0
+				false,
+				-16777216,
+				8,
+				"camGame"
 			],
-			"time": 372363.636363636,
-			"name": "Camera Movement"
+			"time": 385454.545454545,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
-				1
+				"phaceChange",
+				"end"
 			],
-			"time": 378909.090909091,
-			"name": "Camera Movement"
+			"time": 386181.818181818,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
-				0
+				1,
+				"singUP",
+				true,
+				"SING"
 			],
-			"time": 383272.727272727,
-			"name": "Camera Movement"
+			"time": 386181.818181818,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singUP",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 386363.636363636
+		},
+		{
+			"params": [
+				1,
+				"singUP",
+				true,
+				"SING"
+			],
+			"time": 386545.454545455,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singUP",
+				true,
+				"SING"
+			],
+			"time": 386727.272727273,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singUP",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 386909.090909091
+		},
+		{
+			"params": [
+				1,
+				"singUP",
+				true,
+				"SING"
+			],
+			"time": 387090.909090909,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singUP",
+				true,
+				"SING"
+			],
+			"time": 387272.727272727,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singLEFT",
+				true,
+				"SING"
+			],
+			"time": 387363.636363636,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singDOWN",
+				true,
+				"SING"
+			],
+			"time": 387545.454545455,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singUP",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 387727.272727273
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 387909.090909091,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singUP",
+				true,
+				"SING"
+			],
+			"time": 388090.909090909,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singDOWN",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 388272.727272727
+		},
+		{
+			"params": [
+				1,
+				"singLEFT",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 388454.545454545
+		},
+		{
+			"params": [
+				1,
+				"singDOWN",
+				true,
+				"SING"
+			],
+			"time": 388727.272727273,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singDOWN",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 388727.272727273
+		},
+		{
+			"params": [
+				1,
+				"singDOWN",
+				true,
+				"SING"
+			],
+			"time": 388909.090909091,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singDOWN",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 389090.909090909
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 389454.545454545
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 389545.454545455,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 389636.363636364
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 389818.181818182,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 389909.090909091
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 390000,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 390090.909090909
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 390181.818181818,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 390363.636363636
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 390454.545454545,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 390454.545454545
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 390636.363636364,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 390636.363636364
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 390818.181818182,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"name": "Play Animation",
+			"time": 391090.909090909
+		},
+		{
+			"params": [
+				1,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 391272.727272727,
+			"name": "Play Animation"
 		}
 	],
-	"scrollSpeed": 3,
 	"strumLines": [
 		{
+			"keyCount": 4,
 			"notes": [
 				{
 					"id": 0,
@@ -8583,6 +9068,60 @@
 				},
 				{
 					"id": 1,
+					"sLen": 272.727272727236,
+					"time": 333454.545454545,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 333818.181818182,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 334000,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 334181.818181818,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 334363.636363636,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 334545.454545455,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 334727.272727273,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 334909.090909091,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 335090.909090909,
+					"type": 0
+				},
+				{
+					"id": 1,
 					"sLen": 636.363636363647,
 					"time": 362181.818181818,
 					"type": 0
@@ -8921,6 +9460,7 @@
 			"vocalsSuffix": ""
 		},
 		{
+			"keyCount": 4,
 			"notes": [
 				{
 					"id": 0,
@@ -15605,66 +16145,6 @@
 					"sLen": 3181.81818181818,
 					"time": 381818.181818182,
 					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 1000,
-					"time": 386181.818181818,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 387363.636363636,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 387545.454545455,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 387727.272727273,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 387909.090909091,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 388090.909090909,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 388272.727272727,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 388454.545454545,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 636.363636364054,
-					"time": 388727.272727273,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 1363.63636363641,
-					"time": 389454.545454545,
-					"type": 0
 				}
 			],
 			"position": "boyfriend",
@@ -15682,6 +16162,7 @@
 			"vocalsSuffix": ""
 		},
 		{
+			"keyCount": 4,
 			"notes": [],
 			"position": "girlfriend",
 			"strumScale": 1,
@@ -15698,6 +16179,7 @@
 			"vocalsSuffix": ""
 		},
 		{
+			"keyCount": 4,
 			"notes": [
 				{
 					"id": 3,
@@ -16520,26 +17002,54 @@
 					"sLen": 545.454545454588,
 					"time": 357909.087308651,
 					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 1363.63636363635,
+					"time": 386181.818181818,
+					"type": 1
+				},
+				{
+					"id": 1,
+					"sLen": 1727.27272727271,
+					"time": 386181.818181818,
+					"type": 1
+				},
+				{
+					"id": 2,
+					"sLen": 5000,
+					"time": 386181.818181818,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 2181.81818181818,
+					"time": 386181.818181818,
+					"type": 1
 				}
-			],
-			"visible": false,
-			"strumPos": [
-				0,
-				50
 			],
 			"position": "dad",
 			"strumScale": 1,
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
+			"visible": false,
 			"type": 0,
 			"characters": [
 				"shadowTeeth",
 				"shadowTeeth",
+				"shadowTeeth",
+				"shadowTeeth",
 				"shadowTeeth"
-			]
+			],
+			"strumPos": [
+				0,
+				50
+			],
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		}
 	],
 	"codenameChart": true,
+	"scrollSpeed": 3,
+	"chartVersion": "1.6.0",
 	"stage": "pacev2",
 	"noteTypes": [
 		"No Anim Note",

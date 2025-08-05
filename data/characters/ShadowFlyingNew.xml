@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-1900" icon="shadow" camx="830" y="-220" camy="320" scale="0.5" color="#000000" antialiasing="false" sprite="pace/air_shadow">
+	<anim x="2" anim="idle" name="idle"/>
+
+	<anim x="-1192" y="-682" anim="down" name="singDOWN"/>
+
+	<anim x="-1058" y="-526" anim="right" name="singRIGHT"/>
+
+	<anim x="-254" y="-176" anim="left" name="singLEFT"/>
+
+	<anim x="-766" y="-216" anim="up" name="singUP"/>
+</character>

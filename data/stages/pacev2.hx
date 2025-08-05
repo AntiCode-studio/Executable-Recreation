@@ -76,19 +76,41 @@ function phaceChange(phace:Bool) {
         //shadowBig.visible = true;
     }
     if (phace == 'final2'){
-        for (i in [strumLines.members[3].characters[0], strumLines.members[3].characters[1], strumLines.members[3].characters[2]]){
-            //remove(i);
-            //insert(members.indexOf(shadowBig), i);
+        for (i in [strumLines.members[3].characters[0], strumLines.members[3].characters[1], strumLines.members[3].characters[3], strumLines.members[3].characters[4], strumLines.members[3].characters[2]]){
+            remove(i);
+            insert(members.indexOf(shadowBig), i);
+            i.visible = true;
         }
-        strumLines.members[3].characters[0].x -= 800;
-        strumLines.members[3].characters[0].y += 400;
-        strumLines.members[3].characters[0].angle = -10;
-        strumLines.members[3].characters[0].scale.set(1.2, 1.2);
 
         strumLines.members[3].characters[0].x -= 800;
         strumLines.members[3].characters[0].y += 400;
         strumLines.members[3].characters[0].angle = -10;
         strumLines.members[3].characters[0].scale.set(1.2, 1.2);
+        strumLines.members[3].characters[0].scrollFactor.set(0.8, 0.8);
+
+        strumLines.members[3].characters[1].x += 1000;
+        strumLines.members[3].characters[1].y += 1000;
+        strumLines.members[3].characters[1].angle = 5;
+        strumLines.members[3].characters[1].scale.set(2, 2);
+        strumLines.members[3].characters[1].scrollFactor.set(1.2, 1.2);
+
+        strumLines.members[3].characters[2].x += 100;
+        strumLines.members[3].characters[2].y += 600;
+        strumLines.members[3].characters[2].angle = 2;
+        strumLines.members[3].characters[2].scale.set(0.8, 0.8);
+        strumLines.members[3].characters[2].scrollFactor.set(0.6, 0.6);
+
+        strumLines.members[3].characters[3].x += 900;
+        strumLines.members[3].characters[3].y += 100;
+        strumLines.members[3].characters[3].angle = -2;
+        strumLines.members[3].characters[3].scale.set(0.9, 0.9);
+        strumLines.members[3].characters[3].scrollFactor.set(0.7, 0.7);
+
+        strumLines.members[3].characters[4].x -= 1000;
+        strumLines.members[3].characters[4].y += 900;
+        strumLines.members[3].characters[4].angle = 4;
+        strumLines.members[3].characters[4].scale.set(0.6, 0.6);
+        strumLines.members[3].characters[4].scrollFactor.set(0.4, 0.4);
 
         dadTrail.visible = false;
         isRun = true;
@@ -96,6 +118,20 @@ function phaceChange(phace:Bool) {
         //shadowFake.visible = true;
         ostrov.visible = true;
         shadowBig.visible = true;
+    }
+    if (phace == 'final3'){
+
+        dadTrail.visible = false;
+        isRun = true;
+        bgF.visible = true;
+        shadowFake.visible = true;
+        ostrov.visible = true;
+        shadowBig.visible = true;
+    }
+    if (phace == 'end'){
+
+        glitchTween = FlxTween.tween(snowfall, {glitchAmount: 1}, 10);
+        FlxTween.tween(camGame, {alpha: 0}, 10);
     }
 }
 
@@ -166,6 +202,10 @@ function cutseneRun(part) {
 }
 
 function postCreate() {
+
+    for (i in [strumLines.members[3].characters[0], strumLines.members[3].characters[1], strumLines.members[3].characters[3], strumLines.members[3].characters[4], strumLines.members[3].characters[2]]){
+        i.visible = false;
+    }
     
     importScript("data/huds/maniav2");
 
