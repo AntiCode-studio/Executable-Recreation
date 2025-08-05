@@ -207,7 +207,7 @@ function postCreate() {
         i.visible = false;
     }
     
-    importScript("data/huds/maniav2");
+    importScript("data/huds/maniav1");
 
     dadTrail = new FlxTrail(dad, null, 4, 10, 0.3, 0.069);
     dadTrail.beforeCache = dad.beforeTrailCache;

@@ -7,7 +7,7 @@ import flixel.addons.effects.FlxTrail;
 aura = new CustomShader('Aura');
 var noteOffsets = [0,0];
 public var noteMoveAmt = 150;
-
+importScript("data/huds/maniav1");
 snowfall = new CustomShader('GlitchShaderA');
 var paceSky:FlxBackdrop;
 var pacefloor:FlxBackdrop;

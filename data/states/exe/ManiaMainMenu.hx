@@ -14,9 +14,19 @@ menuShader = new CustomShader('menuShader');
 var optionShit:Array<String> = CoolUtil.coolTextFile(Paths.txt("config/menuItems"));
 
 var canClick:Bool = true;
-var usingMouse:Bool = false;
+var usingMouse:Bool = true;
+var curSelected:Int = 0;
 
 function create() {
+
+    if (FlxG.sound.music == null){
+        FlxG.sound.playMusic(Paths.music('EXEcellence'), 1, true);
+        Conductor.changeBPM(123);
+    } 
+
+	if (FlxG.sound.music != null && FlxG.sound.music.volume == 0) {
+		FlxG.sound.music.play();
+	}
 
     blackP = new FlxSprite();
     blackP.makeGraphic(1280, 720, FlxColor.BLACK);
@@ -285,6 +295,7 @@ function update(elapsed:Float) {
 			if(canClick)
 			{
 				curSelected = spr.ID;
+                //FlxG.sound.play(Paths.sound("scrollMenu"), 0.1);
 				usingMouse = true;
                 menuItems.members[curSelected].animation.play('selected');
                 menuTvs.members[curSelected].animation.play('selected');

@@ -2,6 +2,7 @@ function create() {
     bgB = new FlxSprite(-700, 0);
     bgB.makeGraphic(2560, 1400, FlxColor.BLACK);
     add(bgB);
+    importScript("data/huds/maniav1");
 }
 function update(elapsed:Float) {
     

@@ -129,7 +129,7 @@ function update(elapsed:Float) {
             FlxTween.tween(bgt, {'alpha': 1}, 1.4, {ease: FlxEase.quintInOut});
             transitioning = true;
 			FlxG.sound.play(Paths.sound("confirmMenu"), 0.7);
-			new FlxTimer().start(1.4, (_) -> [
+			new FlxTimer().start(0.5, (_) -> [
                 FlxG.switchState(new MainMenuState())
             ]);
 		};

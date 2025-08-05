@@ -5,7 +5,7 @@ import flixel.text.FlxText;
 import lime.app.Application;
 
 
-
+importScript("data/huds/maniav1");
 //intro sprites
 var computerbg2:FlxSprite;
 var computer:FlxSprite;

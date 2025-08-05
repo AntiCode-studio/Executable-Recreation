@@ -57,7 +57,7 @@ function postUpdate(){
 
 function onDadHit() iconP2Fake.scale.set(0.8, 0.8);
 
-function onBFHit() iconP1Fake.scale.set(0.8, 0.8);
+function onPlayerHit(event:NoteHitEvent) iconP1Fake.scale.set(0.8, 0.8);
 
 function beatHit(){
     iconP1Fake.scale.set(0.8, 0.8);
