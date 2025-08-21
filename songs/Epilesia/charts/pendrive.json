@@ -246,16 +246,6 @@
 		},
 		{
 			"params": [
-				0,
-				"blur",
-				0,
-				true
-			],
-			"name": "Change Character",
-			"time": 75180.7228915663
-		},
-		{
-			"params": [
 				false,
 				-65536,
 				16,
@@ -271,6 +261,16 @@
 			],
 			"time": 75180.7228915663,
 			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0,
+				"pen1",
+				0,
+				true
+			],
+			"name": "Change Character",
+			"time": 75180.7228915663
 		},
 		{
 			"params": [
@@ -570,6 +570,23 @@
 		},
 		{
 			"params": [
+				"EplilepsiatransitionCutscene",
+				"1",
+				"",
+				"",
+				"camGame",
+				true,
+				true,
+				true,
+				"stage",
+				false,
+				true
+			],
+			"time": 223460.156659136,
+			"name": "video event"
+		},
+		{
+			"params": [
 				"stepMania",
 				"22"
 			],
@@ -613,10 +630,12 @@
 		}
 	],
 	"stage": "epilepsia",
-	"scrollSpeed": 3.2,
 	"codenameChart": true,
+	"scrollSpeed": 3.2,
+	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
+			"keyCount": 4,
 			"notes": [
 				{
 					"id": 1,
@@ -3800,7 +3819,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 85.227272727032,
+					"sLen": 85.2272727269446,
 					"time": 209236.268844823,
 					"type": 0
 				},
@@ -3950,7 +3969,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 239.361702127702,
+					"sLen": 239.361702127731,
 					"time": 245641.007722966,
 					"type": 0
 				},
@@ -4076,7 +4095,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 239.361702127557,
+					"sLen": 239.361702127499,
 					"time": 250109.092829349,
 					"type": 0
 				},
@@ -4118,7 +4137,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 239.361702127702,
+					"sLen": 239.361702127731,
 					"time": 252023.98644637,
 					"type": 0
 				},
@@ -4136,7 +4155,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 79.7872340425965,
+					"sLen": 79.7872340426838,
 					"time": 252662.284318711,
 					"type": 0
 				},
@@ -4160,7 +4179,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 79.7872340425965,
+					"sLen": 79.7872340426256,
 					"time": 253141.007722966,
 					"type": 0
 				},
@@ -4655,6 +4674,7 @@
 			"vocalsSuffix": ""
 		},
 		{
+			"keyCount": 4,
 			"strumScale": 1,
 			"position": "boyfriend",
 			"notes": [
@@ -7186,7 +7206,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 398.936170212459,
+					"sLen": 398.936170212401,
 					"time": 214284.624744243,
 					"type": 0
 				},
@@ -7318,7 +7338,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 239.361702127324,
+					"sLen": 239.361702127237,
 					"time": 219391.007722966,
 					"type": 0
 				},
@@ -7942,6 +7962,7 @@
 			"strumLinePos": 0.75
 		},
 		{
+			"keyCount": 4,
 			"notes": [],
 			"position": "girlfriend",
 			"strumScale": 1,

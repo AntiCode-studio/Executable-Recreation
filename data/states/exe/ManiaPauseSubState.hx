@@ -24,15 +24,15 @@ function create(event) {
 
 	cameras = [];
 
-    confirm = FlxG.sound.load(Paths.sound('menu/new/enter'), .3);
-    cancel = FlxG.sound.load(Paths.sound('menu/new/cancel'), .3);
-    scroll = FlxG.sound.load(Paths.sound('menu/new/scroll'), .15);
+    confirm = FlxG.sound.load(Paths.sound('confirmMenu'), .3);
+    cancel = FlxG.sound.load(Paths.sound('cancelMenu'), .3);
+    scroll = FlxG.sound.load(Paths.sound('scrollMenu'), .15);
 
 	//pitchSound = FlxG.random.float(-5, 5);
 	//trace(pitchSound);
-	pauseSound = FlxG.sound.load(Paths.sound('menu/new/pause'), .15);
+	//pauseSound = FlxG.sound.load(Paths.sound('menu/new/pause'), .15);
 	//pauseSound.pitch = pitchSound;
-	pauseSound.play();
+	//pauseSound.play();
 
     FlxG.cameras.add(pauseCam, false);
     pauseCam.bgColor = 0x94000000;
@@ -178,6 +178,7 @@ function update(elapsed) {
 }
 
 function changeSelection(change){
+	scroll.stop();
     scroll.play();
 
 	curSelected += change;

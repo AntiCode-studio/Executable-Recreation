@@ -8,7 +8,7 @@
     <sprite x="-150" y="0" alpha="1" scroll="0.5" antialiasing="true" scale="1" flipX="false" flipY="false" updateHitbox="true" zoomfactor="0.5" sprite="p3/bg" name="bgp3"/>
     <sprite x="-350" y="-200" alpha="1" scroll="0.8" antialiasing="true" scale="1.2" flipX="false" flipY="false" updateHitbox="true" zoomfactor="0.8" sprite="p3/bg1" name="bg1p3"/>
     <sprite x="-150" y="-200" alpha="1" scroll="1" antialiasing="true" scale="1" flipX="false" flipY="false" updateHitbox="true" zoomfactor="1" sprite="p3/floor" name="floorp3"/>
- 
+
     <gf x="280" y="-225" alpha="0" scale="1" camxoffset="0" camyoffset="0" flipX="false" scroll="1"/>
     <dad x="400" y="50" alpha="1" scale="1" camxoffset="0" camyoffset="0" flipX="false" scroll="1"/>
     <bf x="300" y="100" alpha="1" scale="1" camxoffset="0" camyoffset="0" flipX="true" scroll="1"/>

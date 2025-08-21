@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character antialiasing="false" camx="-150" icon="compostedSpirit" sprite="composted/compostedSpirit" camy="90">
+	<anim anim="idle" name="idle"/>
+
+	<anim x="-80" y="-210" anim="singdown" name="singDOWN"/>
+
+	<anim x="-90" y="10" anim="singright" name="singRIGHT"/>
+
+	<anim x="55" y="-5" anim="singleft" name="singLEFT"/>
+
+	<anim x="-70" y="15" anim="singup" name="singUP"/>
+</character>

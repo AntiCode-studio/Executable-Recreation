@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/pace/v3/" name="pacev3" zoom="1">
+	<sprite x="-226.274170019803" sprite="bg1" y="-65.0538238874061" type="none" scale="1.2" name="bg1" antialiasing="false"/>
+	<sprite x="-1259" sprite="bg2" y="-684" type="none" alpha="0" scale="0.58" name="bg2" antialiasing="false"/>
+	<girlfriend alpha="0"/>
+	<dad/>
+	<boyfriend/>
+</stage>

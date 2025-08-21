@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgChars.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="plant10000" x="806" y="479" width="145" height="111" frameX="-1715" frameY="-1206" frameWidth="2500" frameHeight="2000"/>
+	<SubTexture name="plant20000" x="806" y="304" width="126" height="175" frameX="-1863" frameY="-1174" frameWidth="2500" frameHeight="2000"/>
+	<SubTexture name="plant30000" x="806" y="0" width="177" height="304" frameX="-1993" frameY="-1196" frameWidth="2500" frameHeight="2000"/>
+	<SubTexture name="plant40000" x="0" y="543" width="266" height="214" frameX="-1791" frameY="-1330" frameWidth="2500" frameHeight="2000"/>
+	<SubTexture name="plant50000" x="0" y="0" width="806" height="543" frameX="-1448" frameY="-1459" frameWidth="2500" frameHeight="2000"/>
+</TextureAtlas>

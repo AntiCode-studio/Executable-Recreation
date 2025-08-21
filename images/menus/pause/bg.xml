@@ -3,19 +3,19 @@
 Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
 -->
 <TextureAtlas imagePath="bg.png" width="3862" height="3642">
-	<SubTexture name="frame_00_delay-0.03s" x="1" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_01_delay-0.03s" x="1" y="731" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_02_delay-0.04s" x="1291" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_03_delay-0.03s" x="1291" y="731" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_04_delay-0.03s" x="1" y="1461" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_05_delay-0.04s" x="1291" y="1461" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_06_delay-0.03s" x="1" y="2191" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_07_delay-0.03s" x="1291" y="2191" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_08_delay-0.04s" x="2581" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_09_delay-0.03s" x="2581" y="731" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_10_delay-0.03s" x="2581" y="1461" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_11_delay-0.04s" x="2581" y="2191" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_12_delay-0.03s" x="1" y="2921" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_13_delay-0.03s" x="1291" y="2921" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
-	<SubTexture name="frame_14_delay-0.04s" x="2581" y="2921" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0000" x="1" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0001" x="1" y="731" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0002" x="1291" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0003" x="1291" y="731" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0004" x="1" y="1461" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0005" x="1291" y="1461" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0006" x="1" y="2191" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0007" x="1291" y="2191" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0008" x="2581" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0009" x="2581" y="731" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0010" x="2581" y="1461" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0011" x="2581" y="2191" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0012" x="1" y="2921" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0013" x="1291" y="2921" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="frame0014" x="2581" y="2921" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
 </TextureAtlas>

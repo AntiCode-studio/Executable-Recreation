@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="tv.png" width="1854" height="1659">
+	<SubTexture name="tvBlack" x="0" y="1041" width="661" height="618" frameX="-686" frameY="-249" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="tvBox" x="1101" y="0" width="753" height="758" frameX="-632" frameY="-198" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="tvGlass" x="1101" y="763" width="718" height="675" frameX="-645" frameY="-219" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="tvGlow" x="0" y="0" width="1096" height="1036" frameX="-462" frameY="-21" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

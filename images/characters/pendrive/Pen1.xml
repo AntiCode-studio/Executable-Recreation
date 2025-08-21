@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="Pen1.png" width="2003" height="2067">
+  <SubTexture name="up (1).png" x="0" y="0"  width="329" height="532" frameX="-459" frameY="-88" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="up (2).png" x="0" y="532"  width="323" height="520" frameX="-461" frameY="-98" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (3).png" x="0" y="1052"  width="405" height="508" frameX="-417" frameY="-133" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (1).png" x="323" y="532"  width="403" height="507" frameX="-417" frameY="-134" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (2).png" x="0" y="1560"  width="403" height="507" frameX="-417" frameY="-134" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (4).png" x="403" y="1560"  width="404" height="505" frameX="-417" frameY="-136" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (5).png" x="405" y="1039"  width="404" height="505" frameX="-417" frameY="-136" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (12).png" x="329" y="0"  width="409" height="504" frameX="-416" frameY="-137" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (7).png" x="726" y="504"  width="411" height="500" frameX="-416" frameY="-141" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (8).png" x="738" y="0"  width="411" height="500" frameX="-416" frameY="-141" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (11).png" x="807" y="1544"  width="408" height="500" frameX="-416" frameY="-141" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (10).png" x="809" y="1004"  width="412" height="499" frameX="-415" frameY="-142" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (9).png" x="1137" y="500"  width="412" height="499" frameX="-415" frameY="-142" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle (6).png" x="1221" y="0"  width="410" height="499" frameX="-415" frameY="-142" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="right (1).png" x="1631" y="0"  width="346" height="498" frameX="-321" frameY="-136" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="left (1).png" x="1631" y="498"  width="372" height="448" frameX="-522" frameY="-177" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="right (2).png" x="1215" y="1503"  width="340" height="497" frameX="-324" frameY="-137" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="left (2).png" x="1221" y="999"  width="369" height="449" frameX="-520" frameY="-176" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="down (1).png" x="1590" y="946"  width="340" height="442" frameX="-399" frameY="-188" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="down (2).png" x="1590" y="1388"  width="337" height="446" frameX="-401" frameY="-187" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

@@ -228,7 +228,7 @@ function create() {
     add(title);
     FlxTween.tween(title, {y: title.y - 10}, 4, {ease: FlxEase.quintInOut, type: FlxTweenType.PINGPONG});
 
-    FlxG.camera.scroll.set(-10, -5000);
+    FlxG.camera.scroll.set(-10, -1000);
 
     FlxTween.tween(FlxG.camera.scroll, {x: 10}, 8, {ease: FlxEase.quintInOut, type: FlxTweenType.PINGPONG});
     FlxTween.tween(FlxG.camera, {'scroll.y': -10}, 2, {ease: FlxEase.quintInOut, onComplete: function(f:FlxTween) {

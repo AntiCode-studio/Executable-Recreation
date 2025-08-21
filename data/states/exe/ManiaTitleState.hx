@@ -125,11 +125,11 @@ function update(elapsed:Float) {
     if (controls.ACCEPT) {
 		if (!transitioning){
             press.animation.play('press');
-            FlxTween.tween(FlxG.camera, {'scroll.y': 5000}, 2, {ease: FlxEase.quintInOut});
+            FlxTween.tween(FlxG.camera, {'scroll.y': 1000}, 2, {ease: FlxEase.quintInOut});
             FlxTween.tween(bgt, {'alpha': 1}, 1.4, {ease: FlxEase.quintInOut});
             transitioning = true;
 			FlxG.sound.play(Paths.sound("confirmMenu"), 0.7);
-			new FlxTimer().start(0.5, (_) -> [
+			new FlxTimer().start(1.4, (_) -> [
                 FlxG.switchState(new MainMenuState())
             ]);
 		};

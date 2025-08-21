@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/composted/" name="composted" zoom="0.5">
+	<sprite antialiasing="false" x="-675" scroll="0.8" sprite="bgAssets" y="-850" type="none" name="fence">
+		<anim name="idle" anim="fence" loop="false"/>
+	</sprite>
+	<sprite antialiasing="false" x="-750" sprite="bgAssets" y="-900" name="spotlight">
+		<anim name="idle" anim="spotlight" loop="false"/>
+	</sprite>
+	<girlfriend scroll="1"/>
+	<dad x="800" flipX="true" y="-65"/>
+	<boyfriend x="-400" flipX="false" y="-55"/>
+	<sprite antialiasing="false" x="-777" sprite="tvbg" y="-213" type="none" name="tvbg" scroll="0"/>
+	<sprite x="-758.018469431979" sprite="tvstat" y="-220.617315730203" type="none" name="tvstat" scroll="0"/>
+	<sprite antialiasing="false" x="-777" sprite="pc" y="-213" type="none" name="pc" scroll="0"/>
+	<sprite x="-777" sprite="tvlight" y="-213" type="none" name="tvlight" scroll="0"/>
+
+	<sprite antialiasing="false" x="0" scroll="0" sprite="static" y="0" type="none" name="staticAnim" scale="3" zoomfactor="0">
+		<anim name="idle" anim="idle" loop="true"/>
+	</sprite>
+</stage>

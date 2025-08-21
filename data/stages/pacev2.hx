@@ -145,7 +145,7 @@ function dark(blabla) {
         
         paceFall2.visible = true;
         paceFall.visible = true;
-        FlxTween.tween(paceFall, {y: -20}, 5, {ease: FlxEase.backOut});
+        FlxTween.tween(paceFall, {y: 120}, 5, {ease: FlxEase.backOut});
         FlxTween.tween(paceFall2, {y: 0}, 5, {ease: FlxEase.backOut});
     }
     if(blabla == '1'){
@@ -163,7 +163,16 @@ function dark(blabla) {
     }
     if(blabla == '5'){
         strumLines.members[0].characters[0].visible = false;
-        strumLines.members[3].characters[0].visible = true;
+        strumLines.members[4].characters[0].visible = true;
+
+        dadTrail.visible = false;
+
+        s2.visible = true;
+
+        remove(strumLines.members[1].characters[0]);
+        insert(members.indexOf(strumLines.members[4].characters[0]), strumLines.members[1].characters[0]);
+
+        strumLines.members[1].characters[0].alpha = 0.6;
     }
     if(blabla == '6'){
         floor.visible = false;
@@ -180,6 +189,20 @@ function dark(blabla) {
     if(blabla == '10'){
         camGame.visible = false;
         camHUD.visible = false;
+    }
+    if(blabla == '5.5'){
+        strumLines.members[0].characters[0].visible = true;
+        strumLines.members[4].characters[0].visible = false;
+
+        strumLines.members[1].characters[0].alpha = 1;
+
+        s2.visible = false;
+
+        remove(strumLines.members[1].characters[0]);
+        insert(members.indexOf(strumLines.members[0].characters[0]), strumLines.members[1].characters[0]);
+
+        remove(strumLines.members[0].characters[0]);
+        insert(members.indexOf(strumLines.members[1].characters[0]), strumLines.members[0].characters[0]);
     }
 }
 
@@ -203,7 +226,7 @@ function cutseneRun(part) {
 
 function postCreate() {
 
-    for (i in [strumLines.members[3].characters[0], strumLines.members[3].characters[1], strumLines.members[3].characters[3], strumLines.members[3].characters[4], strumLines.members[3].characters[2]]){
+    for (i in [strumLines.members[3].characters[0], strumLines.members[3].characters[1], strumLines.members[3].characters[3], strumLines.members[3].characters[4], strumLines.members[3].characters[2], strumLines.members[4].characters[0]]){
         i.visible = false;
     }
     
@@ -241,28 +264,28 @@ function postCreate() {
     insert(members.indexOf(boyfriend), paceLegs);
     paceLegs.visible = false;
 
-    fgtree = new FlxBackdrop(Paths.image('stages/pace/v1/prun/fgtree'), 1, 0);
-    fgtree.scale.set(1.3, 3);
-    fgtree.velocity.set(-1050 - 350, 0);
+    fgtree = new FlxBackdrop(Paths.image('stages/pace/v2/p2/trees'), 1, 0);
+    fgtree.velocity.set(-1050 - 650, 0);
+    fgtree.scale.set(0.6, 0.6);
     add(fgtree);
-    fgtree.y = 300;
+    fgtree.y = 300 - 500;
 
-    paceSky = new FlxBackdrop(Paths.image('stages/pace/v1/prun/pacesky'), 1, 0);
-    paceSky.scale.set(2, 2);
-    paceSky.velocity.set(-650 - 350, 0);
+    paceSky = new FlxBackdrop(Paths.image('stages/pace/v2/p2/bg'), 1, 0);
+    paceSky.scale.set(0.6, 0.6);
+    paceSky.velocity.set(-650 - 650, 0);
     insert(members.indexOf(gf), paceSky);
-    paceSky.y = 220;
+    paceSky.y = 220 - 500;
 
     sun = new FlxSprite(500,250).loadGraphic(Paths.image('stages/pace/v1/prun/sun'));
-	insert(members.indexOf(gf),sun);
+	//insert(members.indexOf(gf),sun);
     sun2 = new FlxSprite(500,250).loadGraphic(Paths.image('stages/pace/v1/prun/sun'));
-	insert(members.indexOf(gf),sun2);
+	//insert(members.indexOf(gf),sun2);
 
-    pacefloor = new FlxBackdrop(Paths.image('stages/pace/v1/prun/floor'), 1, 0);
-    pacefloor.scale.set(1.5, 1.5);
-    pacefloor.velocity.set(-850 - 350, 0);
+    pacefloor = new FlxBackdrop(Paths.image('stages/pace/v2/p2/floor'), 1, 0);
+    pacefloor.scale.set(0.6, 0.6);
+    pacefloor.velocity.set(-850 - 650, 0);
     insert(members.indexOf(gf), pacefloor);
-    pacefloor.y = 1050;
+    pacefloor.y = 300 - 500;
 
     fgtree.visible = false;
     paceSky.visible = false;
@@ -310,18 +333,17 @@ function postCreate() {
     bgB.blend = BlendMode.DARKEN;
 
     paceFall = new FlxSprite();
-    paceFall.frames = Paths.getSparrowAtlas('stages/pace/v1/paceFalling');
+    paceFall.frames = Paths.getSparrowAtlas('stages/pace/v2/falling');
     paceFall.animation.addByPrefix('idle', 'idle', 5, true);
-    paceFall.animation.addByPrefix('pre-scared', 'pre-scared', 5, false);
-    paceFall.animation.addByPrefix('scared', 'scared', 5, true);
+    paceFall.animation.play('idle');
+    paceFall.scale.set(0.2, 0.2);
+    //paceFall.camera = camHUD;
+    paceFall.scrollFactor.set(0,0);
     paceFall.updateHitbox();
     paceFall.screenCenter();
     paceFall.y = -600;
-    paceFall.animation.play('idle');
-    paceFall.scale.set(0.6, 0.6);
-    paceFall.camera = camHUD;
     add(paceFall);
-    paceFall.visible = true;
+    paceFall.visible = false;
 
     paceFall2 = new FlxSprite();
     paceFall2.frames = Paths.getSparrowAtlas('stages/pace/v1/pacecut');
@@ -381,6 +403,17 @@ function postCreate() {
     paceCut2.screenCenter();
     add(paceCut2);
     paceCut2.visible = false;
+
+    s2 = new FlxSprite();
+    s2.frames = Paths.getSparrowAtlas('stages/pace/v2/p3/S2');
+    s2.animation.addByPrefix('idle', 'S2 S', 10, true);
+    s2.scale.set(1, 1);
+    s2.screenCenter();
+    insert(members.indexOf(gf), s2);
+    s2.animation.play('idle');
+    s2.x += 200;
+    s2.y += 200;
+    s2.visible = false;
 
     bgF = new FlxSprite(-700, 0);
     bgF.makeGraphic(1400, 1400, FlxColor.BLACK);

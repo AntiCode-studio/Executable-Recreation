@@ -9,15 +9,25 @@ var transitioning:Bool = true;
 var curSelected:Int = 0;
 var arts:Array<Array<Dynamic>> = [
     {
-        art:'test',
-        name:'Icon',
-        info:'HERNYA',
+        art:'logo',
+        name:'Old Logo',
+        info:'this is one of the older versions\nof the mod logo',
     },
     {
-        art:'testing',
-        name:'Icons aftershock',
-        info:'pohui',
-    }  
+        art:'test',
+        name:'Mod Icon',
+        info:'mod icon, nothing more',
+    },
+    {
+        art:'umny',
+        name:'Smart man',
+        info:'Smart man with glasses\ndownload wallpaper',
+    },
+    {
+        art:'devart',
+        name:'One of the arts',
+        info:'This was drawn\nby one of the development participants',
+    }
 ];
 
 var camBG:FlxCamera = new FlxCamera();
@@ -26,7 +36,7 @@ var camUI:FlxCamera = new FlxCamera();
 
 function create() {
 
-    ticking = FlxG.sound.load(Paths.sound('Metronome_Tick'), 1);
+    ticking = FlxG.sound.load(Paths.sound('Metronome_Tick'), 0.5);
 
     FlxG.cameras.add(camBG, false);
     camBG.bgColor = new FlxColor(0x00000000);
@@ -64,7 +74,7 @@ function create() {
     blackP.makeGraphic(1280, 720, FlxColor.WHITE);
     blackP.updateHitbox();
     blackP.screenCenter();
-    blackP.color = 0xf14aa6;
+    blackP.color = 0xDE5570;
     add(blackP);
 
     backdrop = new FlxBackdrop(Paths.image('menus/gallery/parts'));
@@ -129,6 +139,7 @@ function beatHit(curBeat:Int) {
         backdrop.scale.x = 0.99;
     }
 }
+var localTime:Float = 0;
 function update(elapsed:Float) {
     nameArt.text = arts[curSelected].name;
 	nameArt.screenCenter();
@@ -215,7 +226,7 @@ function handleMouseWheelZoom():Void
         targetZoom += wheel * 0.1;
         
         // Ограничиваем зум
-        targetZoom = FlxMath.bound(targetZoom, 0.25, 5.0);
+        targetZoom = FlxMath.bound(targetZoom, 0.2, 5);
         
         // Можно добавить эффект при зуме
         ticking.pitch = targetZoom;

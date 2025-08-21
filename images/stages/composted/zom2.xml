@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="zom2.png" width="6896" height="759">
+	<SubTexture name="zom20000" x="2207" y="0" width="451" height="744" frameX="-22" frameY="-11" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20001" x="2207" y="0" width="451" height="744" frameX="-22" frameY="-11" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20002" x="2207" y="0" width="451" height="744" frameX="-22" frameY="-11" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20003" x="3974" y="0" width="456" height="748" frameX="-22" frameY="-13" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20004" x="3974" y="0" width="456" height="748" frameX="-22" frameY="-13" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20005" x="3974" y="0" width="456" height="748" frameX="-22" frameY="-13" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20006" x="2663" y="0" width="451" height="744" frameX="-20" frameY="-19" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20007" x="2663" y="0" width="451" height="744" frameX="-20" frameY="-19" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20008" x="444" y="0" width="448" height="733" frameX="-11" frameY="-37" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20009" x="444" y="0" width="448" height="733" frameX="-11" frameY="-37" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20010" x="0" y="0" width="439" height="731" frameX="-12" frameY="-41" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20011" x="0" y="0" width="439" height="731" frameX="-12" frameY="-41" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20012" x="0" y="0" width="439" height="731" frameX="-12" frameY="-41" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20013" x="897" y="0" width="436" height="734" frameX="-13" frameY="-39" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20014" x="897" y="0" width="436" height="734" frameX="-13" frameY="-39" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20015" x="897" y="0" width="436" height="734" frameX="-13" frameY="-39" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20016" x="897" y="0" width="436" height="734" frameX="-13" frameY="-39" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20017" x="1338" y="0" width="428" height="736" frameX="-11" frameY="-37" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20018" x="1338" y="0" width="428" height="736" frameX="-11" frameY="-37" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20019" x="1771" y="0" width="431" height="739" frameX="-12" frameY="-33" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20020" x="1771" y="0" width="431" height="739" frameX="-12" frameY="-33" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20021" x="5270" y="0" width="422" height="752" frameX="-27" frameY="-15" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20022" x="5270" y="0" width="422" height="752" frameX="-27" frameY="-15" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20023" x="6495" y="0" width="401" height="759" frameX="-52" frameY="-8" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20024" x="6495" y="0" width="401" height="759" frameX="-52" frameY="-8" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20025" x="6495" y="0" width="401" height="759" frameX="-52" frameY="-8" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20026" x="6096" y="0" width="394" height="757" frameX="-59" frameY="-10" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20027" x="6096" y="0" width="394" height="757" frameX="-59" frameY="-10" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20028" x="6096" y="0" width="394" height="757" frameX="-59" frameY="-10" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20029" x="5697" y="0" width="394" height="756" frameX="-59" frameY="-12" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20030" x="5697" y="0" width="394" height="756" frameX="-59" frameY="-12" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20031" x="5697" y="0" width="394" height="756" frameX="-59" frameY="-12" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20032" x="5697" y="0" width="394" height="756" frameX="-59" frameY="-12" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20033" x="4435" y="0" width="396" height="749" frameX="-57" frameY="-16" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20034" x="4435" y="0" width="396" height="749" frameX="-57" frameY="-16" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20035" x="4435" y="0" width="396" height="749" frameX="-57" frameY="-16" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20036" x="3570" y="0" width="399" height="746" frameX="-45" frameY="-18" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20037" x="3570" y="0" width="399" height="746" frameX="-45" frameY="-18" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20038" x="4836" y="0" width="429" height="751" frameX="-29" frameY="-14" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20039" x="4836" y="0" width="429" height="751" frameX="-29" frameY="-14" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20040" x="4836" y="0" width="429" height="751" frameX="-29" frameY="-14" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20041" x="3119" y="0" width="446" height="745" frameX="-24" frameY="-10" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20042" x="3119" y="0" width="446" height="745" frameX="-24" frameY="-10" frameWidth="485" frameHeight="782"/>
+	<SubTexture name="zom20043" x="3119" y="0" width="446" height="745" frameX="-24" frameY="-10" frameWidth="485" frameHeight="782"/>
+</TextureAtlas>

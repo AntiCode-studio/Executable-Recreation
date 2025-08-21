@@ -1,4 +1,6 @@
 {
+	"customValues": {},
+	"color": "#140027",
 	"opponentModeAllowed": false,
 	"difficulties": [
 		"hard",
@@ -7,9 +9,6 @@
 	],
 	"icon": "shadow",
 	"coopAllowed": false,
-	"name": "Self Paced",
-	"color": -15466457,
-	"customValues": {},
 	"stepsPerBeat": 4,
 	"displayName": "Self Paced",
 	"beatsPerMeasure": 4,

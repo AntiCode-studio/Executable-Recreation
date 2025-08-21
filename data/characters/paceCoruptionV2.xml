@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="270" y="250" sprite="pace/selfpacefnfcorruption" antialiasing="false" camx="-200" icon="shadow" color="#000000">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="down" x="14" y="-24"/>
+	<anim name="singRIGHT" anim="right" x="9" y="-74"/>
+	<anim name="singLEFT" anim="left" x="143" y="-23"/>
+	<anim name="singUP" anim="up" x="4" y="94"/>
+</character>
