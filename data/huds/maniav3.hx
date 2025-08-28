@@ -205,7 +205,7 @@ function postCreate() {
 
     missesTxt.y += 20;
 
-    //camHUD.alpha = 0;
+    camHUD.alpha = 0;
 
 }
 static function updateTimeText(txt:String = '', textgroup:FlxSpriteGroup) {
