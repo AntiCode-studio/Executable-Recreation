@@ -1,12 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" y="250" sprite="composted/motha" icon="mother" flipX="true">
+<character y="250" sprite="composted/motha" flipX="true" color="#000000">
 	<anim name="idle" anim="idle"/>
-
-	<anim x="38" name="singDOWN" anim="down" y="126"/>
-
-	<anim x="150" name="singRIGHT" anim="right" y="-70"/>
-
-	<anim x="-75" name="singLEFT" anim="left" y="-60"/>
-
-	<anim x="-40" name="singUP" anim="up" y="65"/>
+	<anim name="singDOWN" anim="down" x="38" y="126"/>
+	<anim name="singRIGHT" anim="right" x="150" y="-70"/>
+	<anim name="singLEFT" anim="left" x="-75" y="-60"/>
+	<anim name="singUP" anim="up" x="-40" y="65"/>
 </character>

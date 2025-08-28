@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="50" y="270" sprite="composted/Sunfriend" antialiasing="false" camx="-20" camy="60" color="#000000" splashSkin="pvznoteSplashes" noteSkin="pvzNOTE_assets2">
+<character x="50" y="270" sprite="composted/Sunfriend" antialiasing="false" camx="-20" camy="60" color="#FFFFFF" splashSkin="pvznoteSplashes" noteSkin="pvzNOTE_assets2">
 	<anim name="idle" anim="idle"/>
 	<anim name="singDOWN" anim="down" x="14" y="-21"/>
 	<anim name="singRIGHT" anim="right" x="5" y="-33"/>

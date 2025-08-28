@@ -135,26 +135,34 @@ function update(elapsed:Float) {
 		};
 	}
 }
+var tweenFinished = false;
 function stepHit(curStep:Int) {
-    switch (curStep) {
-        case 15:
-            titleCut.visible = true;
-            FlxTween.tween(titleCut.scale, {y: 1, x: 1}, 2, {ease: FlxEase.quintInOut});
-            titleCut.animation.play('anim');
-        case 30: 
-            titleCut.visible = false;
-            bgt.alpha = 0;
-            FlxG.camera.flash(FlxColor.WHITE, 1);
-            transitioning = false;
-            backdrop.velocity.set(0, -30);
-        case 40: 
-            FlxTween.tween(logo, {y: 120, x: -320, 'scale.x': 0.4, 'scale.y': 0.4}, 2, {ease: FlxEase.quintInOut});
-        case 50:
-            FlxTween.tween(press, {alpha: 1}, 2, {ease: FlxEase.quintInOut});
-            FlxTween.tween(press2, {alpha: 1}, 2, {ease: FlxEase.quintInOut});
-        case 120:
-            FlxTween.tween(port1, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
-            FlxTween.tween(port2, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
-            FlxTween.tween(port3, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
+    if(!tweenFinished){
+        switch (curStep) {
+            case 15:
+                titleCut.visible = true;
+                FlxTween.tween(titleCut.scale, {y: 1, x: 1}, 2, {ease: FlxEase.quintInOut});
+                titleCut.animation.play('anim');
+            case 30: 
+                titleCut.visible = false;
+                bgt.alpha = 0;
+                FlxG.camera.flash(FlxColor.WHITE, 1);
+                transitioning = false;
+                backdrop.velocity.set(0, -30);
+                logo.scale.y = 1.2;
+                logo.scale.x = 1.2;
+                FlxTween.tween(logo.scale, {y: 1, x: 1}, 1, {ease: FlxEase.quintOut});
+            case 40: 
+                FlxTween.tween(logo, {y: 120, x: -320, 'scale.x': 0.4, 'scale.y': 0.4}, 2, {ease: FlxEase.quintInOut});
+            case 50:
+                FlxTween.tween(press, {alpha: 1}, 2, {ease: FlxEase.quintInOut});
+                FlxTween.tween(press2, {alpha: 1}, 2, {ease: FlxEase.quintInOut});
+            case 120:
+                FlxTween.tween(port1, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
+                FlxTween.tween(port2, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
+                FlxTween.tween(port3, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
+                tweenFinished = false;
     }
+    }
+    
 }

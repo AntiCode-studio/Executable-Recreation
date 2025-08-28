@@ -27,8 +27,8 @@ function create() {
     camGame.addShader(chromCushion);
     camGame.addShader(highContrast);
     highContrast.contrast = 1.25;
-    tvlight.blend = BlendMode.SUBSTRUCT;
-    tvlight.alpha = 0.5;
+    tvlight.blend = BlendMode.SHADER;
+    //tvlight.alpha = 0.5;
 
     tvlight.alpha = 0;
     pc.alpha = 0;
@@ -212,6 +212,10 @@ function onNoteCreation(e)
 function onStrumCreation(e)
     e.sprite = 'game/notes/pvzNOTE_assets2'; // same as above
 
+function onPlayerHit(e)
+{
+    e.note.splash = "pvz";
+}
 function stepHit(curStep:Int) {
     switch (curStep) {
         case 684: 

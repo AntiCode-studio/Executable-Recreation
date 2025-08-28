@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="500" y="-70" sprite="pace/v3/pace1" scale="0.5" antialiasing="false" flipX="true" camx="-800" camy="100" icon="pace" color="#A800FF">
+<character x="500" y="-70" sprite="pace/v3/pace1" scale="0.5" antialiasing="false" camx="-800" camy="100" isPlayer="true" icon="pace" color="#A800FF">
 	<anim name="idle" anim="idle" loop="true"/>
 	<anim name="singDOWN" anim="down" x="-110" y="-123" fps="18"/>
 	<anim name="singRIGHT" anim="left" x="-215" y="25"/>

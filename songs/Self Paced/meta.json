@@ -1,5 +1,8 @@
 {
-	"customValues": {},
+	"customValues": {
+		"playerName": "pace",
+		"oppName": "shadow"
+	},
 	"color": "#140027",
 	"opponentModeAllowed": false,
 	"difficulties": [

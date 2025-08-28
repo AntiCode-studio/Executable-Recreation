@@ -1,1 +1,2 @@
-importScript("data/huds/maniav2");
+importScript("data/huds/maniav3");
+paoFliped = true;
