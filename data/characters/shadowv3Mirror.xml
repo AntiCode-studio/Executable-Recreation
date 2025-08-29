@@ -1,8 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="500" y="-70" sprite="pace/v3/pace1" scale="0.5" antialiasing="false" camx="-800" camy="100" isPlayer="true" icon="pace" color="#A800FF">
-	<anim name="idle" anim="idle" loop="true"/>
-	<anim name="singDOWN" anim="down" x="-110" y="-123" fps="18"/>
-	<anim name="singRIGHT" anim="left" x="-215" y="25"/>
-	<anim name="singLEFT" anim="right" x="134" y="20"/>
-	<anim name="singUP" anim="up" x="30" y="130"/>
+<character x="400" y="-160" camx="-550" icon="shadow" camy="-20" flipX="true" isPlayer="true" color="#000000" antialiasing="false" sprite="pace/v3/shadow1">
+	<anim loop="true" name="idle" anim="i" fps="18"/>
+
+	<anim x="19" anim="d" y="-226" fps="18" name="singDOWN"/>
+
+	<anim x="-21" anim="r" y="-83" fps="18" name="singRIGHT"/>
+
+	<anim x="348" anim="l" y="-49" fps="18" name="singLEFT"/>
+
+	<anim x="-27" anim="u" y="260" fps="18" name="singUP"/>
 </character>

@@ -49,12 +49,12 @@ function create(event) {
     bg.frames = Paths.getSparrowAtlas('menus/pause/bg');
     bg.animation.addByPrefix('idle', 'frame', 16, true);
     bg.animation.play('idle');
-    bg.scale.set(1,1);
+    bg.scale.set(2,2);
     bg.updateHitbox();
     bg.screenCenter();
-    bg.scrollFactor.set(0.6,0.6);
 	bg.blend = BlendMode.DARKEN;
     add(bg);
+	FlxTween.tween(bg.scale, {x: 1.2, y: 1.2}, 2, {ease: FlxEase.cubeOut});
 
 	glitch.vertJerkOpt     = 0.0;
 	glitch.vertMovementOpt = 0.0;

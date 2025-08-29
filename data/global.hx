@@ -12,7 +12,6 @@ import openfl.text.TextFormat;
 import funkin.backend.system.framerate.FramerateCounter;
 import funkin.backend.MusicBeatTransition;
 
-//static var windowTitleFake:String = "Black Sock";
 static var windowTitle:String = "Executable Mania Recreation";
 
 static var curMainMenuSelected:Int = 0;

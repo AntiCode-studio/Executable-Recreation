@@ -17,10 +17,6 @@ function postCreate() {
     timeBG.scale.set(1.1, 1.1);
     timeBG.animation.play('idle');
     add(timeBG);
-    hudPort = new FlxSprite(0,0).loadGraphic(Paths.image('game/hud/idko'));
-	//add(hudPort);
-    hudPort2 = new FlxSprite(0,0).loadGraphic(Paths.image('game/hud/idkp'));
-	//add(hudPort2);
 
     hpBG = new FlxSprite();
     hpBG.frames = Paths.getSparrowAtlas('game/hud/v3/hp');
@@ -98,17 +94,6 @@ function postCreate() {
     rating.animation.play('idle');
     add(rating);
 
-    iconP1Fake = new HealthIcon(boyfriend != null ? boyfriend.getIcon() : "face", true);
-	iconP2Fake = new HealthIcon(dad != null ? dad.getIcon() : "face", false);
-    for(icon in [iconP1Fake, iconP2Fake]) {
-		//add(icon);
-	}
-
-    timeText = new FlxText(0, 0, 500, formatTime(inst.time / 1000), 60);
-	timeText.alignment = 'center';
-    timeText.font = Paths.font("sonic-classic-open-xl.ttf");
-	//add(timeText);
-
     imgTime = new FlxSprite().loadGraphic(Paths.image('game/hud/v3/timeNumbers'),true,36,54);
     imgTime.setGraphicSize(100);
     imgTime.updateHitbox();
@@ -128,7 +113,7 @@ function postCreate() {
     imgTime.animation.play('explode');
     imgTime.camera = camHUD;
 
-    for(i in [timeBG, hudPort, hudPort2, iconP1Fake, iconP2Fake, timeText, hpBG, hpBar1, hpBar2, hpBar3, hpBar4, hpBar5, hpBar6, hpBar7, hpBar8, hpFG, rating, ramka1, ramka]){
+    for(i in [timeBG, hpBG, hpBar1, hpBar2, hpBar3, hpBar4, hpBar5, hpBar6, hpBar7, hpBar8, hpFG, rating, ramka1, ramka]){
         i.screenCenter();
         //i.scale.set(1, 1);
         i.camera = camHUD;
@@ -140,13 +125,7 @@ function postCreate() {
     timerTxt.x -= 90;
     timerTxt.y -= 280;
 
-    iconP1Fake.x += 490;
-    iconP1Fake.y += 270;
-    iconP2Fake.x -= 490;
-    iconP2Fake.y += 270;
-    //timeBG.x -= 14;
     timeBG.y -= 250;
-    timeText.y -= 250;
     hpBG.y += 300;
     hpBar1.y += 300;
     hpBar2.y += 300;
@@ -208,6 +187,28 @@ function postCreate() {
     camHUD.alpha = 0;
 
 }
+function paoUpdate(aaa:Bool) {
+    paoFliped = aaa;
+    //trace(paoFliped);
+    portUpdate();
+}
+function portUpdate() {
+    if(paoFliped){
+        portOponent.x = ramka.x;
+        portOponent.y = ramka.y;
+        portPlayer.x = ramka1.x;
+        portPlayer.y = ramka1.y;
+        portOponent.flipX = false;
+        portPlayer.flipX = false;
+    }else {
+        portOponent.x = ramka1.x;
+        portOponent.y = ramka1.y;
+        portPlayer.x = ramka.x;
+        portPlayer.y = ramka.y;
+        portOponent.flipX = true;
+        portPlayer.flipX = true;
+    }
+}
 static function updateTimeText(txt:String = '', textgroup:FlxSpriteGroup) {
 	timerVtoroi = txt;
 	return textgroup.forEach((spr) -> {
@@ -259,8 +260,6 @@ function postUpdate(){
     //iconP1Fake.scale.set(lerp(iconP1Fake.scale.x, 0.6, 0.33), lerp(iconP1Fake.scale.y ,0.6, 0.33));
     //timeText.text = formatTime(inst.time / 1000);
 
-    hudPort.alpha = healthBarBG.alpha;
-    hudPort2.alpha = healthBarBG.alpha;
     timeBG.alpha = healthBarBG.alpha;
     //timeText.alpha = healthBarBG.alpha;
     //iconP2Fake.alpha = healthBarBG.alpha;
@@ -309,9 +308,9 @@ function postUpdate(){
     }
 }
 
-function onDadHit() iconP2Fake.scale.set(0.8, 0.8);
+//function onDadHit() iconP2Fake.scale.set(0.8, 0.8);
 
-function onPlayerHit(event:NoteHitEvent) iconP1Fake.scale.set(0.8, 0.8);
+//function onPlayerHit(event:NoteHitEvent) iconP1Fake.scale.set(0.8, 0.8);
 
 function beatHit(){
     //iconP1Fake.scale.set(0.8, 0.8);

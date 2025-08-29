@@ -13,7 +13,7 @@ waveShader = new CustomShader('wave');
 waveShader.speed =0.005;
 waveShader.intensity = 6;
 waveShader.bloom =0;
-importScript("data/huds/maniav2");
+importScript("data/huds/maniav3");
 redpal = new CustomShader('Red');
 redpal.bitch = 0.3;
 redpal.desaturationAmount = 1;
