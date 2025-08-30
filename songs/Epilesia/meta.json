@@ -1,13 +1,12 @@
 {
+	"color": "#FFFFFF",
+	"customValues": {},
 	"opponentModeAllowed": false,
 	"icon": "pen2",
 	"difficulties": [
 		"pendrive",
 		"test"
 	],
-	"customValues": {},
-	"color": -1,
-	"name": "Epilesia",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "Epilepsia",

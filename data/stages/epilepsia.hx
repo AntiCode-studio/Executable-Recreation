@@ -19,6 +19,9 @@ redpal.bitch = 0.3;
 redpal.desaturationAmount = 1;
 camGame.addShader(redpal);
 
+portVisible = false;
+timeVisible = false;
+
 glitch = new CustomShader('glitchA');
 
 distort = new CustomShader('Distort');

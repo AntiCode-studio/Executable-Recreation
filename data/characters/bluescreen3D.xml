@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-800" y="-90" sprite="unregistered/unregisteredguy" scale="0.5" camx="200" icon="bluescreen" color="#000000">
+	<anim name="idle" anim="unregisteredguy idle"/>
+	<anim name="singDOWN" anim="unregisteredguy down"/>
+	<anim name="singRIGHT" anim="unregisteredguy right"/>
+	<anim name="singLEFT" anim="unregisteredguy left"/>
+	<anim name="singUP" anim="unregisteredguy up"/>
+</character>

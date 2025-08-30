@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-character>
+<character x="-190" y="20" sprite="unregistered/unregistered" camx="-30" scale="0.3" camy="200">
+	<anim x="-365" anim="idle" y="50" fps="20" name="idle" loop="true"/>
+
+	<anim x="-436" name="singDOWN" anim="down" y="-113"/>
+
+	<anim x="-550" name="singRIGHT" anim="right" y="-95"/>
+
+	<anim x="-230" name="singLEFT" anim="left" y="115"/>
+
+	<anim x="-345" name="singUP" anim="up" y="25"/>
+
+	<anim x="-350" name="singUP-alt" anim="alt up" y="-5"/>
+
+	<anim x="-400" name="singDOWN-alt" anim="alt down" y="-105"/>
+
+	<anim x="-475" name="singRIGHT-alt" anim="alt right" y="-100"/>
+
+	<anim x="-155" name="singLEFT-alt" anim="alt left" y="95"/>
+</character>

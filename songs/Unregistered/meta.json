@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#000000",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"v3"
+	],
+	"icon": "bluescreen",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Unregistered",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 128
+}

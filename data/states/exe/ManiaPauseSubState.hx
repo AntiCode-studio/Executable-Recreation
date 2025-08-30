@@ -54,7 +54,7 @@ function create(event) {
     bg.screenCenter();
 	bg.blend = BlendMode.DARKEN;
     add(bg);
-	FlxTween.tween(bg.scale, {x: 1.2, y: 1.2}, 2, {ease: FlxEase.cubeOut});
+	FlxTween.tween(bg, {"scale.x": 1.2, "scale.y": 1.2, alpha: 0.1}, 0.5, {ease: FlxEase.cubeOut});
 
 	glitch.vertJerkOpt     = 0.0;
 	glitch.vertMovementOpt = 0.0;

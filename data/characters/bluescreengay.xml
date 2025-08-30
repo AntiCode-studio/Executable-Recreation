@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="unregistered/bluescreen3" scale="0.6" icon="bluescreengay">
+	<anim name="idle" anim="floating idle" loop="true"/>
+	<anim name="singDOWN" anim="d"/>
+	<anim name="singRIGHT" anim="r"/>
+	<anim name="singLEFT" anim="l"/>
+	<anim name="singUP" anim="up"/>
+</character>

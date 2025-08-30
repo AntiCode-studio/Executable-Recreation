@@ -2,10 +2,22 @@
 	"events": [
 		{
 			"params": [
-				2
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 0,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"ManiaNotes",
+				1
+			],
+			"time": 0,
+			"name": "Change Noteskin"
 		},
 		{
 			"params": [
@@ -629,13 +641,15 @@
 			"name": "Zoom"
 		}
 	],
-	"stage": "epilepsia",
 	"codenameChart": true,
+	"stage": "epilepsia",
 	"scrollSpeed": 3.2,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 1,
@@ -3819,7 +3833,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 85.2272727269446,
+					"sLen": 85.2272727269155,
 					"time": 209236.268844823,
 					"type": 0
 				},
@@ -4095,7 +4109,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 239.361702127499,
+					"sLen": 239.361702127469,
 					"time": 250109.092829349,
 					"type": 0
 				},
@@ -4155,7 +4169,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 79.7872340426838,
+					"sLen": 79.787234042713,
 					"time": 252662.284318711,
 					"type": 0
 				},
@@ -4658,25 +4672,21 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"visible": false,
-			"type": 0,
 			"characters": [
 				"BlueUSB2",
 				"qutroDA"
 			],
+			"type": 0,
+			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -7206,7 +7216,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 398.936170212401,
+					"sLen": 398.936170212342,
 					"time": 214284.624744243,
 					"type": 0
 				},
@@ -7338,7 +7348,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 239.361702127237,
+					"sLen": 239.361702127208,
 					"time": 219391.007722966,
 					"type": 0
 				},
@@ -7949,29 +7959,32 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"bf2"
-			],
-			"type": 1,
 			"visible": true,
+			"strumSpacing": 3,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.5,
+			"type": 1,
+			"characters": [
+				"bf2"
+			]
 		},
 		{
 			"keyCount": 4,
-			"notes": [],
-			"position": "girlfriend",
 			"strumScale": 1,
-			"visible": false,
-			"scrollSpeed": null,
-			"type": 2,
+			"position": "girlfriend",
+			"notes": [],
 			"characters": [
 				"gf"
 			],
+			"type": 2,
+			"scrollSpeed": null,
+			"visible": false,
 			"strumPos": [
 				0,
 				50

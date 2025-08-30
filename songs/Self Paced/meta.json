@@ -1,7 +1,7 @@
 {
 	"customValues": {
-		"playerName": "pace",
-		"oppName": "shadow"
+		"oppName": "shadow",
+		"playerName": "pace"
 	},
 	"color": "#140027",
 	"opponentModeAllowed": false,
@@ -16,5 +16,8 @@
 	"displayName": "Self Paced",
 	"beatsPerMeasure": 4,
 	"needsVoices": true,
+	"variants": [
+		"Self Paced Side-b"
+	],
 	"bpm": 165
 }

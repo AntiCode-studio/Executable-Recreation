@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character camx="90" icon="michi" sprite="unregistered/michi_unregistred" camy="0" scale="0.8" flipX="true" isPlayer="true">
+	<anim anim="idle" name="idle"/>
+
+	<anim x="20" y="-30" anim="down" name="singDOWN"/>
+
+	<anim x="130" y="-22" anim="right" name="singRIGHT"/>
+
+	<anim x="55" anim="left" name="singLEFT"/>
+
+	<anim x="-50" y="40" anim="up" name="singUP"/>
+</character>

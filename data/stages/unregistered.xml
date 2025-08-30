@@ -1,0 +1,36 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/unregistered/" zoom="0.75" name="unregistered">
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="bg1" scale="1" zoomfactor="1">
+		<anim name="idle" anim="window" loop="true"/>
+	</sprite>
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="nightmarelon" scale="1" zoomfactor="1">
+		<anim name="idle" anim="watermelonm" loop="true"/>
+	</sprite>
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="bg" scale="1" zoomfactor="1">
+		<anim name="idle" anim="bg" loop="true"/>
+	</sprite>
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="bed" scale="1" zoomfactor="1">
+		<anim name="idle" anim="bed" loop="true"/>
+	</sprite>
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="tvInner" scale="1" zoomfactor="1">
+		<anim name="idle" anim="tv_inside" loop="true"/>
+	</sprite>
+	<dad x="570" y="-130" camxoffset="-20"/>
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="tvLayer" scale="1" zoomfactor="1">
+		<anim name="idle" anim="tv1" loop="true"/>
+	</sprite>
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="beanbag" scale="1" zoomfactor="1">
+		<anim name="idle" anim="beanbag" loop="true"/>
+	</sprite>
+	<girlfriend/>
+	<boyfriend x="900" y="380" camxoffset ="20" scroll="1"/>
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="lightBeams" scale="1" zoomfactor="1">
+		<anim name="idle" anim="beams" loop="true"/>
+	</sprite>
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="lights" scale="1" zoomfactor="1">
+		<anim name="idle" anim="lights_" loop="true"/>
+	</sprite>
+	<sprite antialiasing="false" x="0" scroll="1" sprite="bgAssets" y="0" type="none" name="lightbulbs" scale="1" zoomfactor="1">
+		<anim name="idle" anim="lights1" loop="true"/>
+	</sprite>
+</stage>

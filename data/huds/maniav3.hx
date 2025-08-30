@@ -10,6 +10,9 @@ var scaleTimer = 1.2;
 var starsGrp:FlxGroup;
 
 public var paoFliped:Bool = false;
+
+public var portVisible:Bool = true;
+public var timeVisible:Bool = true;
 function postCreate() {
     timeBG = new FlxSprite();
     timeBG.frames = Paths.getSparrowAtlas('game/hud/v3/time');
@@ -17,6 +20,8 @@ function postCreate() {
     timeBG.scale.set(1.1, 1.1);
     timeBG.animation.play('idle');
     add(timeBG);
+    
+    timeBG.alpha = 0;
 
     hpBG = new FlxSprite();
     hpBG.frames = Paths.getSparrowAtlas('game/hud/v3/hp');
@@ -126,6 +131,7 @@ function postCreate() {
     timerTxt.y -= 280;
 
     timeBG.y -= 250;
+    timeBG.y -= 50;
     hpBG.y += 300;
     hpBar1.y += 300;
     hpBar2.y += 300;
@@ -171,8 +177,6 @@ function postCreate() {
         insert(members.indexOf(strumLines), aaa);
     }
 
-    createText(timeString(), timerTxt, 0.40, scaleTimer);
-
     reroyexplodes = new FlxSprite().loadGraphic(Paths.image('bl'),true,90,125);
     reroyexplodes.animation.add('explode',[0,1,2,3,4,5,6,7,8,9,10,11,12,12,12,12,12,12,12,12],12,false);
     reroyexplodes.setGraphicSize(2560);
@@ -184,8 +188,22 @@ function postCreate() {
 
     missesTxt.y += 20;
 
-    camHUD.alpha = 0;
+    //camHUD.alpha = 0;
 
+    if(!portVisible){
+        ramka.alpha = 0;
+        ramka1.alpha = 0;
+        portOponent.alpha = 0;
+        portPlayer.alpha = 0;
+    }
+
+}
+function onSongStart() {
+    if(timeVisible){
+        FlxTween.tween(timeBG, {y: timeBG.y + 50, alpha: 1}, 0.5, {ease: FlxEase.quintOut});
+        createText(timeString(), timerTxt, 0.40, scaleTimer);
+    }
+    
 }
 function paoUpdate(aaa:Bool) {
     paoFliped = aaa;
@@ -219,9 +237,9 @@ static function updateTimeText(txt:String = '', textgroup:FlxSpriteGroup) {
 		}
 	});
 }
-function onSongStart() {
-    FlxTween.tween(camHUD, {alpha: 1}, 2, {ease: FlxEase.quintInOut});
-}
+//function onSongStart() {
+//    FlxTween.tween(camHUD, {alpha: 1}, 2, {ease: FlxEase.quintInOut});
+//}
 static function createText(txt:String = '', textgroup:FlxSpriteGroup, spacing:Float = 1, scale:Float = 1) {
 	textgroup?.clear();
 
@@ -259,8 +277,7 @@ function postUpdate(){
     //iconP2Fake.scale.set(lerp(iconP2Fake.scale.x, 0.6, 0.33), lerp(iconP2Fake.scale.y ,0.6, 0.33));
     //iconP1Fake.scale.set(lerp(iconP1Fake.scale.x, 0.6, 0.33), lerp(iconP1Fake.scale.y ,0.6, 0.33));
     //timeText.text = formatTime(inst.time / 1000);
-
-    timeBG.alpha = healthBarBG.alpha;
+    
     //timeText.alpha = healthBarBG.alpha;
     //iconP2Fake.alpha = healthBarBG.alpha;
     //iconP1Fake.alpha = healthBarBG.alpha;

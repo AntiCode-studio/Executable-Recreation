@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bgAssets.png" width="3105" height="2783">
+	<SubTexture name="beams" x="1234" y="1832" width="1346" height="768" frameX="-461" frameY="-282" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="beanbag" x="2011" y="304" width="440" height="305" frameX="-0" frameY="-745" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="bed" x="1" y="1832" width="1223" height="950" frameX="-777" frameY="-100" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="bg" x="1" y="1" width="2000" height="1050" frameX="-0" frameY="-0" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="lights1" x="1" y="1061" width="2000" height="761" frameX="-0" frameY="-0" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="lights_" x="2590" y="1" width="337" height="2000" rotated="true" frameX="-0" frameY="-0" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="obj1" x="2011" y="1466" width="141" height="120" frameX="-453" frameY="-704" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="obj2" x="2418" y="771" width="146" height="106" rotated="true" frameX="-148" frameY="-789" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="obj3" x="2461" y="304" width="83" height="125" rotated="true" frameX="-498" frameY="-949" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="obj4" x="2011" y="1596" width="136" height="121" frameX="-118" frameY="-595" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="obj5" x="2288" y="895" width="255" height="277" frameX="-386" frameY="-389" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="obj6" x="2011" y="619" width="397" height="266" frameX="-1170" frameY="-447" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="obj7" x="2418" y="619" width="126" height="142" frameX="-687" frameY="-858" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="obj8" x="2590" y="2433" width="514" height="335" frameX="-639" frameY="-425" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="tv1" x="2011" y="1" width="495" height="293" frameX="-651" frameY="-135" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="tv_inside" x="2590" y="2011" width="455" height="412" frameX="-671" frameY="-147" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="watermelonm" x="2011" y="1170" width="205" height="286" frameX="-1581" frameY="-305" frameWidth="2000" frameHeight="1050"/>
+	<SubTexture name="window" x="2011" y="895" width="267" height="265" frameX="-1499" frameY="-268" frameWidth="2000" frameHeight="1050"/>
+</TextureAtlas>

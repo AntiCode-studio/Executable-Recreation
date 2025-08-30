@@ -1,0 +1,20 @@
+{
+	"customValues": {
+		"playerName": "pace",
+		"oppName": "shadow"
+	},
+	"color": "#C3C3C3",
+	"instSuffix": "-B",
+	"opponentModeAllowed": false,
+	"icon": "light",
+	"difficulties": [
+		"v3"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Self Paced Side-B",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"vocalsSuffix": "-B",
+	"bpm": 168
+}
