@@ -50,6 +50,10 @@ function paceRun(trueOrFalse:Bool) {
     
 }
 
+function shadowHI() {
+    FlxTween.tween(strumLines.members[0].characters[0], {y: -150}, 2, {ease: FlxEase.backOut});
+}
+
 function phaceChange(phace:Bool) {
     trace(phace);
     if(phace == "true"){
@@ -68,12 +72,19 @@ function phaceChange(phace:Bool) {
         bgp3.visible = true;
     }
     if (phace == 'final'){
-        dadTrail.visible = false;
+        dadTrail.visible = true;
         isRun = true;
         bgF.visible = true;
+        bglight.visible = true;
         //shadowFake.visible = true;
         ostrov.visible = true;
         //shadowBig.visible = true;
+        strumLines.members[0].characters[0].y = 1500;
+        strumLines.members[0].characters[0].x = 100;
+        remove(strumLines.members[0].characters[0]);
+        insert(members.indexOf(ostrov), strumLines.members[0].characters[0]);
+        remove(dadTrail);
+        insert(members.indexOf(strumLines.members[0].characters[0]), dadTrail);
     }
     if (phace == 'final2'){
         for (i in [strumLines.members[3].characters[0], strumLines.members[3].characters[1], strumLines.members[3].characters[3], strumLines.members[3].characters[4], strumLines.members[3].characters[2]]){
@@ -135,6 +146,11 @@ function phaceChange(phace:Bool) {
     }
 }
 
+function pretrans() {
+    
+    FlxTween.tween(s2.scale, {x: 10, y:10}, 2);
+}
+
 function dark(blabla) {
     trace(blabla);
     if(blabla == '0'){
@@ -147,11 +163,15 @@ function dark(blabla) {
         paceFall.visible = true;
         FlxTween.tween(paceFall, {y: 120}, 5, {ease: FlxEase.backOut});
         FlxTween.tween(paceFall2, {y: 0}, 5, {ease: FlxEase.backOut});
+        
+        bglight.visible = true;
     }
     if(blabla == '1'){
         bgB.alpha = 0;
         paceFall2.visible = false;
         paceFall.visible = false;
+        
+        bglight.visible = false;
     }
     if(blabla == '3'){
         paceFall2.animation.play('pre-scared');
@@ -415,15 +435,25 @@ function postCreate() {
     s2.y += 200;
     s2.visible = false;
 
-    bgF = new FlxSprite(-700, 0);
+    bgF = new FunkinSprite(-700, 0);
     bgF.makeGraphic(1400, 1400, FlxColor.BLACK);
     bgF.scrollFactor.set(0,0);
     insert(members.indexOf(gf), bgF);
     bgF.scale.set(3, 3);
     bgF.visible = false;
+    bgF.zoomFactor = 0;
+
+    bglight = new FunkinSprite(-700, 0);
+    bglight.loadGraphic(Paths.image('stages/pace/v2/lights'));
+    bglight.scrollFactor.set(0,0);
+    bglight.updateHitbox();
+    bglight.screenCenter();
+    insert(members.indexOf(gf), bglight);
+    bglight.visible = false;
+    bglight.zoomFactor = 0;
     
     shadowBig = new FlxSprite(-800,-300).loadGraphic(Paths.image('stages/pace/v2/finale/shadow big'));
-    shadowBig.scale.set(1, 1);
+    shadowBig.scale.set(1.5, 1.5);
     shadowBig.updateHitbox();
     insert(members.indexOf(gf), shadowBig);
     shadowBig.visible = false;

@@ -1,8 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="unregistered/bluescreen3" scale="0.6" icon="bluescreengay">
+<character sprite="unregistered/bluescreen3" scale="0.4">
 	<anim name="idle" anim="floating idle" loop="true"/>
-	<anim name="singDOWN" anim="d"/>
-	<anim name="singRIGHT" anim="r"/>
-	<anim name="singLEFT" anim="l"/>
-	<anim name="singUP" anim="up"/>
+	<anim name="singDOWN" anim="d" x="605" y="90"/>
+	<anim name="singRIGHT" anim="r" x="830" y="90"/>
+	<anim name="singLEFT" anim="l" x="660" y="85"/>
+	<anim name="singUP" anim="up" x="590" y="70"/>
+	<anim name="singDOWN-alt" anim="altd" x="605" y="90"/>
+	<anim name="singRIGHT-alt" anim="altr" x="830" y="90"/>
+	<anim name="singLEFT-alt" anim="altl" x="660" y="85"/>
+	<anim name="singUP-alt" anim="altup" x="590" y="70"/>
 </character>

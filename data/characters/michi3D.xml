@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="500" y="-100" sprite="unregistered/michi3D" scale="0.5" flipX="true" camx="-700" camy="300" isPlayer="true" icon="michi3D">
+<character x="-530" y="-200" sprite="unregistered/michi3D" scale="0.5" flipX="true" camx="-580" camy="250" isPlayer="true" icon="michi" color="#000000">
 	<anim name="idle" anim="michi idle" loop="true"/>
 	<anim name="singDOWN" anim="michi down"/>
 	<anim name="singRIGHT" anim="michi right"/>

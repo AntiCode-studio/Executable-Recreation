@@ -217,6 +217,28 @@
 		},
 		{
 			"params": [
+				"runTruns",
+				""
+			],
+			"time": 92812.5,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				0.6,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"stage",
+				false
+			],
+			"time": 92812.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -329,6 +351,42 @@
 		},
 		{
 			"params": [
+				true,
+				0.01,
+				"camGame",
+				24,
+				"quad",
+				"In",
+				"stage",
+				false
+			],
+			"time": 169687.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				"thirdPart",
+				""
+			],
+			"time": 172968.75,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				0.25,
+				"linear",
+				"In",
+				"stage",
+				false
+			],
+			"time": 173437.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -347,6 +405,16 @@
 			],
 			"name": "Camera Movement",
 			"time": 184687.5
+		},
+		{
+			"params": [
+				"30",
+				"Cube",
+				"Out",
+				"1"
+			],
+			"time": 186562.5,
+			"name": "Cinematics (Bar)"
 		},
 		{
 			"params": [
@@ -417,19 +485,12 @@
 			],
 			"name": "Camera Movement",
 			"time": 233437.5
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 239062.5
 		}
 	],
 	"stage": "unregistered",
 	"codenameChart": true,
-	"chartVersion": "1.6.0",
 	"scrollSpeed": 3.4,
+	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,

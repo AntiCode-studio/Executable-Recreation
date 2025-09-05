@@ -69,7 +69,7 @@ function create(event) {
 
 	if(PlayState.SONG.meta.displayName == 'burger'){
 		puseArt = new FlxSprite(0, 0);
-    	puseArt.loadGraphic(Paths.image('menus/pause/arts/' + PlayState.SONG.meta.displayName), false, 100, 100); // Замените на свой спрайт
+    	puseArt.loadGraphic(Paths.image('menus/pause/characters/' + PlayState.SONG.meta.displayName), false, 100, 100); // Замените на свой спрайт
     	puseArt.scale.set(0.55, 0.55);
     	puseArt.updateHitbox();
     	puseArt.screenCenter();

@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="unregistered/MichiFloat_assets" scale="0.8" icon="michi" color="#000000">
+<character sprite="unregistered/MichiFloat_assets" scale="0.6" flipX="true" isPlayer="true" icon="michi" color="#000000">
 	<anim name="idle" anim="idle"/>
 	<anim name="singDOWN" anim="down" x="-110" y="-75"/>
 	<anim name="singRIGHT" anim="right" x="-445" y="85"/>
