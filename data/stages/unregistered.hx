@@ -1,5 +1,7 @@
 import openfl.display.BlendMode;
 import flixel.effects.FlxFlicker;
+import flixel.addons.display.FlxBackdrop;
+import flixel.tweens.FlxTween.FlxTweenType;
 
 importScript("data/huds/maniav3");
 //importScript("data/scripts/cameraTweks");
@@ -11,6 +13,8 @@ mosaicShader = new CustomShader('mosaic');
 mosaicShader.pixel = 0.000000001;
 
 glitchShader = new CustomShader('glitch');
+snowfall = new CustomShader('GlitchShaderA');
+bg3dGlitch = new CustomShader('GlitchShaderA');
 /*glitchShader.prob = 0;
 glitchShader.vignetteIntensity = 0;
 glitchShader.size = 0;
@@ -24,6 +28,8 @@ glitchShader.size = 0.125;
 glitchShader.grid = 1.5;
 glitchShader.blocks = 0.2;
 glitchShader.glitchScale = 0.1;*/
+
+var part;
 
 var objs:Array<FlxSprite> = [];
 function generChar() {
@@ -41,10 +47,13 @@ function extraGlitch() {
     mosaicShader.pixel = 100;
 }
 var blue;
-function onBeatHit() {
-    if (curBeat % 2 == 0 && FlxG.random.bool(5)) {
-        FlxFlicker.flicker(lightbulbs,FlxG.random.float(0.2,0.6),FlxG.random.float(0.02,0.1),true);
+function beatHit(curBeat:Int) {
+    if(part== 1||part ==3){
+        if (curBeat % 2 == 0 && FlxG.random.bool(5)) {
+            FlxFlicker.flicker(lightbulbs,FlxG.random.float(0.2,0.6),FlxG.random.float(0.02,0.1),true);
+        }
     }
+    
 }
 function postCreate() {
 
@@ -84,9 +93,49 @@ function postCreate() {
     strumLines.members[1].characters[2].visible = false;
 
     createLegs();
+
+    snowfall.glitchAmount = 0.0001;
+    camGame.addShader(snowfall);
+
+    part = 1;
 }
 
 function createLegs() {
+    dsky = new FunkinSprite().loadGraphic(Paths.image('stages/unregistered/3dsky'));
+    dsky.scale.set(3,3);
+    dsky.scrollFactor.set(0.5,0.5);
+    dsky.updateHitbox();
+    dsky.screenCenter();
+    dsky.zoomFactor = 0.5;
+	insert(members.indexOf(dad),dsky);
+    dsky.visible = false;
+    bg3dGlitch.glitchAmount = 0.1;
+    dsky.shader = bg3dGlitch;
+
+    floor = new FlxSprite();
+	floor.frames = Paths.getSparrowAtlas('stages/unregistered/floorAnimation');
+	floor.animation.addByPrefix('i','floor',15);
+	floor.animation.play('i');
+	floor.scale.set(2.2,2.2);
+    insert(members.indexOf(dad),floor);
+    floor.visible = false;
+
+    trees1 = new FlxBackdrop(Paths.image('stages/unregistered/trees1'), 1, 0);
+    trees1.scale.set(2,2);
+    trees1.velocity.set(-2000, 0);
+    trees1.y -= 100;
+    trees1.scrollFactor.set(0.8,0.8);
+	insert(members.indexOf(dad),trees1);
+    trees1.visible = false;
+
+    trees2 = new FlxBackdrop(Paths.image('stages/unregistered/trees2'), 1, 0);
+    trees2.scale.set(2.7,2.7);
+    trees2.velocity.set(-2550, 0);
+    trees2.y += 200;
+    trees2.scrollFactor.set(1.2,1.2);
+	add(trees2);
+    trees2.visible = false;
+
     blueScreenLegs = new FlxSprite();
     blueScreenLegs.frames = Paths.getSparrowAtlas('characters/unregistered/unregisteredguy');
     blueScreenLegs.animation.addByPrefix('i','unregisteredlegs legs',20);
@@ -104,14 +153,17 @@ function createLegs() {
     insert(members.indexOf(dad), michiLegs);
 
 }
-
+function glitchTrans() {
+    FlxTween.tween(snowfall, {glitchAmount: 10}, 3);
+    FlxTween.tween(camGame, {alpha: 0}, 3);
+}
 function stepHit(curStep:Int) {
     if(curStep % 16 == 0){
         if (forcedMosaic){
             mosaicShader.pixel = 10;
         }
         if (FlxG.random.bool(30)) {
-            if (nightmarelon.y == -200) {
+            if (nightmarelon.y == 200) {
                 FlxTween.tween(nightmarelon, {y: 0},5);
             }
             else if (nightmarelon.y == 0){
@@ -126,13 +178,15 @@ var localTimer = 0;
 function postUpdate(elapsed:Float) {
     localTimer += elapsed;
     glitchShader.time = localTimer;
+    bg3dGlitch.iTime = localTimer;
+    snowfall.iTime = localTimer;
     if (forcedMosaic){
         //mosaicShader.pixel = FlxMath.lerp(mosaicShader.pixel,0.001,0.03 * 60 * elapsed);
         mosaicShader.pixel = FlxMath.lerp(mosaicShader.pixel, 0.001, 0.03 * 60 * elapsed);
     }
     if (strumLines.members[0].characters[1].visible == true) {
         blueScreenLegs.visible = true;
-        blueScreenLegs.setPosition(strumLines.members[0].characters[1].x + 750, strumLines.members[0].characters[1].y + 160);
+        blueScreenLegs.setPosition(strumLines.members[0].characters[1].x - 700, strumLines.members[0].characters[1].y + 70);
         if (strumLines.members[0].characters[1].animation.curAnim.name == 'idle') {
             strumLines.members[0].characters[1].animation.curAnim.curFrame = blueScreenLegs.animation.curAnim.curFrame;
         }
@@ -143,7 +197,7 @@ function postUpdate(elapsed:Float) {
 
     if (strumLines.members[1].characters[1].visible == true) {
         michiLegs.visible = true;
-        michiLegs.setPosition(strumLines.members[1].characters[1].x + 390, strumLines.members[1].characters[1].y + 215);
+        michiLegs.setPosition(strumLines.members[1].characters[1].x - 140, strumLines.members[1].characters[1].y + 90);
         if (strumLines.members[1].characters[1].animation.curAnim.name == 'idle') {
             strumLines.members[1].characters[1].animation.curAnim.curFrame = michiLegs.animation.curAnim.curFrame;
         }
@@ -154,13 +208,21 @@ function postUpdate(elapsed:Float) {
 }
 
 function runTruns() {
+    part = 2;
     zoomAllow = false;
     strumLines.members[0].characters[0].visible = false;
     strumLines.members[1].characters[0].visible = false;
     strumLines.members[0].characters[1].visible = true;
     strumLines.members[1].characters[1].visible = true;
 
+    strumLines.members[1].characters[1].y += 250;
+
     strumLines.members[0].characters[1].y = strumLines.members[1].characters[1].y;
+
+    dsky.visible = true;
+    floor.visible = true;
+    trees1.visible = true;
+    trees2.visible = true;
 
     bg1.visible = false;
     nightmarelon.visible = false;
@@ -181,6 +243,14 @@ function runTruns() {
 }
 
 function thirdPart() {
+    part = 3;
+    camGame.alpha = 1;
+    snowfall.glitchAmount = 0.00001;
+    dsky.visible = false;
+    floor.visible = false;
+    trees1.visible = false;
+    trees2.visible = false;
+
     zoomAllow = false;
     bg1.visible = true;
     nightmarelon.visible = true;
@@ -205,12 +275,34 @@ function thirdPart() {
     strumLines.members[1].characters[1].visible = false;
     strumLines.members[0].characters[2].visible = true;
     strumLines.members[1].characters[2].visible = true;
+
+    strumLines.members[1].characters[2].angle -= 2;
+    strumLines.members[0].characters[2].angle += 2;
+    strumLines.members[1].characters[2].y -= 250;
+    strumLines.members[0].characters[2].y = strumLines.members[1].characters[2].y - 50;
+    strumLines.members[0].characters[2].x -= 150;
+    trace(strumLines.members[1].characters[2].y);
+    FlxTween.tween(strumLines.members[1].characters[2], {angle: 2, y:180}, 4, {ease: FlxEase.expoInOut, type: FlxTweenType.PINGPONG});
+    FlxTween.tween(strumLines.members[0].characters[2], {angle: -2, y:60}, 4, {ease: FlxEase.expoInOut, type: FlxTweenType.PINGPONG});
+
+    remove(strumLines.members[0].characters[2]);
+    insert(members.indexOf(strumLines.members[1].characters[2]), strumLines.members[0].characters[2]);
 }
 
 function onPlayerMiss(event:NoteMissEvent) {
     flicker();
 }
 function flicker() {
-    boyfriend.setColorTransform(0.5,0.5,1);
-    FlxFlicker.flicker(boyfriend,1,0.05,true,true,(flicker)->{boyfriend.setColorTransform(1,1,1);});
+    if(part == 1){
+        strumLines.members[1].characters[0].setColorTransform(0.5,0.5,1);
+        FlxFlicker.flicker(strumLines.members[1].characters[0],1,0.05,true,true,(flicker)->{strumLines.members[1].characters[0].setColorTransform(1,1,1);});
+    }else if (part == 2){
+        strumLines.members[1].characters[1].setColorTransform(0.5,0.5,1);
+        FlxFlicker.flicker(strumLines.members[1].characters[1],1,0.05,true,true,(flicker)->{strumLines.members[1].characters[1].setColorTransform(1,1,1);});
+        michiLegs.setColorTransform(0.5,0.5,1);
+        FlxFlicker.flicker(michiLegs,1,0.05,true,true,(flicker)->{michiLegs.setColorTransform(1,1,1);});
+    }else if (part == 3){
+        strumLines.members[1].characters[2].setColorTransform(0.5,0.5,1);
+        FlxFlicker.flicker(strumLines.members[1].characters[2],1,0.05,true,true,(flicker)->{strumLines.members[1].characters[2].setColorTransform(1,1,1);});
+    }
 }

@@ -1,8 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="-1090" y="-160" sprite="unregistered/unregisteredguy" scale="0.6" camx="800" camy="270" icon="bluescreen" color="#000000">
-	<anim name="idle" anim="unregisteredguy idle" loop="true"/>
-	<anim name="singDOWN" anim="unregisteredguy down"/>
-	<anim name="singRIGHT" anim="unregisteredguy right"/>
-	<anim name="singLEFT" anim="unregisteredguy left"/>
-	<anim name="singUP" anim="unregisteredguy up"/>
+<character x="-1090" y="-160" sprite="unregistered/unregisteredguy" camx="220" icon="bluescreen" scale="0.6" camy="70" color="#000000">
+	<anim loop="true" name="idle" anim="unregisteredguy idle"/>
+
+	<anim x="0" y="-29" name="singDOWN" anim="unregisteredguy down"/>
+
+	<anim x="40" y="-33" name="singRIGHT" anim="unregisteredguy right"/>
+
+	<anim x="-60" y="-30" name="singLEFT" anim="unregisteredguy left"/>
+
+	<anim x="0" y="-100" name="singUP" anim="unregisteredguy up"/>
 </character>

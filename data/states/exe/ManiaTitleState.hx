@@ -161,7 +161,7 @@ function stepHit(curStep:Int) {
                 FlxTween.tween(port1, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
                 FlxTween.tween(port2, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
                 FlxTween.tween(port3, {alpha: 0.6}, 5, {ease: FlxEase.quintInOut});
-                tweenFinished = false;
+                tweenFinished = true;
     }
     }
     

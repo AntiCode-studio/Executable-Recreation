@@ -1,8 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="-530" y="-200" sprite="unregistered/michi3D" scale="0.5" flipX="true" camx="-580" camy="250" isPlayer="true" icon="michi" color="#000000">
-	<anim name="idle" anim="michi idle" loop="true"/>
-	<anim name="singDOWN" anim="michi down"/>
-	<anim name="singRIGHT" anim="michi right"/>
-	<anim name="singLEFT" anim="michi left"/>
-	<anim name="singUP" anim="michi up"/>
+<character x="-530" y="-100" camx="-250" icon="michi" scale="0.5" camy="20" flipX="true" isPlayer="true" color="#000000" sprite="unregistered/michi3D">
+	<anim loop="true" name="idle" anim="michi idle"/>
+
+	<anim x="0" name="singDOWN" anim="michi down" y="-20"/>
+
+	<anim x="50" name="singRIGHT" anim="michi right" y="-40"/>
+
+	<anim x="-10" name="singLEFT" anim="michi left" y="-10"/>
+
+	<anim x="10" name="singUP" anim="michi up" y="-50"/>
 </character>
