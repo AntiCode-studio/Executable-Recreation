@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bluescreenDebug.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="animation0000" x="578" y="628" width="471" height="615" frameX="-60" frameY="-28" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0001" x="1658" y="0" width="444" height="601" frameX="-62" frameY="-42" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0002" x="578" y="0" width="539" height="628" frameX="2" frameY="-15" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0003" x="1117" y="0" width="541" height="625" frameX="2" frameY="-18" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0004" x="1117" y="625" width="540" height="625" frameX="2" frameY="-18" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0005" x="0" y="644" width="576" height="645" frameX="2" frameY="2" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0006" x="0" y="0" width="578" height="644" frameX="2" frameY="1" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0007" x="1117" y="0" width="541" height="625" frameX="2" frameY="-18" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0008" x="1117" y="625" width="540" height="625" frameX="2" frameY="-18" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0009" x="0" y="644" width="576" height="645" frameX="2" frameY="2" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="animation0010" x="0" y="0" width="578" height="644" frameX="2" frameY="1" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="idle0000" x="578" y="628" width="471" height="615" frameX="-60" frameY="-28" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="loop0000" x="1117" y="0" width="541" height="625" frameX="2" frameY="-18" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="loop0001" x="1117" y="625" width="540" height="625" frameX="2" frameY="-18" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="loop0002" x="0" y="644" width="576" height="645" frameX="2" frameY="2" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="loop0003" x="0" y="0" width="578" height="644" frameX="2" frameY="1" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="loop0004" x="1117" y="0" width="541" height="625" frameX="2" frameY="-18" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="loop0005" x="1117" y="625" width="540" height="625" frameX="2" frameY="-18" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="loop0006" x="0" y="644" width="576" height="645" frameX="2" frameY="2" frameWidth="574" frameHeight="641"/>
+	<SubTexture name="loop0007" x="0" y="0" width="578" height="644" frameX="2" frameY="1" frameWidth="574" frameHeight="641"/>
+</TextureAtlas>

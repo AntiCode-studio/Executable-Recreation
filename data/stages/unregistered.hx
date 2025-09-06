@@ -8,13 +8,14 @@ importScript("data/huds/maniav3");
 
 portVisible = false;
 var forcedMosaic:Bool = true;
-
+introLength = 0;
 mosaicShader = new CustomShader('mosaic');
 mosaicShader.pixel = 0.000000001;
 
 glitchShader = new CustomShader('glitch');
 snowfall = new CustomShader('GlitchShaderA');
 bg3dGlitch = new CustomShader('GlitchShaderA');
+bgparglitch = new CustomShader('GlitchShaderA');
 /*glitchShader.prob = 0;
 glitchShader.vignetteIntensity = 0;
 glitchShader.size = 0;
@@ -54,6 +55,11 @@ function beatHit(curBeat:Int) {
         }
     }
     
+}
+
+function glitchpart1() {
+    strumLines.members[0].characters[0].shader = bgparglitch;
+    FlxTween.tween(bgparglitch, {glitchAmount: 0.5}, 1);
 }
 function postCreate() {
 
@@ -98,6 +104,9 @@ function postCreate() {
     camGame.addShader(snowfall);
 
     part = 1;
+
+    tvInner.shader = bgparglitch;
+    bgparglitch.glitchAmount = 0.0001;
 }
 
 function createLegs() {
@@ -154,8 +163,12 @@ function createLegs() {
 
 }
 function glitchTrans() {
-    FlxTween.tween(snowfall, {glitchAmount: 10}, 3);
+    FlxTween.tween(snowfall, {glitchAmount: 5}, 3);
     FlxTween.tween(camGame, {alpha: 0}, 3);
+}
+function glitchTrans1() {
+    snowfall.glitchAmount = 10;
+    FlxTween.tween(snowfall, {glitchAmount: 0.00001}, 1);
 }
 function stepHit(curStep:Int) {
     if(curStep % 16 == 0){
@@ -180,6 +193,7 @@ function postUpdate(elapsed:Float) {
     glitchShader.time = localTimer;
     bg3dGlitch.iTime = localTimer;
     snowfall.iTime = localTimer;
+    bgparglitch.iTime = localTimer;
     if (forcedMosaic){
         //mosaicShader.pixel = FlxMath.lerp(mosaicShader.pixel,0.001,0.03 * 60 * elapsed);
         mosaicShader.pixel = FlxMath.lerp(mosaicShader.pixel, 0.001, 0.03 * 60 * elapsed);
@@ -244,6 +258,7 @@ function runTruns() {
 
 function thirdPart() {
     part = 3;
+    bgparglitch.glitchAmount = 0.0001;
     camGame.alpha = 1;
     snowfall.glitchAmount = 0.00001;
     dsky.visible = false;
@@ -267,6 +282,10 @@ function thirdPart() {
 
     for (i in 0...8) {
         objs[i].visible = true;
+    }
+    for (t in 0...7) {
+    //    trace(t);
+        FlxTween.tween(objs[t], {angle: FlxG.random.float(-10,10), y:FlxG.random.float(-150,-200)}, FlxG.random.float(5,10), {ease: FlxEase.expoInOut, type: FlxTweenType.PINGPONG});
     }
 
     strumLines.members[0].characters[0].visible = false;

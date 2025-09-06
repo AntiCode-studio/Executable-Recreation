@@ -3,7 +3,7 @@ import flixel.util.FlxGradient;
 import openfl.display.BlendMode;
 import flixel.tweens.FlxTween.FlxTweenType;
 import flixel.addons.effects.FlxTrail;
-
+introLength = 0;
 var isRun = false;
 var vignetteFade = 0;
 aura = new CustomShader('Aura');

@@ -261,6 +261,10 @@ function update(elapsed:Float) {
 		openSubState(new EditorPicker());
 	}
 
+    if (FlxG.keys.justPressed.SIX) {
+		FlxG.switchState(new ModState('debug/TestStateSelect'));
+	}
+
 	if (FlxG.keys.justPressed.TAB) {
 		openSubState(new ModSwitchMenu());
 	}

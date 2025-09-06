@@ -64,6 +64,56 @@
 		},
 		{
 			"params": [
+				"5",
+				"Quad",
+				"Out",
+				"0.5"
+			],
+			"time": 15000,
+			"name": "Cinematics (Bar)"
+		},
+		{
+			"params": [
+				"10",
+				"Linear",
+				"InOut",
+				"0.1"
+			],
+			"time": 17812.5,
+			"name": "Cinematics (Bar)"
+		},
+		{
+			"params": [
+				"20",
+				"Linear",
+				"InOut",
+				"0.1"
+			],
+			"name": "Cinematics (Bar)",
+			"time": 18046.875
+		},
+		{
+			"params": [
+				"30",
+				"Linear",
+				"InOut",
+				"0.1"
+			],
+			"time": 18281.25,
+			"name": "Cinematics (Bar)"
+		},
+		{
+			"params": [
+				"5",
+				"Linear",
+				"InOut",
+				"0.1"
+			],
+			"name": "Cinematics (Bar)",
+			"time": 18750
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -71,10 +121,54 @@
 		},
 		{
 			"params": [
-				0
+				"10",
+				"Linear",
+				"InOut",
+				"0.1"
+			],
+			"name": "Cinematics (Bar)",
+			"time": 21562.5
+		},
+		{
+			"params": [
+				"20",
+				"Linear",
+				"InOut",
+				"0.1"
+			],
+			"time": 21796.875,
+			"name": "Cinematics (Bar)"
+		},
+		{
+			"params": [
+				"30",
+				"Linear",
+				"InOut",
+				"0.1"
+			],
+			"name": "Cinematics (Bar)",
+			"time": 22031.25
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 22500
+		},
+		{
+			"params": [
+				"10",
+				"Linear",
+				"InOut",
+				"1"
+			],
+			"time": 22500,
+			"name": "Cinematics (Bar)"
 		},
 		{
 			"params": [
@@ -85,7 +179,21 @@
 		},
 		{
 			"params": [
-				0
+				2,
+				5,
+				"BEAT",
+				1
+			],
+			"time": 29765.625,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 30000
@@ -113,6 +221,16 @@
 		},
 		{
 			"params": [
+				99,
+				0.1,
+				"BEAT",
+				1
+			],
+			"name": "Camera Modulo Change",
+			"time": 58945.3125
+		},
+		{
+			"params": [
 				"extraGlitch",
 				""
 			],
@@ -125,6 +243,16 @@
 			],
 			"name": "Camera Movement",
 			"time": 59062.5
+		},
+		{
+			"params": [
+				1,
+				5,
+				"BEAT",
+				0
+			],
+			"time": 60000,
+			"name": "Camera Modulo Change"
 		},
 		{
 			"params": [
@@ -150,7 +278,8 @@
 		{
 			"params": [
 				2,
-				4
+				4,
+				false
 			],
 			"name": "Time Signature Change",
 			"time": 75000
@@ -161,6 +290,14 @@
 			],
 			"name": "Camera Movement",
 			"time": 75000
+		},
+		{
+			"params": [
+				"glitchpart1",
+				""
+			],
+			"time": 75000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -227,6 +364,16 @@
 		},
 		{
 			"params": [
+				999,
+				0.1,
+				"BEAT",
+				1
+			],
+			"name": "Camera Modulo Change",
+			"time": 89179.6875
+		},
+		{
+			"params": [
 				"runTruns",
 				""
 			],
@@ -273,8 +420,8 @@
 		},
 		{
 			"params": [
-				"0",
-				"Quart",
+				"40",
+				"Expo",
 				"Out",
 				"1"
 			],
@@ -284,7 +431,7 @@
 		{
 			"params": [
 				true,
-				0.7,
+				1.2,
 				"camGame",
 				32,
 				"expo",
@@ -297,6 +444,38 @@
 		},
 		{
 			"params": [
+				"glitchTrans1",
+				""
+			],
+			"time": 94687.5,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				16,
+				"quint",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 100312.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				"0",
+				"Quint",
+				"InOut",
+				"1"
+			],
+			"time": 100312.5,
+			"name": "Cinematics (Bar)"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -304,10 +483,62 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				2,
+				"expo",
+				"Out"
 			],
 			"name": "Camera Movement",
 			"time": 107812.5
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				2,
+				"expo",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 107812.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				"20",
+				"Cube",
+				"InOut",
+				"1"
+			],
+			"time": 107812.5,
+			"name": "Cinematics (Bar)"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				4,
+				"smootherStep",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 109687.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				"0",
+				"Expo",
+				"InOut",
+				"1"
+			],
+			"time": 109687.5,
+			"name": "Cinematics (Bar)"
 		},
 		{
 			"params": [
@@ -597,13 +828,15 @@
 			"time": 233437.5
 		}
 	],
-	"codenameChart": true,
 	"stage": "unregistered",
+	"codenameChart": true,
 	"scrollSpeed": 3.4,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 3,
@@ -5676,25 +5909,25 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 0,
 			"characters": [
 				"bluescreen",
 				"bluescreen3D",
 				"bluescreengay"
 			],
+			"type": 0,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.2
+			"strumLinePos": 0.2,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -9405,32 +9638,55 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 1,
 			"characters": [
 				"michi",
 				"michi3D",
 				"michif"
 			],
+			"type": 1,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.8
+			"strumLinePos": 0.8,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"notes": [
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 0,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 0,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 0,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 0,
+					"type": 0
+				}
+			],
 			"position": "girlfriend",
-			"notes": [],
+			"type": 2,
+			"visible": false,
 			"characters": [
 				"gf"
-			],
-			"visible": false,
-			"type": 2
+			]
 		}
 	],
 	"noteTypes": [

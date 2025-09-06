@@ -14,6 +14,8 @@ chromCushion = new CustomShader('ChromCushion');
 highContrast = new CustomShader('highContrast');
 mosaic = new CustomShader('Mosaic');
 
+introLength = 0;
+
 function create() {
     generateChars();
     remove(strumLines.members[3].characters[0]);

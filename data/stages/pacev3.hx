@@ -2,7 +2,7 @@ import openfl.display.BlendMode;
 import flixel.effects.FlxFlicker;
 importScript("data/huds/maniav3");
 paoFliped = true;
-
+introLength = 0;
 var shade = new FunkinSprite(0,-200).makeGraphic(1,1,FlxColor.WHITE);
 function create() {
     shade.scale.set(2000,2000);
