@@ -32,6 +32,12 @@ glitchShader.glitchScale = 0.1;*/
 
 var part;
 
+var colorShader = new CustomShader('adjustColor');
+colorShader.brightness = 0;
+colorShader.hue = 0;
+colorShader.contrast = 0;
+colorShader.saturation = 0;
+
 var objs:Array<FlxSprite> = [];
 function generChar() {
 
@@ -102,6 +108,7 @@ function postCreate() {
 
     snowfall.glitchAmount = 0.0001;
     camGame.addShader(snowfall);
+    camGame.addShader(colorShader);
 
     part = 1;
 
@@ -123,7 +130,7 @@ function createLegs() {
 
     floor = new FlxSprite();
 	floor.frames = Paths.getSparrowAtlas('stages/unregistered/floorAnimation');
-	floor.animation.addByPrefix('i','floor',15);
+	floor.animation.addByPrefix('i','floor',10);
 	floor.animation.play('i');
 	floor.scale.set(2.2,2.2);
     insert(members.indexOf(dad),floor);
@@ -224,6 +231,7 @@ function postUpdate(elapsed:Float) {
 function runTruns() {
     part = 2;
     zoomAllow = false;
+    colorShader.contrast = 100;
     strumLines.members[0].characters[0].visible = false;
     strumLines.members[1].characters[0].visible = false;
     strumLines.members[0].characters[1].visible = true;
@@ -257,6 +265,7 @@ function runTruns() {
 }
 
 function thirdPart() {
+    colorShader.contrast = 0;
     part = 3;
     bgparglitch.glitchAmount = 0.0001;
     camGame.alpha = 1;

@@ -14,6 +14,8 @@ public var paoFliped:Bool = false;
 public var portVisible:Bool = true;
 public var timeVisible:Bool = true;
 function postCreate() {
+    for(i in [iconP2, iconP1, scoreTxt, accuracyTxt, healthBar, healthBarBG]) remove(i);
+
     timeBG = new FlxSprite();
     timeBG.frames = Paths.getSparrowAtlas('game/hud/v3/time');
     timeBG.animation.addByPrefix('idle', 'time', 2, true);
@@ -150,31 +152,33 @@ function postCreate() {
     ramka.x += 480;
     ramka1.x -= 480;
 
-    if (paoFliped) {
-        portOponent = new FlxSprite(ramka.x, ramka.y).loadGraphic(Paths.image('game/hud/port/' + PlayState.SONG.meta.customValues.oppName));
-    }else {
-        portOponent = new FlxSprite(ramka1.x, ramka1.y).loadGraphic(Paths.image('game/hud/port/' + PlayState.SONG.meta.customValues.oppName));
-        portOponent.flipX = true;
-    }
-    portOponent.updateHitbox();
-    portOponent.scale.set(ramka.scale.x, ramka.scale.y);
-    portOponent.camera = camHUD;
-    add(portOponent);
+    if(portVisible){
+        if (paoFliped) {
+            portOponent = new FlxSprite(ramka.x, ramka.y).loadGraphic(Paths.image('game/hud/port/' + PlayState.SONG.meta.customValues.oppName));
+        }else {
+            portOponent = new FlxSprite(ramka1.x, ramka1.y).loadGraphic(Paths.image('game/hud/port/' + PlayState.SONG.meta.customValues.oppName));
+            portOponent.flipX = true;
+        }
+        portOponent.updateHitbox();
+        portOponent.scale.set(ramka.scale.x, ramka.scale.y);
+        portOponent.camera = camHUD;
+        add(portOponent);
 
-    if (paoFliped) {
-        portPlayer = new FlxSprite(ramka1.x, ramka1.y).loadGraphic(Paths.image('game/hud/port/' + PlayState.SONG.meta.customValues.playerName));
-    }else {
-        portPlayer = new FlxSprite(ramka.x, ramka.y).loadGraphic(Paths.image('game/hud/port/' + PlayState.SONG.meta.customValues.playerName));
-        portPlayer.flipX = true;
-    }
-    portPlayer.updateHitbox();
-    portPlayer.scale.set(ramka1.scale.x, ramka1.scale.y);
-    portPlayer.camera = camHUD;
-    add(portPlayer);
+        if (paoFliped) {
+            portPlayer = new FlxSprite(ramka1.x, ramka1.y).loadGraphic(Paths.image('game/hud/port/' + PlayState.SONG.meta.customValues.playerName));
+        }else {
+            portPlayer = new FlxSprite(ramka.x, ramka.y).loadGraphic(Paths.image('game/hud/port/' + PlayState.SONG.meta.customValues.playerName));
+            portPlayer.flipX = true;
+        }
+        portPlayer.updateHitbox();
+        portPlayer.scale.set(ramka1.scale.x, ramka1.scale.y);
+        portPlayer.camera = camHUD;
+        add(portPlayer);
 
-    for(aaa in [ramka, ramka1, portOponent, portPlayer]){
-        remove(aaa);
-        insert(members.indexOf(strumLines), aaa);
+        for(aaa in [ramka, ramka1, portOponent, portPlayer]){
+            remove(aaa);
+            insert(members.indexOf(strumLines), aaa);
+        }
     }
 
     reroyexplodes = new FlxSprite().loadGraphic(Paths.image('bl'),true,90,125);
@@ -184,8 +188,6 @@ function postCreate() {
     //add(reroyexplodes);
     reroyexplodes.animation.play('explode');
 
-    for(i in [iconP2, iconP1, scoreTxt, accuracyTxt, healthBar, healthBarBG]) remove(i);
-
     missesTxt.y += 20;
 
     //camHUD.alpha = 0;
@@ -193,10 +195,18 @@ function postCreate() {
     if(!portVisible){
         ramka.alpha = 0;
         ramka1.alpha = 0;
-        portOponent.alpha = 0;
-        portPlayer.alpha = 0;
     }
 
+}
+function alphaAllUpdate() {
+    //trace(healthBarBG.alpha);
+    hpBG.alpha = healthBarBG.alpha;
+    hpFG.alpha = healthBarBG.alpha;
+    missesTxt.alpha = healthBarBG.alpha;
+    rating.alpha = healthBarBG.alpha;
+    for(i in [hpBar1, hpBar2, hpBar3, hpBar4, hpBar5, hpBar6, hpBar7, hpBar8]){
+        i.alpha = healthBar.alpha;
+    };
 }
 function onSongStart() {
     if(timeVisible){
@@ -226,6 +236,9 @@ function portUpdate() {
         portOponent.flipX = true;
         portPlayer.flipX = true;
     }
+}
+function update(elapsed:Float) {
+    alphaAllUpdate();
 }
 static function updateTimeText(txt:String = '', textgroup:FlxSpriteGroup) {
 	timerVtoroi = txt;
@@ -284,44 +297,44 @@ function postUpdate(){
 
     //trace(curRating.rating);
     if(health >= 0.09){
-        hpBar1.alpha = 1;
+        hpBar1.visible = true;
     }else {
-        hpBar1.alpha = 0;
+        hpBar1.visible = false;
     }
     if(health >= 0.69){
-        hpBar2.alpha = 1;
+        hpBar2.visible = true;
     }else {
-        hpBar2.alpha = 0;
+        hpBar2.visible = false;
     }
     if(health >= 0.89){
-        hpBar3.alpha = 1;
+        hpBar3.visible = true;
     }else {
-        hpBar3.alpha = 0;
+        hpBar3.visible = false;
     }
     if(health >= 0.99){
-        hpBar4.alpha = 1;
+        hpBar4.visible = true;
     }else {
-        hpBar4.alpha = 0;
+        hpBar4.visible = false;
     }
     if(health >= 1.09){
-        hpBar5.alpha = 1;
+        hpBar5.visible = true;
     }else {
-        hpBar5.alpha = 0;
+        hpBar5.visible = false;
     }
     if(health >= 1.19){
-        hpBar6.alpha = 1;
+        hpBar6.visible = true;
     }else {
-        hpBar6.alpha = 0;
+        hpBar6.visible = false;
     }
     if(health >= 1.59){
-        hpBar7.alpha = 1;
+        hpBar7.visible = true;
     }else {
-        hpBar7.alpha = 0;
+        hpBar7.visible = false;
     }
     if(health >= 1.99){
-        hpBar8.alpha = 1;
+        hpBar8.visible = true;
     }else {
-        hpBar8.alpha = 0;
+        hpBar8.visible = false;
     }
 }
 

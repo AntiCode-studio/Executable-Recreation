@@ -1,15 +1,15 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#FBDA00",
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"bpm": 172,
 	"difficulties": [
 		"Inevitable"
 	],
-	"parsedColor": -271872,
-	"displayName": "Lefendary",
 	"icon": "legend",
-	"name": "Legendary",
-	"color": "#FBDA00"
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Legendary",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 172
 }

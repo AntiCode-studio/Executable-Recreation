@@ -9,13 +9,23 @@ var curSelected:Int = 0;
 public var options:Array<Editor> = [
 	{
 		name: "Wave Forms Test",
-		exist: true,
+		exist: false,
 		state: 'WaveFormTestState'
+	},
+	{
+		name: "Color Char Test",
+		exist: true,
+		state: 'ColorsTest'
 	},
 	{
 		name: "Deltarune Fight Bg Test....",
 		exist: true,
 		state: 'DeltaruneFightBgTest'
+	},
+	{
+		name: "File Drop Test",
+		exist: false,
+		state: 'FileDropTest'
 	},
 	{
 		name: "locked Test",
@@ -104,7 +114,7 @@ function update(elapsed:Float) {
 		if (controls.ACCEPT)
 		{
 			if(options[curSelected].exist){
-				FlxG.switchState(new ModState('debug/' + options[curSelected].state));
+				FlxG.switchState(new ModState('debug/categories/' + options[curSelected].state));
 			}else {
 				FlxG.sound.play(Paths.sound("cancelMenu"), 0.7);
 				bluescreen.animation.play('animation');
