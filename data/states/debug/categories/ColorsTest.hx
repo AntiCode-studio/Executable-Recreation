@@ -223,11 +223,11 @@ function updateValueText(index:Int) {
 }
 
 function applyParameter(index:Int, value:Float) {
-    trace(value);
+    //trace(value);
     switch (index) {
         case 0:
             colorShader.brightness = value;
-            trace(value);
+            //trace(value);
             
         case 1:
             colorShader.hue = value;
