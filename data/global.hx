@@ -22,8 +22,8 @@ static var optionsSelectedSomethin:Bool = false;
 
 static var redirectStates:Map<FlxState, String> = [
     //BetaWarningState => "rom/warn",
-    TitleState => "exe/ManiaTitleState",
-    MainMenuState => "exe/ManiaMainMenu",
+    //TitleState => "exe/ManiaTitleState",
+    //MainMenuState => "exe/ManiaMainMenu",
     //StoryMenuState => "rom/TitleState",
     //FreeplayState => "rom/TitleState",
     //OptionsMenu => "",
