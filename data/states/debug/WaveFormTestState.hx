@@ -4,11 +4,22 @@ import funkin.backend.utils.AudioAnalyzer;
 //import flixel.addons.display.waveform.FlxWaveform;
 import funkin.editors.ui.UIFileExplorer;
 //import funkin.backend.system.Flags;
+import funkin.editors.ui.UIText;
+import funkin.editors.ui.UIState;
+import funkin.editors.ui.UITopMenu;
+import funkin.editors.ui.UIButton;
+import funkin.editors.ui.UIButtonList;
+import funkin.editors.ui.UISubstateWindow;
 
 var rotationTime:Float = 0;
 var rotationInterval:Float = 5; // секунды
 
 var fileExplorer:UIFileExplorer;
+
+var testingUIItems:Array<FlxSprite> = [];
+
+var uiCamera = new FlxCamera();
+uiCamera.bgColor = 0;
 
 function create() {
     backdrop = new FlxBackdrop(Paths.image('editors/bgs/debugBg'));
@@ -22,13 +33,16 @@ function create() {
 
     FlxG.autoPause = false;
 
-    fileExplorer = new UIFileExplorer(5, 5 + 32 + 36, 56, 56, 'ogg', function (path, res) {
-		if (path == null || res == null) return;
-		var audioPlayer:UIAudioPlayer = new UIAudioPlayer(fileExplorer.x + 8, fileExplorer.y + 8, res);
-		fileExplorer.members.push(audioPlayer);
-		fileExplorer.uiElement = audioPlayer;
-	});
-    add(fileExplorer);
+    //fileExplorer = new UIFileExplorer(5, 5 + 32 + 36, 56, 56, 'ogg', function (path, res) {
+	//	if (path == null || res == null) return;
+	//	var audioPlayer:UIAudioPlayer = new UIAudioPlayer(fileExplorer.x + 8, fileExplorer.y + 8, res);
+	//	fileExplorer.members.push(audioPlayer);
+	//	fileExplorer.uiElement = audioPlayer;
+	//});
+    //add(fileExplorer);
+
+    
+    
 }
 function destroy():Void
 {

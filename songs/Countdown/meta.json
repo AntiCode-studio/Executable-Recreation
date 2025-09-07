@@ -1,17 +1,15 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#230079",
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 182,
 	"difficulties": [
 		"Pendrive"
 	],
-	"needsVoices": true,
-	"parsedColor": -1,
-	"displayName": "Countdown",
 	"icon": "pen1",
-	"name": "Countdown",
-	"color": "#FFFFFF",
-	"customValues": {}
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Countdown",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 182
 }

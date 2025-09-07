@@ -683,7 +683,7 @@
 				true,
 				1.5,
 				"camGame",
-				0.25,
+				2,
 				"linear",
 				"In",
 				"stage",
@@ -828,15 +828,13 @@
 			"time": 233437.5
 		}
 	],
-	"stage": "unregistered",
 	"codenameChart": true,
+	"stage": "unregistered",
 	"scrollSpeed": 3.4,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 3,
@@ -5909,25 +5907,25 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 0,
 			"characters": [
 				"bluescreen",
 				"bluescreen3D",
 				"bluescreengay"
 			],
-			"type": 0,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.2,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.2
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -9638,23 +9636,26 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"michi",
 				"michi3D",
 				"michif"
 			],
-			"type": 1,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.8,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.8
 		},
 		{
 			"keyCount": 4,
+			"position": "girlfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -9681,12 +9682,11 @@
 					"type": 0
 				}
 			],
-			"position": "girlfriend",
-			"type": 2,
-			"visible": false,
 			"characters": [
 				"gf"
-			]
+			],
+			"visible": false,
+			"type": 2
 		}
 	],
 	"noteTypes": [

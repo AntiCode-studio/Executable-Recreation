@@ -1,11 +1,10 @@
 {
-	"color": "#FFFFFF",
+	"color": "#410019",
 	"customValues": {},
 	"opponentModeAllowed": false,
 	"icon": "pen2",
 	"difficulties": [
-		"pendrive",
-		"test"
+		"pendrive"
 	],
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
