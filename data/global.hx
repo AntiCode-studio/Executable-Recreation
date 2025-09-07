@@ -30,32 +30,16 @@ static var redirectStates:Map<FlxState, String> = [
     //CreditsMain => ""
 ];
 
-function postGameStart() {
-    FlxG.save.data.titleAnim = true;
-}
 
-static var ModOptions = FlxG.save.data;
-
-function new() {
-	ModOptions.tbEnable ??= false;
-	ModOptions.tbSongName ??= false;
-	ModOptions.tbTimeType ??= 'elapsed';
-	ModOptions.tbShowEndTime ??= true;
-	ModOptions.tbTimeMS ??= false;
-}
 
 function preStateSwitch()
 {
 
-    Main.framerateSprite.codenameBuildField.y =  Main.framerateSprite.memoryCounter.y;
-    Main.framerateSprite.memoryCounter.visible = false;
-
-    FlxG.camera.bgColor = 0x00000000;
-    FlxG.mouse.visible = true;
-
-    for (redirectState in redirectStates.keys()) 
-        if (Std.isOfType(FlxG.game._requestedState, redirectState)) 
-            FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
+    for(i in redirectStates.keys()){
+        if(Std.isOfType(FlxG.game._requestedState, i)){
+            FlxG.game._requestedState = new ModState(redirectStates.get(i));
+        }
+    }
 
     window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('gameIcon'))));
 	window.title = windowTitle;
