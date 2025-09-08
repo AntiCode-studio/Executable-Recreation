@@ -1,0 +1,24 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/unregistered/junioroom/" name="junioroom" zoom="0.7">
+	<sprite antialiasing="false" x="-650" sprite="roomback" y="-245" type="none" name="roomback"/>
+	<sprite x="-650" sprite="table" y="-245" type="none" name="table"/>
+	<sprite x="-650" sprite="tv" y="-245" type="none" name="tv"/>
+
+	<sprite antialiasing="false" x="-650" sprite="roomback2" y="-245" type="none" name="roomback2"/>
+	<sprite x="-650" sprite="table2" y="-245" type="none" name="table2"/>
+	<sprite x="-650" sprite="tv2" y="-245" type="none" name="tv2"/>
+
+	<sprite antialiasing="false" x="-650" sprite="roomback3" y="-245" type="none" name="roomback3"/>
+	<sprite x="-650" sprite="table3" y="-245" type="none" name="table3"/>
+	<sprite x="-650" sprite="tv3" y="-245" type="none" name="tv3"/>
+
+	<girlfriend alpha = "0"/>
+	<dad x="-500" y="-10" camxoffset="300" camyoffset="-120"/>
+	<boyfriend x="1300" y="400" camxoffset="-450" camyoffset="-150"/>
+
+	<sprite x="-650" sprite="overlay" y="-250" type="none" name="overlay"/>
+
+	<sprite x="-650" sprite="overlay2" y="-250" type="none" name="overlay2"/>
+
+	<sprite x="-650" sprite="overlay3" y="-250" type="none" name="overlay3"/>
+</stage>

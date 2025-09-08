@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="970" y="415" sprite="unregistered/EXEMANIA_AltBluescreenAssets" antialiasing="false" camx="-150" camy="130" icon="bluescreen" color="#1D00CD">
+	<anim name="idle" anim="Bluescreen idle"/>
+	<anim name="singDOWN" anim="Bluescreen down" x="35" y="-39"/>
+	<anim name="singRIGHT" anim="Bluescreen right" x="-61" y="-55"/>
+	<anim name="singLEFT" anim="Bluescreen left" x="81" y="50"/>
+	<anim name="singUP" anim="Bluescreen up" x="66" y="44"/>
+</character>

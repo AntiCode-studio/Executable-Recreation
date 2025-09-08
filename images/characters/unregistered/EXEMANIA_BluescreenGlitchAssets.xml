@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="EXEMANIA_BluescreenGlitchAssets.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bluescreen down0000" x="0" y="0" width="1238" height="720" frameX="-57" frameY="-33" frameWidth="1295" frameHeight="753"/>
+	<SubTexture name="Bluescreen down0001" x="1254" y="0" width="1183" height="726" frameX="-57" frameY="-27" frameWidth="1295" frameHeight="753"/>
+	<SubTexture name="Bluescreen down0002" x="2453" y="0" width="1145" height="751" frameX="-83" frameY="-2" frameWidth="1295" frameHeight="753"/>
+	<SubTexture name="Bluescreen down0003" x="3614" y="0" width="1177" height="743" frameX="-58" frameY="-10" frameWidth="1295" frameHeight="753"/>
+	<SubTexture name="Bluescreen down0004" x="4807" y="0" width="1238" height="753" frameX="-54" frameY="0" frameWidth="1295" frameHeight="753"/>
+	<SubTexture name="Bluescreen down0005" x="6061" y="0" width="1292" height="753" frameX="0" frameY="0" frameWidth="1295" frameHeight="753"/>
+	<SubTexture name="Bluescreen down0006" x="0" y="769" width="1176" height="742" frameX="-56" frameY="-11" frameWidth="1295" frameHeight="753"/>
+	<SubTexture name="Bluescreen down0007" x="1192" y="769" width="1207" height="742" frameX="-56" frameY="-11" frameWidth="1295" frameHeight="753"/>
+	<SubTexture name="Bluescreen idle0000" x="2415" y="769" width="786" height="741" frameX="-15" frameY="-35" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0001" x="3217" y="769" width="784" height="741" frameX="-17" frameY="-35" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0002" x="4017" y="769" width="816" height="757" frameX="-10" frameY="-18" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0003" x="4849" y="769" width="849" height="752" frameX="0" frameY="-23" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0004" x="5714" y="769" width="827" height="746" frameX="-39" frameY="-30" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0005" x="6557" y="769" width="829" height="741" frameX="-37" frameY="-35" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0006" x="7402" y="769" width="760" height="777" frameX="-51" frameY="0" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0007" x="0" y="1562" width="791" height="777" frameX="-20" frameY="0" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0008" x="807" y="1562" width="784" height="768" frameX="-17" frameY="-9" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0009" x="1607" y="1562" width="789" height="767" frameX="-17" frameY="-10" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen idle0010" x="2412" y="1562" width="772" height="765" frameX="-16" frameY="-12" frameWidth="866" frameHeight="777"/>
+	<SubTexture name="Bluescreen left0000" x="3200" y="1562" width="1416" height="795" frameX="-100" frameY="-18" frameWidth="1540" frameHeight="813"/>
+	<SubTexture name="Bluescreen left0001" x="4632" y="1562" width="1416" height="795" frameX="-100" frameY="-18" frameWidth="1540" frameHeight="813"/>
+	<SubTexture name="Bluescreen left0002" x="6064" y="1562" width="1403" height="802" frameX="-137" frameY="-11" frameWidth="1540" frameHeight="813"/>
+	<SubTexture name="Bluescreen left0003" x="0" y="2380" width="1403" height="813" frameX="-137" frameY="0" frameWidth="1540" frameHeight="813"/>
+	<SubTexture name="Bluescreen left0004" x="1419" y="2380" width="1408" height="796" frameX="-130" frameY="-17" frameWidth="1540" frameHeight="813"/>
+	<SubTexture name="Bluescreen left0005" x="2843" y="2380" width="1454" height="796" frameX="-22" frameY="-17" frameWidth="1540" frameHeight="813"/>
+	<SubTexture name="Bluescreen left0006" x="4313" y="2380" width="1409" height="792" frameX="-124" frameY="-21" frameWidth="1540" frameHeight="813"/>
+	<SubTexture name="Bluescreen left0007" x="5738" y="2380" width="1533" height="777" frameX="0" frameY="-36" frameWidth="1540" frameHeight="813"/>
+	<SubTexture name="Bluescreen right0000" x="0" y="3209" width="1109" height="723" frameX="-138" frameY="-29" frameWidth="1296" frameHeight="752"/>
+	<SubTexture name="Bluescreen right0001" x="1125" y="3209" width="1114" height="723" frameX="-95" frameY="-29" frameWidth="1296" frameHeight="752"/>
+	<SubTexture name="Bluescreen right0002" x="2255" y="3209" width="1134" height="752" frameX="-58" frameY="0" frameWidth="1296" frameHeight="752"/>
+	<SubTexture name="Bluescreen right0003" x="3405" y="3209" width="1112" height="746" frameX="-54" frameY="-6" frameWidth="1296" frameHeight="752"/>
+	<SubTexture name="Bluescreen right0004" x="4533" y="3209" width="1185" height="733" frameX="-111" frameY="-19" frameWidth="1296" frameHeight="752"/>
+	<SubTexture name="Bluescreen right0005" x="5734" y="3209" width="1180" height="736" frameX="-14" frameY="-16" frameWidth="1296" frameHeight="752"/>
+	<SubTexture name="Bluescreen right0006" x="6930" y="3209" width="1170" height="729" frameX="-112" frameY="-23" frameWidth="1296" frameHeight="752"/>
+	<SubTexture name="Bluescreen right0007" x="0" y="3977" width="1186" height="729" frameX="0" frameY="-23" frameWidth="1296" frameHeight="752"/>
+	<SubTexture name="Bluescreen up0000" x="1202" y="3977" width="1356" height="869" frameX="-73" frameY="-63" frameWidth="1440" frameHeight="932"/>
+	<SubTexture name="Bluescreen up0001" x="2574" y="3977" width="1260" height="883" frameX="-11" frameY="-49" frameWidth="1440" frameHeight="932"/>
+	<SubTexture name="Bluescreen up0002" x="3850" y="3977" width="1432" height="902" frameX="0" frameY="-29" frameWidth="1440" frameHeight="932"/>
+	<SubTexture name="Bluescreen up0003" x="5298" y="3977" width="1417" height="901" frameX="0" frameY="-29" frameWidth="1440" frameHeight="932"/>
+	<SubTexture name="Bluescreen up0004" x="6731" y="3977" width="1372" height="849" frameX="-68" frameY="-81" frameWidth="1440" frameHeight="932"/>
+	<SubTexture name="Bluescreen up0005" x="0" y="4895" width="1310" height="900" frameX="-68" frameY="-30" frameWidth="1440" frameHeight="932"/>
+	<SubTexture name="Bluescreen up0006" x="1326" y="4895" width="1245" height="930" frameX="-75" frameY="0" frameWidth="1440" frameHeight="932"/>
+	<SubTexture name="Bluescreen up0007" x="2587" y="4895" width="1184" height="863" frameX="-59" frameY="-67" frameWidth="1440" frameHeight="932"/>
+</TextureAtlas>

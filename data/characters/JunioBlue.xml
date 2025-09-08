@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="66" y="-225" sprite="unregistered/EXEMANIA_NewJunio_BlueAssets" antialiasing="false" flipX="true" camx="180" camy="150" isPlayer="true" icon="michi" color="#3F3A49" holdTime="6.1">
+	<anim name="idle" anim="Junio idle"/>
+	<anim name="singDOWN" anim="Junio down" x="37" y="-115"/>
+	<anim name="singRIGHT" anim="Junio right" x="31" y="-20"/>
+	<anim name="singLEFT" anim="Junio left" x="112" y="-22"/>
+	<anim name="singUP" anim="Junio up" x="37" y="25"/>
+</character>
