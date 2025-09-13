@@ -1,18 +1,17 @@
 {
-	"customValues": {},
-	"color": "#1100ff",
 	"opponentModeAllowed": false,
+	"icon": "bluescreen",
 	"difficulties": [
 		"v3"
 	],
-	"icon": "bluescreen",
+	"color": "#0062FF",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "Unregistered",
-	"needsVoices": true,
-	"beatsPerMeasure": 4,
 	"variants": [
 		"old"
 	],
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
 	"bpm": 128
 }

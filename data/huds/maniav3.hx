@@ -7,7 +7,7 @@ public var timerTxt:FlxSpriteGroup = new FlxSpriteGroup(180, 5);
 static final numberFontCodes:Array<String> = [for(_ in 0...10) Std.string(_)];
 var scaleTimer = 1.2;
 
-var starsGrp:FlxGroup;
+var stars:Array<FlxSprite> = [];
 
 public var paoFliped:Bool = false;
 
@@ -101,25 +101,6 @@ function postCreate() {
     rating.animation.play('idle');
     add(rating);
 
-    imgTime = new FlxSprite().loadGraphic(Paths.image('game/hud/v3/timeNumbers'),true,36,54);
-    imgTime.setGraphicSize(100);
-    imgTime.updateHitbox();
-    imgTime.animation.add('0',[0],12,false);
-    imgTime.animation.add('1',[1],12,false);
-    imgTime.animation.add('3',[3],12,false);
-    imgTime.animation.add('4',[4],12,false);
-    imgTime.animation.add('5',[5],12,false);
-    imgTime.animation.add('6',[6],12,false);
-    imgTime.animation.add('7',[7],12,false);
-    imgTime.animation.add('8',[8],12,false);
-    imgTime.animation.add('9',[9],12,false);
-    imgTime.animation.add(':',[10],12,false);
-    imgTime.animation.add('explode',[0,1,2,3,4,5,6,7,8,9,10],12,false);
-    imgTime.screenCenter();
-    //add(imgTime);
-    imgTime.animation.play('explode');
-    imgTime.camera = camHUD;
-
     for(i in [timeBG, hpBG, hpBar1, hpBar2, hpBar3, hpBar4, hpBar5, hpBar6, hpBar7, hpBar8, hpFG, rating, ramka1, ramka]){
         i.screenCenter();
         //i.scale.set(1, 1);
@@ -151,6 +132,20 @@ function postCreate() {
     ramka1.y = ramka.y;
     ramka.x += 480;
     ramka1.x -= 480;
+
+    for (i in 1...6) {
+        star = new FlxSprite().loadGraphic(Paths.image('game/hud/v3/stars'));
+        star.updateHitbox();
+        star.screenCenter();
+        star.camera = camHUD;
+        star.scale.set(1.1, 1.1);
+        add(star);
+        stars.push(star);
+        star.x = 605 + (i*25);
+        star.y = rating.y + 8;
+    }
+
+    add(stars);
 
     if(portVisible){
         if (paoFliped) {
@@ -197,6 +192,8 @@ function postCreate() {
         ramka1.alpha = 0;
     }
 
+    updateStars();
+
 }
 function alphaAllUpdate() {
     //trace(healthBarBG.alpha);
@@ -204,6 +201,7 @@ function alphaAllUpdate() {
     hpFG.alpha = healthBarBG.alpha;
     missesTxt.alpha = healthBarBG.alpha;
     rating.alpha = healthBarBG.alpha;
+    stars.alpha = rating.alpha;
     for(i in [hpBar1, hpBar2, hpBar3, hpBar4, hpBar5, hpBar6, hpBar7, hpBar8]){
         i.alpha = healthBar.alpha;
     };
@@ -219,6 +217,79 @@ function paoUpdate(aaa:Bool) {
     paoFliped = aaa;
     //trace(paoFliped);
     portUpdate();
+}
+
+function updateStars() {
+    if(curRating.rating == '[N/A]'){
+        for (i in 0...5) {
+            stars[i].color = 0x141425;
+        }
+    }
+    if(curRating.rating == 'S++'){
+        for (i in 0...5) {
+            stars[i].color = 0x824947;
+        }
+    }
+    if(curRating.rating == 'S'){
+        for (i in 0...5) {
+            stars[i].color = 0xFFFFFF;
+        }
+    }
+    if(curRating.rating == 'A'){
+        for (i in 0...5) {
+            stars[i].color = 0xFFFFFF;
+            if(i == 5){
+                stars[i].visible = false;
+            }
+        }
+    }
+    if(curRating.rating == 'B'){
+        for (i in 0...5) {
+            stars[i].color = 0xFFFFFF;
+            if(i == 5 || i == 4){
+                stars[i].visible = false;
+            }
+        }
+    }
+    if(curRating.rating == 'C'){
+        for (i in 0...5) {
+            stars[i].color = 0xFFFFFF;
+            if(i == 5 || i == 4 || i == 3){
+                stars[i].visible = false;
+            }
+        }
+    }
+    if(curRating.rating == 'D'){
+        for (i in 0...5) {
+            stars[i].color = 0xFFFFFF;
+            if(i == 5 || i == 4 || i == 3 || i == 2){
+                stars[i].visible = false;
+            }
+        }
+    }
+    if(curRating.rating == 'E'){
+        for (i in 0...5) {
+            stars[i].color = 0xFFFFFF;
+            if(i == 5 ||i == 4 ||i == 3 ||i == 2 ||i == 1){
+                stars[i].visible = false;
+            }
+        }
+    }
+    if(curRating.rating == 'F'){
+        for (i in 0...5) {
+            stars[i].color = 0xFFFFFF;
+            if(i == 5 ||i == 4 ||i == 3 ||i == 2 ||i == 1 ||i == 0){
+                stars[i].visible = false;
+            }
+        }
+    }
+}
+
+function onPlayerHit(event:NoteHitEvent) {
+    updateStars();
+}
+function onPlayerMiss(event:NoteMissEvent) {
+    updateStars();
 }
 function portUpdate() {
     if(paoFliped){

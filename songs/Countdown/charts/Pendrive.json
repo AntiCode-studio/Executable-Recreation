@@ -9,19 +9,13 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
-			"time": 21098.9010989011
-		},
-		{
-			"params": [
-				0,
-				"BlueUSB2",
-				0,
-				true
-			],
-			"name": "Change Character",
 			"time": 21098.9010989011
 		},
 		{
@@ -33,10 +27,138 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 31648.3516483517
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 31648.3516483517
+		},
+		{
+			"params": [
 				0
 			],
 			"name": "Camera Movement",
 			"time": 31648.3516483517
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 31813.1868131868,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 31813.1868131868,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 31978.021978022,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 31978.021978022,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 32225.2747252747
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 32225.2747252747
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 34285.7142857143,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 34285.7142857143,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 34285.7142857143
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 34285.7142857143
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 34450.5494505494
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 34450.5494505494
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 34615.3846153846,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 34615.3846153846,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -47,7 +169,21 @@
 		},
 		{
 			"params": [
+				999,
+				0.1,
+				"BEAT",
 				0
+			],
+			"time": 42115.3846153846,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 42197.8021978022
@@ -60,6 +196,20 @@
 			],
 			"name": "Play Animation",
 			"time": 42197.8021978022
+		},
+		{
+			"params": [
+				true,
+				0.25,
+				"camGame",
+				25,
+				"back",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 42197.8021978022,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -179,6 +329,16 @@
 		},
 		{
 			"params": [
+				2,
+				1,
+				"BEAT",
+				1
+			],
+			"time": 44752.7472527473,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
 				"scriptStart",
 				"swapPhase, 1, 0"
 			],
@@ -197,7 +357,11 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 55384.6153846154
@@ -262,7 +426,11 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 108131.868131868
@@ -322,10 +490,22 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 151648.351648352
+		},
+		{
+			"params": [
+				"spacing",
+				"2"
+			],
+			"time": 151648.351648352,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -389,7 +569,6 @@
 			"name": "HScript Call"
 		}
 	],
-	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
@@ -3125,24 +3304,23 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
 			"visible": false,
-			"type": 0,
-			"characters": [
-				"BlueUSB"
-			],
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"type": 0,
+			"characters": [
+				"BlueUSB2"
+			]
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -5809,29 +5987,32 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"bf2"
 			],
-			"type": 1,
-			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.75,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
-			"position": "girlfriend",
 			"notes": [],
-			"visible": false,
-			"type": 2,
+			"position": "girlfriend",
 			"characters": [
 				"nogf"
-			]
+			],
+			"type": 2,
+			"visible": false
 		}
 	],
+	"codenameChart": true,
 	"scrollSpeed": 3.2,
 	"chartVersion": "1.6.0",
 	"stage": "pendrive",

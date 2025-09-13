@@ -24,7 +24,7 @@ var swirlsbg:FlxSprite;
 var swirlsbg2:FlxSprite;
 var fog:FlxSprite;
 
-
+introLength = 0;
 
 
 //shaders
@@ -58,10 +58,10 @@ var localTime:Float = 0;
 function update(elapsed:Float) {
 	localTime += elapsed;
 	waveShader.iTime = localTime;
+	//trace(camGame.zoom);
 }
 function onCountdown(event) event.cancel();
 function postCreate() {
-	introLength = 0;
 	//shders
 	waveShader = new CustomShader('wave');
 	waveShader.speed = 0.0025;
@@ -198,26 +198,25 @@ function onSongStart() {
 	// 	game.setSongTime(Conductor.songPosition + 10000);
 	// 	game.clearNotesBefore(Conductor.songPosition);
 	// }
-}
+}*/
 
+//function spacing(values):return {
+//	FlxTween.tween(strumLines[1], {strumSpacing: values}, 1, {ease: FlxEase.expoOut});
+//}
 
-
-function onBeatHit() {
+function beatHit() {
 
 	//spawnNumber();
 	//completely replace the games regular camlerps just so i can make my own bpz thing? eeeyes!
-	if (game.curBeat >= 328 && game.curBeat < 484 && game.curBeat % 2 == 0) {
+	if (curBeat >= 328 && curBeat < 484 && curBeat % 2 == 0) {
 		spawnNumber();
 	}
-	if (game.curBeat % beatPerZoom == 0 && allowedToBop) {
-		//debugPrint('booped');
-		game.camGame.zoom += 0.015 * game.camZoomingMult;
-		game.camHUD.zoom += 0.03 * game.camZoomingMult;
-	}
-}*/
-
-
-
+	//if (curBeat % beatPerZoom == 0 && allowedToBop) {
+	//	//debugPrint('booped');
+	//	camGame.zoom += 0.015;
+	//	camHUD.zoom += 0.03;
+	//}
+}
 
 
 function scriptStart(n, v1) {

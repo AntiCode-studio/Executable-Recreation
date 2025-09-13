@@ -1,7 +1,7 @@
 {
 	"customValues": {
-		"oppName": "shadow",
-		"playerName": "pace"
+		"playerName": "pace",
+		"oppName": "shadow"
 	},
 	"color": "#140027",
 	"opponentModeAllowed": false,

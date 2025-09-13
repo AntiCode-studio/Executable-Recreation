@@ -1,0 +1,1 @@
+gameOverSong = 'gameover/epilepsia'

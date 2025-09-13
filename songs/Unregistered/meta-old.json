@@ -2,7 +2,8 @@
 	"opponentModeAllowed": false,
 	"icon": "bluescreen",
 	"difficulties": [
-		"v1"
+		"1",
+		"2"
 	],
 	"color": "#0062FF",
 	"coopAllowed": false,
@@ -11,6 +12,6 @@
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
 	"bpm": 145,
-	"instSuffix": "-v1",
-	"vocalsSuffix": "-v1"
+	"instSuffix": "-v",
+	"vocalsSuffix": "-v"
 }
