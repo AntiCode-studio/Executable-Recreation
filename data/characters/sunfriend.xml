@@ -1,8 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="50" y="270" sprite="composted/Sunfriend" antialiasing="false" camx="-20" camy="60" color="#FFFFFF" splashSkin="pvznoteSplashes" noteSkin="pvzNOTE_assets2">
-	<anim name="idle" anim="idle"/>
-	<anim name="singDOWN" anim="down" x="14" y="-21"/>
-	<anim name="singRIGHT" anim="right" x="5" y="-33"/>
-	<anim name="singLEFT" anim="left" x="65" y="-10"/>
-	<anim name="singUP" anim="up" x="11" y="96"/>
+<character x="50" camx="290" y="270" camy="30" color="#FFFFFF" antialiasing="false" splashSkin="pvznoteSplashes" sprite="composted/Sunfriend" noteSkin="pvzNOTE_assets2">
+	<anim anim="idle" name="idle"/>
+
+	<anim x="14" y="-21" anim="down" name="singDOWN"/>
+
+	<anim x="5" y="-33" anim="right" name="singRIGHT"/>
+
+	<anim x="65" y="-10" anim="left" name="singLEFT"/>
+
+	<anim x="11" y="96" anim="up" name="singUP"/>
 </character>

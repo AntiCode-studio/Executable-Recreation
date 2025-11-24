@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "satanOS",
+	"difficulties": [
+		"satanism"
+	],
+	"color": "#004FFF",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Satan Blast",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 205
+}

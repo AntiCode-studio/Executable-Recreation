@@ -46,10 +46,10 @@ function onNoteHit(event)
 	event.enableCamZooming = true;
 
 function onCameraMove(_) if(zoomin == null && lastFocused != (lastFocused = curCameraTarget) && zoomAllow)
-	zoomin = FlxTween.tween(FlxG.camera, {zoom: curCameraTarget == 0 ? 1.2 : 0.75}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.cubeOut, onComplete: function(_){
-		zoomin = null;
-		defaultCamZoom = FlxG.camera.zoom;
-	}});
+zoomin = FlxTween.tween(FlxG.camera, {zoom: curCameraTarget == 0 ? 1.2 : 0.75}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.cubeOut, onComplete: function(_){
+	zoomin = null;
+	defaultCamZoom = FlxG.camera.zoom;
+}});
 
 
 var objs:Array<FlxSprite> = [];
@@ -144,7 +144,7 @@ function createLegs() {
 
     floor = new FlxSprite();
 	floor.frames = Paths.getSparrowAtlas('stages/unregistered/floorAnimation');
-	floor.animation.addByPrefix('i','floor',10);
+	floor.animation.addByPrefix('i','floor',20);
 	floor.animation.play('i');
 	floor.scale.set(2.2,2.2);
     insert(members.indexOf(dad),floor);
@@ -245,7 +245,7 @@ function postUpdate(elapsed:Float) {
 function runTruns() {
     part = 2;
     zoomAllow = false;
-    colorShader.contrast = 100;
+    //colorShader.contrast = 100;
     strumLines.members[0].characters[0].visible = false;
     strumLines.members[1].characters[0].visible = false;
     strumLines.members[0].characters[1].visible = true;
@@ -279,7 +279,7 @@ function runTruns() {
 }
 
 function thirdPart() {
-    colorShader.contrast = 0;
+    //colorShader.contrast = 0;
     part = 3;
     bgparglitch.glitchAmount = 0.0001;
     camGame.alpha = 1;

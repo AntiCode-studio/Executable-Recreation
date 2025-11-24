@@ -201,7 +201,9 @@ function alphaAllUpdate() {
     hpFG.alpha = healthBarBG.alpha;
     missesTxt.alpha = healthBarBG.alpha;
     rating.alpha = healthBarBG.alpha;
-    stars.alpha = rating.alpha;
+    for (i in 0...5) {
+        stars[i].alpha = rating.alpha;
+    }
     for(i in [hpBar1, hpBar2, hpBar3, hpBar4, hpBar5, hpBar6, hpBar7, hpBar8]){
         i.alpha = healthBar.alpha;
     };

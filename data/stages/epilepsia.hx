@@ -34,6 +34,14 @@ brightnes = new CustomShader('shader');
 //camGame.addShader(glitchExtraa);
 //var camMania:FlxCamera;
 
+var bgSpeed = -100;
+
+function bgSpeedChange(values) {
+    bgSpeed = values;
+    clockBG.velocity.x = bgSpeed;
+    clockBG1.velocity.x = bgSpeed;
+}
+
 function postCreate() {
     screen.visible = false;
     //FlxG.cameras.add(camMania, false);
@@ -67,24 +75,24 @@ function postCreate() {
     sonicTress.visible = false;
 	add(sonicTress);
 
-    clockBG = new FlxBackdrop(Paths.image('stages/epilepsia/clock1'), 1, 0);
+    clockBG = new FlxBackdrop(Paths.image('stages/epilepsia/clock1'));
     clockBG.y = clockBG.y + 50;
-    clockBG.velocity.x = -100;
-    clockBG.scale.set(2, 2);
+    clockBG.velocity.x = bgSpeed;
+    clockBG.scale.set(1, 1);
     clockBG.antialiasing = true;
     clockBG.alpha = 0;
     clocksChanging('1');
-    clockBG.shader = waveShader;
-    insert(members.indexOf(bgB), clockBG);
+    //clockBG.shader = waveShader;
+    insert(members.indexOf(dad), clockBG);
 
-    clockBG1 = new FlxBackdrop(Paths.image('stages/epilepsia/clock2'), 1, 0);
+    clockBG1 = new FlxBackdrop(Paths.image('stages/epilepsia/clock2'));
     clockBG1.y = clockBG1.y + 50;
-    clockBG1.velocity.x = -100;
-    clockBG1.scale.set(2, 2);
+    clockBG1.velocity.x = bgSpeed;
+    clockBG1.scale.set(1, 1);
     clockBG1.antialiasing = true;
     clockBG1.alpha = clockBG.alpha;
-    clockBG1.shader = waveShader;
-    insert(members.indexOf(clockBG), clockBG1);
+    //clockBG1.shader = waveShader;
+    insert(members.indexOf(dad), clockBG1);
 
     cincoBG.alpha = 0;
     quatroBG.alpha = 0;
@@ -117,6 +125,11 @@ function clocksChanging(onoff) {
             clockBG.visible = true;
             clockBG1.visible = false;
             clocksChanging('1');
+            remove(clockBG);
+            remove(clockBG1);
+            insert(members.indexOf(dad), clockBG);
+            insert(members.indexOf(dad), clockBG1);
+            
         });
     }
 }

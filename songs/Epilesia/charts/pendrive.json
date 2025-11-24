@@ -329,6 +329,22 @@
 		},
 		{
 			"params": [
+				"bgSpeedChange",
+				"-50"
+			],
+			"time": 109879.518072289,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"clocksChanging",
+				"2"
+			],
+			"time": 109879.518072289,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
 				2
 			],
 			"name": "Camera Movement",
@@ -3833,7 +3849,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 85.2272727268282,
+					"sLen": 85.2272727267409,
 					"time": 209236.268844823,
 					"type": 0
 				},
@@ -7216,7 +7232,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 398.936170212284,
+					"sLen": 398.936170212197,
 					"time": 214284.624744243,
 					"type": 0
 				},
@@ -7348,7 +7364,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 239.361702127149,
+					"sLen": 239.361702127062,
 					"time": 219391.007722966,
 					"type": 0
 				},
@@ -7959,20 +7975,20 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"strumSpacing": 3,
 			"visible": true,
-			"type": 1,
-			"characters": [
-				"bf2"
-			],
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.5
+			"strumLinePos": 0.5,
+			"type": 1,
+			"characters": [
+				"bf2"
+			]
 		},
 		{
 			"keyCount": 4,

@@ -5,8 +5,7 @@
 		"V2",
 		"V1"
 	],
-	"color": -1,
-	"name": "Composted",
+	"color": "#FFFFFF",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "Composted",

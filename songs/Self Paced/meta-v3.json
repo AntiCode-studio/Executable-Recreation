@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "shadow",
+	"difficulties": [
+		"v3"
+	],
+	"color": "#140027",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Self Paced",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 168,
+	"instSuffix": "-v3",
+	"vocalsSuffix": "-v3"
+}

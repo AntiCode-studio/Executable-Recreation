@@ -6,7 +6,7 @@ var zombies = [];
 
 vhsCompoced = new CustomShader('vhsCompoced');
 importScript("data/scripts/resizing");
-ratioThing(800, 600, false);
+ratioThing(960, 720, false);
 
 wave = new CustomShader('wave');
 
@@ -222,14 +222,14 @@ function stepHit(curStep:Int) {
     switch (curStep) {
         case 684: 
             camGame.setFilters();
-            ratioThing(1920, 1080, false);
+            ratioThing(1281, 720, false);
         case 944:
             camGame.addShader(chromCushion);
             camGame.addShader(highContrast);
             ratioThing(800, 600, true);
         case 1564: 
             camGame.setFilters();
-            ratioThing(1920, 1080, false);
+            ratioThing(1281, 720, false);
         case 1616:
             camGame.addShader(chromCushion);
             camGame.addShader(highContrast);

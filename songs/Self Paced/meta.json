@@ -7,8 +7,7 @@
 	"opponentModeAllowed": false,
 	"difficulties": [
 		"hard",
-		"v1",
-		"v3"
+		"v1"
 	],
 	"icon": "shadow",
 	"coopAllowed": false,
@@ -17,7 +16,8 @@
 	"beatsPerMeasure": 4,
 	"needsVoices": true,
 	"variants": [
-		"Self Paced Side-b"
+		"Self Paced Side-b",
+		"v3"
 	],
 	"bpm": 165
 }

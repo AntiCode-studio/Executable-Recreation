@@ -13,7 +13,7 @@
 		},
 		{
 			"params": [
-				"ManiaNotes",
+				"ManiaNotesNEW",
 				0
 			],
 			"time": 0,
@@ -21,7 +21,7 @@
 		},
 		{
 			"params": [
-				"ManiaNotes",
+				"ManiaNotesNEW",
 				1
 			],
 			"time": 0,
@@ -910,15 +910,13 @@
 			"time": 233554.6875
 		}
 	],
-	"stage": "unregistered",
 	"codenameChart": true,
+	"stage": "unregistered",
 	"scrollSpeed": 3.4,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 3,
@@ -3376,7 +3374,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 117.187500000015,
+					"sLen": 117.1875,
 					"time": 119882.8125,
 					"type": 0
 				},
@@ -5991,25 +5989,25 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 0,
 			"characters": [
 				"bluescreen",
 				"bluescreen3D",
 				"bluescreengay"
 			],
-			"type": 0,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.2,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.2
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -9720,23 +9718,26 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"michi",
 				"michi3D",
 				"michif"
 			],
-			"type": 1,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.8,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.8
 		},
 		{
 			"keyCount": 4,
+			"position": "girlfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -9763,12 +9764,11 @@
 					"type": 0
 				}
 			],
-			"position": "girlfriend",
-			"type": 2,
-			"visible": false,
 			"characters": [
 				"gf"
-			]
+			],
+			"visible": false,
+			"type": 2
 		}
 	],
 	"noteTypes": [
