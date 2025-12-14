@@ -1,0 +1,30 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" startCamPosX="0" startCamPosY="0" folder="stages/epilepsia/">
+    <gf x="-70" y="-150" visible="false"/>
+    <sprite x="-100" y="0" alpha="1" scale="2.5" type="loop" sprite="bgEPI" name="bgE">
+        <!-- your sprites anims here (use the "Sprite Animation" Snippet) -->
+        <anim name="idle" anim="anim" loop="true"/>
+    </sprite>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="screenText1" name="img1"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="screenText2" name="img2"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="screenText3" name="img3"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="frames/1" name="cutImg1"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="frames/2" name="cutImg2"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="frames/3" name="cutImg3"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="frames/4" name="cutImg4"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="counting/5" name="count5"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="counting/4" name="count4"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="counting/3" name="count3"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="counting/2" name="count2"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="counting/1" name="count1"/>
+    <solid x="-1100" y="-600" width="2560" height="1400" color="#000000" name="bgB"/>
+    <sprite x="-850" y="-370" alpha="1" scale="0.75" sprite="circle" name="circle"/>
+    <sprite x="-450" y="-100" alpha="1" scale="2" sprite="bg2-1" name="cincoBG"/>
+    <!-- <sprite x="0" y="0" alpha="0" scale="0.7" sprite="logo" name="logo"/> -->
+    <sprite x="-450" y="-100" alpha="1" scale="2" sprite="image0" name="quatroBG"/>
+    <bf x="0" y="0" alpha="1" scale="1" camxoffset="0" camyoffset="0" flipX="false" scroll="1"/>
+    <dad x="0" y="0" alpha="1" scale="1" camxoffset="-250" camyoffset="200" flipX="false" scroll="1"/>
+    <sprite x="-1100" y="-600" alpha="1" scroll="1" antialiasing="true" scale="1" flipX="false" flipY="false" updateHitbox="true" zoomfactor="1" sprite="start" name="stageStart"/>
+    <sprite x="-1100" y="-600" alpha="1" scroll="1" antialiasing="true" scale="1" flipX="false" flipY="false" updateHitbox="true" zoomfactor="1" sprite="start" name="stageStart1"/>
+    <sprite x="-600" y="-200" alpha="1" scale="1" sprite="screen" name="screen"/>
+</stage>
