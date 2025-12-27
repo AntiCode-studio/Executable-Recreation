@@ -7,6 +7,7 @@ import funkin.menus.ModSwitchMenu;
 import funkin.editors.EditorPicker;
 import funkin.options.OptionsMenu;
 import funkin.menus.credits.CreditsMain;
+import funkin.backend.utils.DiscordUtil;
 
 var transitioning:Bool = true;
 menuShader = new CustomShader('menuShader');
@@ -16,6 +17,12 @@ var optionShit:Array<String> = CoolUtil.coolTextFile(Paths.txt("config/menuItems
 var canClick:Bool = true;
 var usingMouse:Bool = true;
 var curSelected:Int = 0;
+
+function postCreate() {
+    DiscordUtil.call("onMenuLoaded", ["Main Menu"]);
+
+    DiscordUtil.config.logoKey = "maniamenus";
+}
 
 function create() {
 

@@ -2,12 +2,19 @@ import flixel.addons.display.FlxBackdrop;
 import flixel.util.FlxGradient;
 import openfl.display.BlendMode;
 import flixel.tweens.FlxTween.FlxTweenType;
+import funkin.backend.utils.DiscordUtil;
+
 var transitioning:Bool = true;
 menuShader = new CustomShader('menuShader');
 scrollTest = new CustomShader('scroll');
 function create() {
     FlxG.sound.playMusic(Paths.music('EXEcellence'), 1, true);
     Conductor.changeBPM(123);
+
+    DiscordUtil.call("onMenuLoaded", ["Title Screen"]);
+
+    DiscordUtil.config.logoKey = "exemania";
+    DiscordUtil.config.logoText = "Executable Mania Recreation";
 
 	if (FlxG.sound.music != null && FlxG.sound.music.volume == 0) {
 		FlxG.sound.music.play();

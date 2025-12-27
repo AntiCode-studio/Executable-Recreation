@@ -6,7 +6,7 @@
 	"color": "#140027",
 	"opponentModeAllowed": false,
 	"difficulties": [
-		"hard",
+		"v2",
 		"v1"
 	],
 	"icon": "shadow",

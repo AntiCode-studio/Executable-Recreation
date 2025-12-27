@@ -372,7 +372,7 @@ function stepMania(par) {
             
         case 4:
             camGame.addShader(distort);
-            doTweenZoom(0.6, 0.1 ,FlxEase.expoOut);
+            //doTweenZoom(0.6, 0.1 ,FlxEase.expoOut);
             camGame.setFilters();
             camGame.addShader(aura);
             cincoBG.alpha = 1;
@@ -380,6 +380,7 @@ function stepMania(par) {
                 option.alpha = 0;
             }
             FlxTween.tween(count5, {alpha: 0}, 0.5);
+            cincoBG.color = 0xFFFFFF;
         case 5:
             camGame.setFilters();
             camGame.addShader(aura);
@@ -410,7 +411,7 @@ function stepMania(par) {
             strumLines.members[0].characters[0].alpha = 0;
             tressBG.alpha = 1;
             sonicTress.visible = true;
-            doTweenZoom(0.95, 0.1 ,FlxEase.expoOut);
+            //doTweenZoom(0.95, 0.1 ,FlxEase.expoOut);
             FlxTween.tween(count3, {alpha: 0}, 0.5);
         case 9:
             tressBG.velocity.x = -1500;
@@ -430,6 +431,7 @@ function stepMania(par) {
             for (i=>option in objs) {
                 option.alpha = 1;
             }
+            cincoBG.color = 0xFF0000;
         case 12:
             camGame.addShader(distort);
             camGame.zoom = 2;
