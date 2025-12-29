@@ -1,0 +1,16 @@
+{
+	"color": "#410019",
+	"customValues": {},
+	"opponentModeAllowed": false,
+	"icon": "pen2",
+	"difficulties": [
+		"pendrive",
+		"new"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Epilepsia",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"bpm": 166
+}

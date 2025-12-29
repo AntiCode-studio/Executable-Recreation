@@ -2,8 +2,9 @@ import funkin.ui.FunkinText;
 import flixel.text.FlxText;
 import flixel.text.FlxTextBorderStyle;
 import funkin.backend.system.framerate.Framerate;
-import openfl.display.BlendMode;
+//import openfl.display.BlendMode;
 
+var pauseCambg = new FlxCamera();
 var pauseCam = new FlxCamera();
 var pauseCam2 = new FlxCamera();
 
@@ -16,6 +17,8 @@ var texts:Array<FlxText> = [];
 
 var grpMenuShit:FlxTypedGroup<Alphabet>;
 var pitchSound;
+
+var cameraCopySprite = new FlxSprite(0, 0);
 function create(event) {
     //FlxTween.tween(Framerate.offset, {y: 60}, .5, {ease: FlxEase.cubeOut});
 
@@ -33,6 +36,20 @@ function create(event) {
 	//pauseSound = FlxG.sound.load(Paths.sound('menu/new/pause'), .15);
 	//pauseSound.pitch = pitchSound;
 	//pauseSound.play();
+
+	FlxG.cameras.add(pauseCambg, false);
+    pauseCambg.bgColor = 0x000000000;
+    pauseCambg.alpha = 1;
+	
+	cameraCopySprite.makeGraphic(1280, 720, 0, true);
+	cameraCopySprite.cameras = pauseCambg;
+	add(cameraCopySprite);
+
+	if (FlxG.renderBlit) {
+       cameraCopySprite.pixels.copyPixels(pauseCambg.buffer, pauseCambg.buffer.rect, new Point());
+    } else {
+       cameraCopySprite.pixels.draw(pauseCambg.canvas);    
+    }
 
     FlxG.cameras.add(pauseCam, false);
     pauseCam.bgColor = 0x94000000;
@@ -52,7 +69,7 @@ function create(event) {
     bg.scale.set(2,2);
     bg.updateHitbox();
     bg.screenCenter();
-	bg.blend = BlendMode.DARKEN;
+	bg.blend = 2;
     add(bg);
 	FlxTween.tween(bg, {"scale.x": 1.2, "scale.y": 1.2, alpha: 0.1}, 0.5, {ease: FlxEase.cubeOut});
 

@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character antialiasing="false" x="-910" icon="Pen1" camx="-200" sprite="pendrive/pendriveCinco" y="-550" camy="-380" scale="0.7">
+<character antialiasing="false" x="-910" icon="Pen1" camx="-280" sprite="pendrive/pendriveCinco" y="-550" camy="-300" scale="0.7">
 	<anim loop="true" fps="10" anim="idle" name="idle"/>
 
 	<anim x="10" fps="10" y="10" anim="down" name="singDOWN"/>
