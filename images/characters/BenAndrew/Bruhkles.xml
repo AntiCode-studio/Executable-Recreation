@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Bruhkles.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Idle0000" x="0" y="0" width="493" height="406" frameX="-49" frameY="-227" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Left0000" x="493" y="0" width="445" height="382" frameX="-97" frameY="-241" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Left0001" x="0" y="406" width="445" height="411" frameX="-106" frameY="-216" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Up 0000" x="938" y="0" width="316" height="436" frameX="-216" frameY="-187" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Up 0001" x="493" y="382" width="395" height="404" frameX="-162" frameY="-217" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Down0000" x="1254" y="366" width="366" height="341" frameX="-207" frameY="-282" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Down0001" x="0" y="817" width="391" height="352" frameX="-175" frameY="-271" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Right0000" x="1254" y="0" width="376" height="366" frameX="-201" frameY="-260" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Right0001" x="0" y="1169" width="377" height="360" frameX="-203" frameY="-267" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

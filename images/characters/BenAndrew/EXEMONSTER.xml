@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="EXEMONSTER.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle 0000" x="753" y="0" width="394" height="495" frameX="-31" frameY="-35" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Up0000" x="377" y="0" width="376" height="525" frameX="-40" frameY="2" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Up0001" x="0" y="0" width="377" height="526" frameX="-40" frameY="2" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Left0000" x="0" y="526" width="407" height="473" frameX="-15" frameY="-78" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Left0001" x="1147" y="0" width="381" height="487" frameX="-45" frameY="-55" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Down0000" x="789" y="999" width="403" height="280" frameX="-36" frameY="-229" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Down0001" x="394" y="999" width="395" height="298" frameX="-37" frameY="-213" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Right0000" x="407" y="526" width="407" height="458" frameX="-32" frameY="-77" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Right0001" x="0" y="999" width="394" height="454" frameX="-48" frameY="-80" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

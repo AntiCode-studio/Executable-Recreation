@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="BenAndrew/EXEMONSTER" scale="1.9" antialiasing="false" camx="-290" camy="-230" icon="EXEMONSTER">
+	<anim name="idle" anim="idle "/>
+	<anim name="singDOWN" anim="Down" fps="12"/>
+	<anim name="singRIGHT" anim="Right" fps="12"/>
+	<anim name="singLEFT" anim="Left" fps="12"/>
+	<anim name="singUP" anim="Up" fps="12"/>
+</character>

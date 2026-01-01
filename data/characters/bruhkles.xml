@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="BenAndrew/Bruhkles" scale="3" antialiasing="false" flipX="true" camx="-70" camy="70" isPlayer="true" icon="bruhkles" color="#A1A1A1">
+	<anim name="idle" anim="Idle"/>
+	<anim name="singDOWN" anim="Down" fps="12"/>
+	<anim name="singRIGHT" anim="Right" fps="12"/>
+	<anim name="singLEFT" anim="Left" fps="12"/>
+	<anim name="singUP" anim="Up " fps="12"/>
+</character>

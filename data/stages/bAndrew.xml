@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/bAndrew/" name="bAndrew" zoom="0.38">
+	<girlfriend/>
+	<sprite type="none" antialiasing="false" sprite="bg1" name="bg"/>
+	<sprite antialiasing="false" x="2202.98841803282" sprite="fire" y="360" scalex="4" scaley="6" name="fire"/>
+	<sprite type="none" antialiasing="false" sprite="car" name="car"/>
+	<dad x="1250" y="800" camyoffset="100" camxoffset="350"/>
+	<sprite type="none" antialiasing="false" sprite="light" name="light"/>
+	<boyfriend x="2400" y="800" camyoffset="-100" camxoffset="-600"/>
+	<sprite antialiasing="false" sprite="fg" type="none" name="fg" scrollx="1.1"/>
+	<sprite antialiasing="false" x="503.454721831258" sprite="fire" y="995" scalex="4" scrollx="1.1" scaley="12" name="fire2"/>
+	<sprite antialiasing="false" x="956" scroll="1.1" sprite="rain" y="523" scale="2" name="rain"/>
+</stage>
