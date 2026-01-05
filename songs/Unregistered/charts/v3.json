@@ -117,6 +117,20 @@
 		},
 		{
 			"params": [
+				true,
+				1.3,
+				"camGame",
+				2,
+				"elastic",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 17812.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				"10",
 				"Linear",
 				"InOut",
@@ -134,6 +148,34 @@
 			],
 			"name": "Cinematics (Bar)",
 			"time": 18046.875
+		},
+		{
+			"params": [
+				true,
+				1.4,
+				"camGame",
+				2,
+				"elastic",
+				"Out",
+				"direct",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 18046.875
+		},
+		{
+			"params": [
+				true,
+				1.6,
+				"camGame",
+				2,
+				"elastic",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 18281.25,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -164,6 +206,20 @@
 		},
 		{
 			"params": [
+				true,
+				0.85,
+				"camGame",
+				2,
+				"elastic",
+				"Out",
+				"direct",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 21562.5
+		},
+		{
+			"params": [
 				"10",
 				"Linear",
 				"InOut",
@@ -174,6 +230,20 @@
 		},
 		{
 			"params": [
+				true,
+				0.95,
+				"camGame",
+				2,
+				"elastic",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 21796.875,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				"20",
 				"Linear",
 				"InOut",
@@ -181,6 +251,20 @@
 			],
 			"time": 21796.875,
 			"name": "Cinematics (Bar)"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				2,
+				"elastic",
+				"Out",
+				"direct",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 22031.25
 		},
 		{
 			"params": [
@@ -1458,15 +1542,13 @@
 			"name": "Camera Flash"
 		}
 	],
-	"stage": "unregistered",
 	"codenameChart": true,
+	"stage": "unregistered",
 	"scrollSpeed": 3.4,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 3,
@@ -6539,25 +6621,25 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 0,
 			"characters": [
 				"bluescreen",
 				"bluescreen3D",
 				"bluescreengay"
 			],
-			"type": 0,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.2,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.2
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -10268,23 +10350,26 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"michi",
 				"michi3D",
 				"michif"
 			],
-			"type": 1,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.8,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.8
 		},
 		{
 			"keyCount": 4,
+			"position": "girlfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -10311,12 +10396,11 @@
 					"type": 0
 				}
 			],
-			"position": "girlfriend",
-			"type": 2,
-			"visible": false,
 			"characters": [
 				"gf"
-			]
+			],
+			"visible": false,
+			"type": 2
 		}
 	],
 	"noteTypes": [

@@ -1,7 +1,9 @@
 import flixel.ui.FlxBar;
 import flixel.ui.FlxBarFillDirection;
 import flixel.util.FlxStringUtil;
+import flixel.text.FlxTextBorderStyle;
 var timerVtoroi:String;
+
 public var hideTime:Bool = false;
 public var timerTxt:FlxSpriteGroup = new FlxSpriteGroup(180, 5);
 static final numberFontCodes:Array<String> = [for(_ in 0...10) Std.string(_)];
@@ -183,7 +185,9 @@ function postCreate() {
     //add(reroyexplodes);
     reroyexplodes.animation.play('explode');
 
-    missesTxt.y += 20;
+    missesTxt.setFormat(Paths.font("SANoRules.otf"), 28, FlxColor.WHITE, FlxText.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+
+    missesTxt.y += 12;
 
     //camHUD.alpha = 0;
 
@@ -193,6 +197,7 @@ function postCreate() {
     }
 
     updateStars();
+
 
 }
 function alphaAllUpdate() {

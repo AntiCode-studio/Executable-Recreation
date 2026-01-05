@@ -322,14 +322,14 @@ function thirdPart() {
     strumLines.members[0].characters[2].visible = true;
     strumLines.members[1].characters[2].visible = true;
 
-    strumLines.members[1].characters[2].angle -= 2;
-    strumLines.members[0].characters[2].angle += 2;
+    strumLines.members[1].characters[2].angle -= 4;
+    strumLines.members[0].characters[2].angle += 4;
     strumLines.members[1].characters[2].y -= 250;
     strumLines.members[0].characters[2].y = strumLines.members[1].characters[2].y - 50;
     strumLines.members[0].characters[2].x -= 150;
     trace(strumLines.members[1].characters[2].y);
-    FlxTween.tween(strumLines.members[1].characters[2], {angle: 2, y:180}, 4, {ease: FlxEase.expoInOut, type: FlxTweenType.PINGPONG});
-    FlxTween.tween(strumLines.members[0].characters[2], {angle: -2, y:60}, 4, {ease: FlxEase.expoInOut, type: FlxTweenType.PINGPONG});
+    FlxTween.tween(strumLines.members[1].characters[2], {angle: 4, y:220}, 4, {ease: FlxEase.expoInOut, type: FlxTweenType.PINGPONG});
+    FlxTween.tween(strumLines.members[0].characters[2], {angle: -4, y:10}, 4, {ease: FlxEase.expoInOut, type: FlxTweenType.PINGPONG});
 
     remove(strumLines.members[0].characters[2]);
     insert(members.indexOf(strumLines.members[1].characters[2]), strumLines.members[0].characters[2]);
@@ -339,16 +339,17 @@ function onPlayerMiss(event:NoteMissEvent) {
     flicker();
 }
 function flicker() {
-    if(part == 1){
-        strumLines.members[1].characters[0].setColorTransform(0.5,0.5,1);
-        FlxFlicker.flicker(strumLines.members[1].characters[0],1,0.05,true,true,(flicker)->{strumLines.members[1].characters[0].setColorTransform(1,1,1);});
-    }else if (part == 2){
-        strumLines.members[1].characters[1].setColorTransform(0.5,0.5,1);
-        FlxFlicker.flicker(strumLines.members[1].characters[1],1,0.05,true,true,(flicker)->{strumLines.members[1].characters[1].setColorTransform(1,1,1);});
-        michiLegs.setColorTransform(0.5,0.5,1);
-        FlxFlicker.flicker(michiLegs,1,0.05,true,true,(flicker)->{michiLegs.setColorTransform(1,1,1);});
-    }else if (part == 3){
-        strumLines.members[1].characters[2].setColorTransform(0.5,0.5,1);
-        FlxFlicker.flicker(strumLines.members[1].characters[2],1,0.05,true,true,(flicker)->{strumLines.members[1].characters[2].setColorTransform(1,1,1);});
+    switch(part){
+        case 1:
+            strumLines.members[1].characters[0].setColorTransform(0.5,0.5,1);
+            FlxFlicker.flicker(strumLines.members[1].characters[0],1,0.05,true,true,(flicker)->{strumLines.members[1].characters[0].setColorTransform(1,1,1);});
+        case 2:
+            strumLines.members[1].characters[1].setColorTransform(0.5,0.5,1);
+            FlxFlicker.flicker(strumLines.members[1].characters[1],1,0.05,true,true,(flicker)->{strumLines.members[1].characters[1].setColorTransform(1,1,1);});
+            michiLegs.setColorTransform(0.5,0.5,1);
+            FlxFlicker.flicker(michiLegs,1,0.05,true,true,(flicker)->{michiLegs.setColorTransform(1,1,1);});
+        case 3:
+            strumLines.members[1].characters[2].setColorTransform(0.5,0.5,1);
+            FlxFlicker.flicker(strumLines.members[1].characters[2],1,0.05,true,true,(flicker)->{strumLines.members[1].characters[2].setColorTransform(1,1,1);});
     }
 }
