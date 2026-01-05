@@ -13,7 +13,7 @@
 		},
 		{
 			"params": [
-				"ManiaNotesNEW",
+				"ManiaNotes",
 				1
 			],
 			"time": 0,
@@ -1088,15 +1088,13 @@
 			"name": "video event"
 		}
 	],
-	"codenameChart": true,
 	"stage": "epilepsia new",
+	"codenameChart": true,
 	"scrollSpeed": 3.2,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 1,
@@ -4262,7 +4260,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 83.8904246010061,
+					"sLen": 83.8904246010352,
 					"time": 208852.595885915,
 					"type": 0
 				},
@@ -4388,7 +4386,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 79.7872340425965,
+					"sLen": 79.7872340425674,
 					"time": 244308.32782354,
 					"type": 0
 				},
@@ -4460,7 +4458,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 239.361702127528,
+					"sLen": 239.361702127499,
 					"time": 247021.093780987,
 					"type": 0
 				},
@@ -4550,7 +4548,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 239.361702127644,
+					"sLen": 239.361702127673,
 					"time": 249893.434206519,
 					"type": 0
 				},
@@ -4610,7 +4608,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 79.7872340425383,
+					"sLen": 79.7872340425674,
 					"time": 252606.200163966,
 					"type": 0
 				},
@@ -4634,7 +4632,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 119.680851063837,
+					"sLen": 119.680851063866,
 					"time": 253005.136334178,
 					"type": 0
 				},
@@ -4646,7 +4644,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 239.361702127819,
+					"sLen": 239.361702127848,
 					"time": 253404.072504391,
 					"type": 0
 				},
@@ -4664,7 +4662,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 79.7872340425674,
+					"sLen": 79.7872340425965,
 					"time": 254042.370376732,
 					"type": 0
 				},
@@ -4676,7 +4674,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 1196.80851063834,
+					"sLen": 1196.8085106384,
 					"time": 256755.136334178,
 					"type": 0
 				},
@@ -4706,7 +4704,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 79.7872340426838,
+					"sLen": 79.787234042713,
 					"time": 260904.072504391,
 					"type": 0
 				},
@@ -4718,13 +4716,13 @@
 				},
 				{
 					"id": 2,
-					"sLen": 79.7872340425674,
+					"sLen": 79.7872340425965,
 					"time": 261542.370376732,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 79.7872340425674,
+					"sLen": 79.7872340425965,
 					"time": 261701.944844817,
 					"type": 0
 				},
@@ -4736,7 +4734,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 605.053191489395,
+					"sLen": 605.053191489365,
 					"time": 262021.093780987,
 					"type": 0
 				},
@@ -5119,21 +5117,25 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"visible": false,
+			"type": 0,
 			"characters": [
 				"BlueUSB2",
 				"qutroDA"
 			],
-			"type": 0,
-			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -7885,7 +7887,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 131.564056133968,
+					"sLen": 131.564056133997,
 					"time": 255239.17888737,
 					"type": 0
 				},
@@ -8047,7 +8049,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 202.014486192842,
+					"sLen": 202.014486192813,
 					"time": 260265.774632051,
 					"type": 0
 				},
@@ -8077,7 +8079,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 202.014486192667,
+					"sLen": 202.014486192638,
 					"time": 261382.795908646,
 					"type": 0
 				},
@@ -8418,32 +8420,30 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 1,
 			"characters": [
 				"bf2"
 			],
+			"type": 1,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.5
+			"strumLinePos": 0.5,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"visible": false,
+			"scrollSpeed": null,
+			"type": 2,
 			"characters": [
 				"gf"
 			],
-			"type": 2,
-			"scrollSpeed": null,
-			"visible": false,
 			"strumPos": [
 				0,
 				50

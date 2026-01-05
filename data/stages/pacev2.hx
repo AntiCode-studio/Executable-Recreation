@@ -535,10 +535,11 @@ function update(elapsed:Float) {
     aura.iTime = localTime;
     snowfall.iTime = localTime;
     wave.iTime = localTime;
-    var shadowScale = 0.6 + PlayState.instance.defaultCamZoom - camGame.zoom;
+    //var shadowScale = 0.6 + PlayState.instance.defaultCamZoom - camGame.zoom;
     vignette.alpha = FlxMath.lerp(vignette.alpha, vignetteFade, 0.15);
     if (!isRun){
-        strumLines.members[0].characters[0].scale.set(shadowScale, shadowScale);
+        strumLines.members[0].characters[0].zoomFactor = 0.4;
+        //strumLines.members[0].characters[0].scale.set(shadowScale, shadowScale);
         if(strumLines.members[curCameraTarget].characters[curCameraTarget] == strumLines.members[0].characters[0]){
             camGame.zoom = FlxMath.lerp(camGame.zoom, 1.2, 0.05);
             vignetteFade = 1;

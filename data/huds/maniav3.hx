@@ -207,11 +207,16 @@ function alphaAllUpdate() {
     for(i in [hpBar1, hpBar2, hpBar3, hpBar4, hpBar5, hpBar6, hpBar7, hpBar8]){
         i.alpha = healthBar.alpha;
     };
+
+    timeBG.alpha = healthBarBG.alpha;
+    timerTxt.alpha = timeBG.alpha;
 }
 function onSongStart() {
     if(timeVisible){
         FlxTween.tween(timeBG, {y: timeBG.y + 50, alpha: 1}, 0.5, {ease: FlxEase.quintOut});
         createText(timeString(), timerTxt, 0.40, scaleTimer);
+    }else {
+        timeBG.visible = false;
     }
     
 }
@@ -222,63 +227,58 @@ function paoUpdate(aaa:Bool) {
 }
 
 function updateStars() {
-    if(curRating.rating == '[N/A]'){
-        for (i in 0...5) {
-            stars[i].color = 0x141425;
-        }
-    }
-    if(curRating.rating == 'S++'){
-        for (i in 0...5) {
-            stars[i].color = 0x824947;
-        }
-    }
-    if(curRating.rating == 'S'){
-        for (i in 0...5) {
-            stars[i].color = 0xFFFFFF;
-        }
-    }
-    if(curRating.rating == 'A'){
-        for (i in 0...5) {
-            stars[i].color = 0xFFFFFF;
-            if(i == 5){
-                stars[i].visible = false;
+    switch(curRating.rating){
+        case '[N/A]':
+            for (i in 0...5) {
+                stars[i].color = 0x141425;
             }
-        }
-    }
-    if(curRating.rating == 'B'){
-        for (i in 0...5) {
-            stars[i].color = 0xFFFFFF;
-            if(i == 5 || i == 4){
-                stars[i].visible = false;
+        case 'S++':
+            for (i in 0...5) {
+                stars[i].color = 0x824947;
             }
-        }
-    }
-    if(curRating.rating == 'C'){
-        for (i in 0...5) {
-            stars[i].color = 0xFFFFFF;
-            if(i == 5 || i == 4 || i == 3){
-                stars[i].visible = false;
+        case 'S':
+            for (i in 0...5) {
+                stars[i].color = 0xFFFFFF;
             }
-        }
-    }
-    if(curRating.rating == 'D'){
-        for (i in 0...5) {
-            stars[i].color = 0xFFFFFF;
-            if(i == 5 || i == 4 || i == 3 || i == 2){
-                stars[i].visible = false;
+        case 'A':
+            for (i in 0...5) {
+                stars[i].color = 0xFFFFFF;
+                if(i == 5){
+                    stars[i].visible = false;
+                }
             }
-        }
-    }
-    if(curRating.rating == 'E'){
-        for (i in 0...5) {
-            stars[i].color = 0xFFFFFF;
-            if(i == 5 ||i == 4 ||i == 3 ||i == 2 ||i == 1){
-                stars[i].visible = false;
+        case 'B':
+            for (i in 0...5) {
+                stars[i].color = 0xFFFFFF;
+                if(i == 5 || i == 4){
+                    stars[i].visible = false;
+                }
             }
-        }
-    }
-    if(curRating.rating == 'F'){
-        for (i in 0...5) {
+        case 'C':
+            for (i in 0...5) {
+                stars[i].color = 0xFFFFFF;
+                if(i == 5 || i == 4 || i == 3){
+                    stars[i].visible = false;
+                }
+            }
+        case 'D':
+            for (i in 0...5) {
+                stars[i].color = 0xFFFFFF;
+                if(i == 5 || i == 4 || i == 3 || i == 2){
+                    stars[i].visible = false;
+                }
+            }
+        
+        case 'E':
+            for (i in 0...5) {
+                stars[i].color = 0xFFFFFF;
+                if(i == 5 ||i == 4 ||i == 3 ||i == 2 ||i == 1){
+                    stars[i].visible = false;
+                }
+            }
+        
+        case 'F':
+            for (i in 0...5) {
             stars[i].color = 0xFFFFFF;
             if(i == 5 ||i == 4 ||i == 3 ||i == 2 ||i == 1 ||i == 0){
                 stars[i].visible = false;

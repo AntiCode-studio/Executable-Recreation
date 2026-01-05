@@ -1,14 +1,17 @@
 {
 	"opponentModeAllowed": false,
+	"icon": "bluescreen",
 	"difficulties": [
-		"normal"
+		"v3"
 	],
-	"icon": "face",
+	"color": "#0062FF",
 	"coopAllowed": false,
-	"color": "#9271FD",
 	"stepsPerBeat": 4,
-	"displayName": "The Very Sad Story Of Ben Bruhkles Andrew",
+	"displayName": "Unregistered",
+	"variants": [
+		"old"
+	],
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"bpm": 125
+	"bpm": 128
 }

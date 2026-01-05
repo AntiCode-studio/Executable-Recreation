@@ -1,4 +1,21 @@
 {
+	"meta": {
+		"opponentModeAllowed": false,
+		"icon": "bluescreen",
+		"difficulties": [
+			"v3"
+		],
+		"color": "#0062FF",
+		"coopAllowed": false,
+		"stepsPerBeat": 4,
+		"displayName": "Unregistered",
+		"variants": [
+			"old"
+		],
+		"needsVoices": true,
+		"beatsPerMeasure": 4,
+		"bpm": 128
+	},
 	"events": [
 		{
 			"params": [
@@ -988,7 +1005,7 @@
 				"In"
 			],
 			"name": "Camera Movement",
-			"time": 147304.6875
+			"time": 147187.5
 		},
 		{
 			"params": [
@@ -1001,7 +1018,7 @@
 				"direct",
 				false
 			],
-			"time": 147304.6875,
+			"time": 147187.5,
 			"name": "Camera Zoom"
 		},
 		{
@@ -1009,7 +1026,7 @@
 				"0",
 				"Expo",
 				"Out",
-				"2"
+				"0.2"
 			],
 			"time": 147304.6875,
 			"name": "Cinematics (Bar)"
@@ -1093,26 +1110,6 @@
 			],
 			"time": 166054.6875,
 			"name": "Cinematics (Bar)"
-		},
-		{
-			"params": [
-				false,
-				"Linear",
-				"InOut",
-				"2"
-			],
-			"time": 166054.6875,
-			"name": "Cinematics (HUD)"
-		},
-		{
-			"params": [
-				false,
-				"Linear",
-				"InOut",
-				"2"
-			],
-			"time": 166054.6875,
-			"name": "Cinematics (Strums)"
 		},
 		{
 			"params": [
@@ -1220,26 +1217,6 @@
 		},
 		{
 			"params": [
-				true,
-				"Linear",
-				"InOut",
-				"1"
-			],
-			"time": 175429.6875,
-			"name": "Cinematics (Strums)"
-		},
-		{
-			"params": [
-				true,
-				"Linear",
-				"InOut",
-				"1"
-			],
-			"time": 175429.6875,
-			"name": "Cinematics (HUD)"
-		},
-		{
-			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -1286,7 +1263,7 @@
 				"1",
 				"",
 				"",
-				"camHUD/hideHUD",
+				"camHUD/showHUD",
 				true,
 				false,
 				false,
@@ -1312,7 +1289,7 @@
 				false,
 				"Linear",
 				"InOut",
-				"2"
+				"0.001"
 			],
 			"time": 188554.6875,
 			"name": "Cinematics (HUD)"
@@ -1322,7 +1299,7 @@
 				false,
 				"Linear",
 				"InOut",
-				"2"
+				"0.001"
 			],
 			"time": 188554.6875,
 			"name": "Cinematics (Strums)"
@@ -1460,8 +1437,6 @@
 	],
 	"stage": "unregistered",
 	"codenameChart": true,
-	"scrollSpeed": 3.4,
-	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
@@ -10319,6 +10294,8 @@
 			]
 		}
 	],
+	"scrollSpeed": 3.4,
+	"chartVersion": "1.6.0",
 	"noteTypes": [
 		"Alt Anim Note"
 	]

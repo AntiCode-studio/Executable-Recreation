@@ -4,6 +4,9 @@ public var zoomAllow:Bool = true;
 
 introLength = 0;
 
+importScript("data/huds/maniav3");
+portVisible = false;
+
 function onNoteHit(event)
 	event.enableCamZooming = true;
 

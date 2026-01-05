@@ -46,7 +46,7 @@
 		{
 			"params": [
 				true,
-				1.5,
+				2,
 				"camGame",
 				24,
 				"cube",
@@ -85,13 +85,13 @@
 		{
 			"params": [
 				true,
-				1,
+				0.5,
 				"camGame",
 				4,
 				"smoothStep",
 				"In",
 				"stage",
-				false
+				true
 			],
 			"name": "Camera Zoom",
 			"time": 2727.27272727273
@@ -2260,9 +2260,12 @@
 			"name": "Play Animation"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -7959,22 +7962,22 @@
 					"type": 1
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"visible": false,
-			"type": 0,
 			"characters": [
 				"shadowv2"
 			],
+			"type": 0,
+			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -12454,7 +12457,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 181.818181818235,
+					"sLen": 181.818181818264,
 					"time": 240363.636363636,
 					"type": 0
 				},
@@ -12490,7 +12493,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 272.727272727323,
+					"sLen": 272.727272727352,
 					"time": 241363.636363636,
 					"type": 0
 				},
@@ -14703,39 +14706,39 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"visible": true,
-			"type": 1,
 			"characters": [
 				"pace1"
 			],
+			"type": 1,
+			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.75,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.75
 		},
 		{
 			"keyCount": 4,
-			"notes": [],
-			"position": "girlfriend",
 			"strumScale": 1,
-			"visible": false,
-			"type": 2,
+			"position": "girlfriend",
+			"notes": [],
 			"characters": [
 				"nikto"
 			],
+			"type": 2,
+			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 3,
@@ -15584,10 +15587,6 @@
 					"type": 1
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"visible": false,
-			"type": 0,
 			"characters": [
 				"shadowTeeth",
 				"shadowTeeth",
@@ -15595,17 +15594,17 @@
 				"shadowTeeth",
 				"shadowTeeth"
 			],
+			"type": 0,
+			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 3,
@@ -17192,21 +17191,22 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 0,
 			"characters": [
 				"paceCoruptionV2"
 			],
-			"type": 0,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 3,
 	"chartVersion": "1.6.0",
 	"stage": "pacev2",

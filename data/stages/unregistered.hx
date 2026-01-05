@@ -245,7 +245,6 @@ function postUpdate(elapsed:Float) {
 function runTruns() {
     part = 2;
     zoomAllow = false;
-    //colorShader.contrast = 100;
     strumLines.members[0].characters[0].visible = false;
     strumLines.members[1].characters[0].visible = false;
     strumLines.members[0].characters[1].visible = true;
@@ -276,6 +275,11 @@ function runTruns() {
     for (i in 0...8) {
         objs[i].visible = false;
     }
+
+    colorShader.brightness = -35;
+    colorShader.hue = 5;
+    colorShader.contrast = 35;
+    colorShader.saturation = 15;
 }
 
 function thirdPart() {

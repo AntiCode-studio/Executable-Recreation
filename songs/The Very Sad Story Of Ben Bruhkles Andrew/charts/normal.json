@@ -46,6 +46,22 @@
 		},
 		{
 			"params": [
+				"ManiaNotesNEW",
+				0
+			],
+			"time": 0,
+			"name": "Change Noteskin"
+		},
+		{
+			"params": [
+				"ManiaNotesNEW",
+				1
+			],
+			"time": 0,
+			"name": "Change Noteskin"
+		},
+		{
+			"params": [
 				1,
 				true,
 				4,
@@ -258,14 +274,13 @@
 			"time": 157440
 		}
 	],
-	"codenameChart": true,
 	"stage": "bAndrew",
+	"codenameChart": true,
 	"scrollSpeed": 3.2,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 3,
@@ -2381,6 +2396,15 @@
 				}
 			],
 			"visible": true,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.2,
 			"type": 0,
 			"characters": [
 				"EXEMONSTER"
@@ -2388,7 +2412,6 @@
 		},
 		{
 			"keyCount": 4,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -5350,6 +5373,15 @@
 				}
 			],
 			"visible": true,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.8,
 			"type": 1,
 			"characters": [
 				"bruhkles"
@@ -5357,13 +5389,13 @@
 		},
 		{
 			"keyCount": 4,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"type": 2,
+			"visible": false,
 			"characters": [
 				"nogf"
-			],
-			"visible": false,
-			"type": 2
+			]
 		}
 	],
 	"noteTypes": []
