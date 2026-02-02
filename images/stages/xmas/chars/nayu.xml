@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nayu.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="nayuidle0000" x="0" y="0" width="448" height="656"/>
+	<SubTexture name="nayuidle0001" x="0" y="0" width="448" height="656"/>
+	<SubTexture name="nayuidle0002" x="448" y="0" width="448" height="656"/>
+	<SubTexture name="nayuidle0003" x="448" y="0" width="448" height="656"/>
+	<SubTexture name="nayuidle0004" x="896" y="0" width="448" height="656"/>
+	<SubTexture name="nayuidle0005" x="896" y="0" width="448" height="656"/>
+	<SubTexture name="nayuidle0006" x="1344" y="0" width="448" height="656"/>
+	<SubTexture name="nayuidle0007" x="1344" y="0" width="448" height="656"/>
+	<SubTexture name="nayuidle0008" x="0" y="656" width="448" height="656"/>
+	<SubTexture name="nayuidle0009" x="0" y="656" width="448" height="656"/>
+	<SubTexture name="nayuidle0010" x="0" y="656" width="448" height="656"/>
+	<SubTexture name="nayuidle0011" x="448" y="656" width="448" height="656"/>
+	<SubTexture name="nayuidle0012" x="448" y="656" width="448" height="656"/>
+	<SubTexture name="nayuidle0013" x="896" y="656" width="448" height="656"/>
+	<SubTexture name="nayuidle0014" x="896" y="656" width="448" height="656"/>
+	<SubTexture name="nayuidle0015" x="1344" y="656" width="448" height="656"/>
+	<SubTexture name="nayuidle0016" x="1344" y="656" width="448" height="656"/>
+	<SubTexture name="nayuidle0017" x="0" y="1312" width="448" height="656"/>
+	<SubTexture name="nayuidle0018" x="0" y="1312" width="448" height="656"/>
+	<SubTexture name="nayuidle0019" x="448" y="1312" width="448" height="656"/>
+	<SubTexture name="nayuidle0020" x="896" y="1312" width="448" height="656"/>
+</TextureAtlas>

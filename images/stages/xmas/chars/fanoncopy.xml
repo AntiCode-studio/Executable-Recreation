@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fanoncopy.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="womanidle0000" x="0" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0001" x="0" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0002" x="586" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0003" x="586" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0004" x="1172" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0005" x="1172" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0006" x="1758" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0007" x="1758" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0008" x="2344" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0009" x="2344" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0010" x="2344" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0011" x="2344" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0012" x="2344" y="0" width="586" height="1113"/>
+	<SubTexture name="womanidle0013" x="2344" y="0" width="586" height="1113"/>
+</TextureAtlas>

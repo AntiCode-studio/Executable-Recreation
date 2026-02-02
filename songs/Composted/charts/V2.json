@@ -353,12 +353,9 @@
 			"name": "Camera Movement"
 		}
 	],
-	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -2047,23 +2044,23 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"mother"
-			],
-			"type": 0,
 			"visible": false,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"type": 0,
+			"characters": [
+				"Plants/mother"
+			]
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -4106,41 +4103,41 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"sunfriend"
-			],
-			"type": 1,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.35,
-			"vocalsSuffix": ""
+			"type": 1,
+			"characters": [
+				"Plants/sunfriend"
+			]
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
 			"characters": [
 				"nikto"
 			],
-			"type": 2,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -4156,7 +4153,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 273.000000000065,
+					"sLen": 273.000000000073,
 					"time": 62710.843373494,
 					"type": 0
 				},
@@ -4461,20 +4458,23 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"compostedSpirit"
-			],
-			"type": 0,
 			"visible": false,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"type": 0,
+			"characters": [
+				"Plants/compostedSpirit"
+			]
 		}
 	],
+	"codenameChart": true,
 	"scrollSpeed": 3.2,
 	"chartVersion": "1.6.0",
 	"stage": "composted",

@@ -1,0 +1,30 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/xmas/" name="xmas" zoom="0.4">
+	<sprite type="none" sprite="thehalls" name="thehalls"/>
+	<sprite x="2520" sprite="chars/mother" y="700" type="beat" name="mother"/>
+	<sprite antialiasing="false" x="2719" sprite="chars/faker" y="489" type="beat" name="faker"/>
+	<sprite type="none" sprite="tables" name="tables"/>
+	<sprite antialiasing="false" x="884" sprite="chars/greenguy" y="688" type="beat" name="greenguy"/>
+	<sprite x="1652" sprite="chars/kidDANGER" y="506" type="beat" name="kidDANGER"/>
+	<sprite x="476" sprite="chars/shadowxpaceguy" y="381" type="beat" name="shadowxpaceguy"/>
+	<sprite type="none" sprite="tabletree" name="tabletree"/>
+	<sprite x="2103" sprite="chars/registed" y="763" type="beat" name="registed"/>
+	<sprite x="2962" sprite="chars/nayu" y="858" type="beat" name="nayu"/>
+	<sprite antialiasing="false" x="2697" sprite="chars/dani" y="816" type="beat" name="dani"/>
+	<sprite type="none" sprite="couches" name="couches"/>
+	<sprite antialiasing="false" x="348.423563369359" sprite="chars/zalgo" y="847.168709301545" type="beat" name="zalgo"/>
+	<sprite antialiasing="false" x="45" sprite="chars/fanoncopy" y="724" type="beat" name="fanoncopy"/>
+	<sprite x="3675" sprite="chars/theselfpacedfemboy" y="987" type="beat" name="theselfpacedfemboy"/>
+	<sprite antialiasing="false" x="114" sprite="chars/madguy" y="1183" type="beat" name="madguy"/>
+	<sprite antialiasing="false" x="3864" sprite="chars/cute" y="969" type="beat" name="cute"/>
+	<sprite x="3991" sprite="chars/satan-os" y="1083" type="beat" name="satan-os"/>
+	<sprite x="3986" sprite="chars/femboy" y="1723" type="beat" name="femboy"/>
+	<sprite antialiasing="false" x="777" sprite="chars/hog" y="1005" type="beat" name="hog"/>
+	<sprite antialiasing="false" x="1327" sprite="chars/rewrite" y="766" type="beat" name="rewrite"/>
+	<sprite antialiasing="false" x="1005" sprite="chars/NerdX" y="858" type="beat" name="NerdX"/>
+	<girlfriend x="1942" scroll="1" y="941"/>
+	<dad x="1284" y="1014"/>
+	<boyfriend x="2770" y="1044"/>
+	<sprite x="1.81212605012368" sprite="lights" y="8.05231077094515e-07" type="none" skewx="-0.135909452870064" scalex="0.999999999994732" scaley="0.999999999319043" name="lights"/>
+	<sprite x="36" sprite="chars/what" y="1413" type="beat" name="what"/>
+</stage>

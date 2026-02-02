@@ -274,8 +274,8 @@
 			"time": 157440
 		}
 	],
-	"stage": "bAndrew",
 	"codenameChart": true,
+	"stage": "bAndrew",
 	"scrollSpeed": 3.2,
 	"chartVersion": "1.6.0",
 	"strumLines": [
@@ -2407,7 +2407,7 @@
 			"strumLinePos": 0.2,
 			"type": 0,
 			"characters": [
-				"EXEMONSTER"
+				"WERRYGERRYBERRYSUPERDUPERPUPERCOOLNAMEFORAMATHINGFOLDER228735/EXEMONSTER"
 			]
 		},
 		{
@@ -5384,17 +5384,25 @@
 			"strumLinePos": 0.8,
 			"type": 1,
 			"characters": [
-				"bruhkles"
+				"WERRYGERRYBERRYSUPERDUPERPUPERCOOLNAMEFORAMATHINGFOLDER228735/bruhkles"
 			]
 		},
 		{
 			"keyCount": 4,
 			"notes": [],
-			"position": "girlfriend",
-			"type": 2,
 			"visible": false,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25,
+			"type": 2,
 			"characters": [
-				"nogf"
+				"nikto"
 			]
 		}
 	],

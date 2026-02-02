@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rewrite.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="rewriteidle0000" x="0" y="0" width="493" height="822"/>
+	<SubTexture name="rewriteidle0001" x="0" y="0" width="493" height="822"/>
+	<SubTexture name="rewriteidle0002" x="493" y="0" width="493" height="822"/>
+	<SubTexture name="rewriteidle0003" x="493" y="0" width="493" height="822"/>
+	<SubTexture name="rewriteidle0004" x="986" y="0" width="493" height="822"/>
+	<SubTexture name="rewriteidle0005" x="986" y="0" width="493" height="822"/>
+	<SubTexture name="rewriteidle0006" x="1479" y="0" width="493" height="822"/>
+	<SubTexture name="rewriteidle0007" x="1479" y="0" width="493" height="822"/>
+	<SubTexture name="rewriteidle0008" x="0" y="822" width="493" height="822"/>
+	<SubTexture name="rewriteidle0009" x="0" y="822" width="493" height="822"/>
+	<SubTexture name="rewriteidle0010" x="0" y="822" width="493" height="822"/>
+	<SubTexture name="rewriteidle0011" x="0" y="822" width="493" height="822"/>
+	<SubTexture name="rewriteidle0012" x="0" y="822" width="493" height="822"/>
+	<SubTexture name="rewriteidle0013" x="0" y="822" width="493" height="822"/>
+</TextureAtlas>

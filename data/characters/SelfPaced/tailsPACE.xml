@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pace/tailsPACE" antialiasing="false">
+	<anim name="idle" anim="idle" fps="12" loop="true"/>
+	<anim name="singDOWN" anim="down" x="5" y="-5" fps="10"/>
+	<anim name="singRIGHT" anim="right" x="25" y="10" fps="10"/>
+	<anim name="singLEFT" anim="left" x="105" y="30" fps="10"/>
+	<anim name="singUP" anim="up" x="-90" y="90" fps="10"/>
+	<anim name="die" anim="die" x="10" y="10" fps="10" loop="true"/>
+</character>

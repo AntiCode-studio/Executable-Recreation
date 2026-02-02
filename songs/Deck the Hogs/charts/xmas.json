@@ -1,0 +1,152 @@
+{
+	"events": [
+		{
+			"params": [
+				"ManiaNotesNEW",
+				0
+			],
+			"time": 0,
+			"name": "Change Noteskin"
+		},
+		{
+			"params": [
+				"ManiaNotesNEW",
+				1
+			],
+			"time": 0,
+			"name": "Change Noteskin"
+		},
+		{
+			"params": [
+				"ManiaNotesNEW",
+				2
+			],
+			"time": 0,
+			"name": "Change Noteskin"
+		},
+		{
+			"params": [
+				3,
+				4,
+				false
+			],
+			"time": 102983.870967742,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				5,
+				4,
+				false
+			],
+			"time": 117983.870967742,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				7,
+				4,
+				false
+			],
+			"time": 125000,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				5,
+				4,
+				false
+			],
+			"time": 134032.258064516,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				7,
+				4,
+				false
+			],
+			"time": 140000,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				3,
+				4,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 149032.258064516
+		},
+		{
+			"params": [
+				4,
+				4,
+				false
+			],
+			"time": 150000,
+			"name": "Time Signature Change"
+		}
+	],
+	"stage": "xmas",
+	"codenameChart": true,
+	"scrollSpeed": 1,
+	"chartVersion": "1.6.0",
+	"strumLines": [
+		{
+			"keyCount": 4,
+			"notes": [],
+			"visible": true,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.2,
+			"type": 0,
+			"characters": [
+				"dad"
+			]
+		},
+		{
+			"keyCount": 4,
+			"notes": [],
+			"visible": true,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.8,
+			"type": 1,
+			"characters": [
+				"bf"
+			]
+		},
+		{
+			"keyCount": 4,
+			"notes": [],
+			"visible": false,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.8,
+			"type": 2,
+			"characters": [
+				"gf"
+			]
+		}
+	],
+	"noteTypes": []
+}

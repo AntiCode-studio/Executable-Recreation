@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="faker.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fakeridle0000" x="0" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0001" x="0" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0002" x="298" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0003" x="298" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0004" x="596" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0005" x="596" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0006" x="894" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0007" x="894" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0008" x="1192" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0009" x="1192" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0010" x="1192" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0011" x="1192" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0012" x="1192" y="0" width="298" height="518"/>
+	<SubTexture name="fakeridle0013" x="1192" y="0" width="298" height="518"/>
+</TextureAtlas>

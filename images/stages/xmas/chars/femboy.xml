@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="femboy.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="8advidle0000" x="0" y="0" width="445" height="297"/>
+	<SubTexture name="8advidle0001" x="0" y="0" width="445" height="297"/>
+	<SubTexture name="8advidle0002" x="445" y="0" width="445" height="297"/>
+	<SubTexture name="8advidle0003" x="445" y="0" width="445" height="297"/>
+	<SubTexture name="8advidle0004" x="0" y="297" width="445" height="297"/>
+	<SubTexture name="8advidle0005" x="0" y="297" width="445" height="297"/>
+	<SubTexture name="8advidle0006" x="445" y="297" width="445" height="297"/>
+	<SubTexture name="8advidle0007" x="445" y="297" width="445" height="297"/>
+	<SubTexture name="8advidle0008" x="0" y="594" width="445" height="297"/>
+	<SubTexture name="8advidle0009" x="0" y="594" width="445" height="297"/>
+	<SubTexture name="8advidle0010" x="0" y="594" width="445" height="297"/>
+	<SubTexture name="8advidle0011" x="0" y="594" width="445" height="297"/>
+	<SubTexture name="8advidle0012" x="0" y="594" width="445" height="297"/>
+	<SubTexture name="8advidle0013" x="0" y="594" width="445" height="297"/>
+	<SubTexture name="8advidle0014" x="0" y="594" width="445" height="297"/>
+	<SubTexture name="8advidle0015" x="0" y="594" width="445" height="297"/>
+</TextureAtlas>

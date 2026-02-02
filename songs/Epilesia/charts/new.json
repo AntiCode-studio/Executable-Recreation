@@ -240,7 +240,7 @@
 		{
 			"params": [
 				0,
-				"BlueUSB-real1",
+				"Pendrive/BlueUSB-real1",
 				0,
 				true
 			],
@@ -466,7 +466,7 @@
 		{
 			"params": [
 				0,
-				"pen1",
+				"Pendrive/pen1",
 				0,
 				true
 			],
@@ -677,7 +677,7 @@
 		{
 			"params": [
 				0,
-				"quatro",
+				"Pendrive/quatro",
 				0,
 				true
 			],
@@ -999,7 +999,7 @@
 		{
 			"params": [
 				0,
-				"Bdos",
+				"Pendrive/Bdos",
 				0,
 				true
 			],
@@ -1046,7 +1046,7 @@
 		{
 			"params": [
 				0,
-				"Buno",
+				"Pendrive/Buno",
 				0,
 				true
 			],
@@ -1084,12 +1084,12 @@
 				false,
 				true
 			],
-			"time": 287313.646972476,
+			"time": 287393.434206519,
 			"name": "video event"
 		}
 	],
-	"stage": "epilepsia new",
 	"codenameChart": true,
+	"stage": "epilepsia new",
 	"scrollSpeed": 3.2,
 	"chartVersion": "1.6.0",
 	"strumLines": [
@@ -4260,7 +4260,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 83.8904246010352,
+					"sLen": 83.8904246010643,
 					"time": 208852.595885915,
 					"type": 0
 				},
@@ -4458,7 +4458,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 239.361702127499,
+					"sLen": 239.361702127469,
 					"time": 247021.093780987,
 					"type": 0
 				},
@@ -4548,7 +4548,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 239.361702127673,
+					"sLen": 239.361702127702,
 					"time": 249893.434206519,
 					"type": 0
 				},
@@ -4644,7 +4644,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 239.361702127848,
+					"sLen": 239.361702127877,
 					"time": 253404.072504391,
 					"type": 0
 				},
@@ -4662,7 +4662,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 79.7872340425965,
+					"sLen": 79.7872340426547,
 					"time": 254042.370376732,
 					"type": 0
 				},
@@ -4674,7 +4674,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 1196.8085106384,
+					"sLen": 1196.80851063842,
 					"time": 256755.136334178,
 					"type": 0
 				},
@@ -4704,7 +4704,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 79.787234042713,
+					"sLen": 79.7872340427421,
 					"time": 260904.072504391,
 					"type": 0
 				},
@@ -4716,7 +4716,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 79.7872340425965,
+					"sLen": 79.7872340426547,
 					"time": 261542.370376732,
 					"type": 0
 				},
@@ -4734,7 +4734,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 605.053191489365,
+					"sLen": 605.053191489307,
 					"time": 262021.093780987,
 					"type": 0
 				},
@@ -5117,25 +5117,24 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
 			"visible": false,
-			"type": 0,
-			"characters": [
-				"BlueUSB2",
-				"qutroDA"
-			],
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"type": 0,
+			"characters": [
+				"Pendrive/BlueUSB2",
+				"Pendrive/qutroDA"
+			]
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -8049,7 +8048,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 202.014486192813,
+					"sLen": 202.014486192784,
 					"time": 260265.774632051,
 					"type": 0
 				},
@@ -8079,7 +8078,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 202.014486192638,
+					"sLen": 202.014486192609,
 					"time": 261382.795908646,
 					"type": 0
 				},
@@ -8420,30 +8419,32 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"bf2"
 			],
-			"type": 1,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.5,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.5
 		},
 		{
 			"keyCount": 4,
-			"notes": [],
-			"position": "girlfriend",
 			"strumScale": 1,
-			"visible": false,
-			"scrollSpeed": null,
-			"type": 2,
+			"position": "girlfriend",
+			"notes": [],
 			"characters": [
 				"gf"
 			],
+			"type": 2,
+			"scrollSpeed": null,
+			"visible": false,
 			"strumPos": [
 				0,
 				50

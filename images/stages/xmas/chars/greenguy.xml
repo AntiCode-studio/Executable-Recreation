@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="greenguy.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="greenguyidle0000" x="0" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0001" x="0" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0002" x="362" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0003" x="362" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0004" x="724" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0005" x="724" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0006" x="1086" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0007" x="1086" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0008" x="1448" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0009" x="1448" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0010" x="1448" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0011" x="1448" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0012" x="1448" y="0" width="362" height="500"/>
+	<SubTexture name="greenguyidle0013" x="1448" y="0" width="362" height="500"/>
+</TextureAtlas>

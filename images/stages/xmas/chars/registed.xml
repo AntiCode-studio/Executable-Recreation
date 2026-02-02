@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="registed.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bluescreenidle0000" x="0" y="0" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0001" x="0" y="0" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0002" x="453" y="0" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0003" x="453" y="0" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0004" x="906" y="0" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0005" x="906" y="0" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0006" x="1359" y="0" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0007" x="1359" y="0" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0008" x="0" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0009" x="0" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0010" x="0" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0011" x="0" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0012" x="0" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0013" x="453" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0014" x="453" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0015" x="906" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0016" x="906" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0017" x="1359" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0018" x="1359" y="463" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0019" x="0" y="926" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0020" x="0" y="926" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0021" x="453" y="926" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0022" x="453" y="926" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0023" x="453" y="926" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0024" x="453" y="926" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0025" x="453" y="926" width="453" height="463"/>
+	<SubTexture name="bluescreenidle0026" x="453" y="926" width="453" height="463"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dani.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="daniiidle0000" x="0" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0001" x="0" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0002" x="432" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0003" x="432" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0004" x="864" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0005" x="864" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0006" x="1296" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0007" x="1296" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0008" x="1296" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0009" x="1296" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0010" x="1296" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0011" x="1296" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0012" x="1296" y="0" width="432" height="726"/>
+	<SubTexture name="daniiidle0013" x="1296" y="0" width="432" height="726"/>
+</TextureAtlas>

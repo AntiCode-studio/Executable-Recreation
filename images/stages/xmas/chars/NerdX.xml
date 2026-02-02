@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NerdX.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sonicidle0000" x="0" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0001" x="0" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0002" x="482" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0003" x="482" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0004" x="964" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0005" x="964" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0006" x="1446" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0007" x="1446" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0008" x="1446" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0009" x="1446" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0010" x="1446" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0011" x="1446" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0012" x="1446" y="0" width="482" height="695"/>
+	<SubTexture name="sonicidle0013" x="1446" y="0" width="482" height="695"/>
+</TextureAtlas>

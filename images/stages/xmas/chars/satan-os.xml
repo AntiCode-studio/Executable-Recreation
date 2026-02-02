@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="satan-os.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="satanosidle0000" x="0" y="0" width="543" height="705"/>
+	<SubTexture name="satanosidle0001" x="0" y="0" width="543" height="705"/>
+	<SubTexture name="satanosidle0002" x="543" y="0" width="543" height="705"/>
+	<SubTexture name="satanosidle0003" x="543" y="0" width="543" height="705"/>
+	<SubTexture name="satanosidle0004" x="1086" y="0" width="543" height="705"/>
+	<SubTexture name="satanosidle0005" x="1086" y="0" width="543" height="705"/>
+	<SubTexture name="satanosidle0006" x="0" y="705" width="543" height="705"/>
+	<SubTexture name="satanosidle0007" x="0" y="705" width="543" height="705"/>
+	<SubTexture name="satanosidle0008" x="543" y="705" width="543" height="705"/>
+	<SubTexture name="satanosidle0009" x="543" y="705" width="543" height="705"/>
+	<SubTexture name="satanosidle0010" x="543" y="705" width="543" height="705"/>
+	<SubTexture name="satanosidle0011" x="543" y="705" width="543" height="705"/>
+	<SubTexture name="satanosidle0012" x="543" y="705" width="543" height="705"/>
+	<SubTexture name="satanosidle0013" x="543" y="705" width="543" height="705"/>
+</TextureAtlas>

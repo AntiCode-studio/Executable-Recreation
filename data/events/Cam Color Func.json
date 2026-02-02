@@ -1,0 +1,24 @@
+{
+	"params": [
+		{
+			"name": "Догадайся",
+			"type":"DropDown('Brightness', 'HUE', 'Contrast', 'Saturation')",
+			"defaultValue": "Brightness"
+		},
+        {
+			"name": "Параметр",
+			"type":"Int(-9999999, 9999999, 1)",
+			"defaultValue": "0"
+		},
+        {
+			"name": "Время (В степах)",
+			"type":"Float(1, 9999, 1, 2)",
+			"defaultValue": "4"
+		},
+        {
+			"name": "Тип (резко(false) или плавно(true)",
+			"type":"Bool",
+			"defaultValue": true
+		}
+	]
+}

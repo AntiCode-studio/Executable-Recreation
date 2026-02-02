@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mother.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="motheridle0000" x="0" y="0" width="217" height="230"/>
+	<SubTexture name="motheridle0001" x="0" y="0" width="217" height="230"/>
+	<SubTexture name="motheridle0002" x="217" y="0" width="217" height="230"/>
+	<SubTexture name="motheridle0003" x="217" y="0" width="217" height="230"/>
+	<SubTexture name="motheridle0004" x="434" y="0" width="217" height="230"/>
+	<SubTexture name="motheridle0005" x="434" y="0" width="217" height="230"/>
+	<SubTexture name="motheridle0006" x="651" y="0" width="217" height="230"/>
+	<SubTexture name="motheridle0007" x="651" y="0" width="217" height="230"/>
+	<SubTexture name="motheridle0008" x="0" y="230" width="217" height="230"/>
+	<SubTexture name="motheridle0009" x="0" y="230" width="217" height="230"/>
+	<SubTexture name="motheridle0010" x="0" y="230" width="217" height="230"/>
+	<SubTexture name="motheridle0011" x="0" y="230" width="217" height="230"/>
+	<SubTexture name="motheridle0012" x="0" y="230" width="217" height="230"/>
+	<SubTexture name="motheridle0013" x="0" y="230" width="217" height="230"/>
+</TextureAtlas>

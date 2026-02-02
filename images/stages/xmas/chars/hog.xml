@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hog.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hogidle0000" x="0" y="0" width="325" height="484"/>
+	<SubTexture name="hogidle0001" x="0" y="0" width="325" height="484"/>
+	<SubTexture name="hogidle0002" x="325" y="0" width="325" height="484"/>
+	<SubTexture name="hogidle0003" x="325" y="0" width="325" height="484"/>
+	<SubTexture name="hogidle0004" x="650" y="0" width="325" height="484"/>
+	<SubTexture name="hogidle0005" x="650" y="0" width="325" height="484"/>
+	<SubTexture name="hogidle0006" x="0" y="484" width="325" height="484"/>
+	<SubTexture name="hogidle0007" x="0" y="484" width="325" height="484"/>
+	<SubTexture name="hogidle0008" x="325" y="484" width="325" height="484"/>
+	<SubTexture name="hogidle0009" x="325" y="484" width="325" height="484"/>
+	<SubTexture name="hogidle0010" x="325" y="484" width="325" height="484"/>
+	<SubTexture name="hogidle0011" x="325" y="484" width="325" height="484"/>
+	<SubTexture name="hogidle0012" x="325" y="484" width="325" height="484"/>
+	<SubTexture name="hogidle0013" x="325" y="484" width="325" height="484"/>
+</TextureAtlas>

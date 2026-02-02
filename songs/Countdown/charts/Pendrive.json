@@ -348,7 +348,7 @@
 		{
 			"params": [
 				0,
-				"BlueUSB-real1",
+				"Pendrive/BlueUSB-real1",
 				0,
 				true
 			],
@@ -438,7 +438,7 @@
 		{
 			"params": [
 				0,
-				"BlueUSB-real",
+				"Pendrive/BlueUSB-real",
 				0,
 				true
 			],
@@ -569,6 +569,7 @@
 			"name": "HScript Call"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
@@ -3316,7 +3317,7 @@
 			"strumLinePos": 0.25,
 			"type": 0,
 			"characters": [
-				"BlueUSB2"
+				"Pendrive/BlueUSB2"
 			]
 		},
 		{
@@ -5987,32 +5988,40 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
 			"visible": true,
-			"type": 1,
-			"characters": [
-				"bf2"
-			],
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.75,
-			"vocalsSuffix": ""
+			"type": 1,
+			"characters": [
+				"Pendrive/bf2"
+			]
 		},
 		{
 			"keyCount": 4,
 			"notes": [],
-			"position": "girlfriend",
-			"characters": [
-				"nogf"
+			"visible": false,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
 			],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25,
 			"type": 2,
-			"visible": false
+			"characters": [
+				"nikto"
+			]
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 3.2,
 	"chartVersion": "1.6.0",
 	"stage": "pendrive",

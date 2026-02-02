@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="theselfpacedfemboy.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="paceidle0000" x="0" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0001" x="0" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0002" x="374" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0003" x="374" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0004" x="748" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0005" x="748" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0006" x="1122" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0007" x="1122" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0008" x="1496" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0009" x="1496" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0010" x="1496" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0011" x="1496" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0012" x="1496" y="0" width="374" height="563"/>
+	<SubTexture name="paceidle0013" x="1496" y="0" width="374" height="563"/>
+</TextureAtlas>

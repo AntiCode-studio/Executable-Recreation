@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="what.png">
+	<!-- Created with Adobe Animate version 24.0.5.40 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="majinidle0000" x="0" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0001" x="0" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0002" x="469" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0003" x="469" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0004" x="938" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0005" x="938" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0006" x="1407" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0007" x="1407" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0008" x="1407" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0009" x="1407" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0010" x="1407" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0011" x="1407" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0012" x="1407" y="0" width="469" height="648"/>
+	<SubTexture name="majinidle0013" x="1407" y="0" width="469" height="648"/>
+</TextureAtlas>
