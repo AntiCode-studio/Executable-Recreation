@@ -219,6 +219,7 @@ function postCreate() {
     // for (i in [strumLines.members[3].characters[0], strumLines.members[3].characters[1], strumLines.members[3].characters[3], strumLines.members[3].characters[4], strumLines.members[3].characters[2], strumLines.members[4].characters[0]]){
     //     i.visible = false;
     // }
+    strumLines.members[4].characters[0].visible = false;
     
     importScript("data/huds/maniav1");
 
