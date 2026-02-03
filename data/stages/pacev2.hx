@@ -72,8 +72,9 @@ function phaceChange(phace:Bool) {
         bgp3.visible = true;
     }
     if (phace == 'final'){
+        strumLines.members[0].characters[0].zoomFactor = 1;
         dadTrail.visible = true;
-        isRun = false;
+        isRun = true;
         bgF.visible = true;
         bglight.visible = true;
         //shadowFake.visible = true;
@@ -93,12 +94,15 @@ function phaceChange(phace:Bool) {
         //     i.visible = true;
         // }
 
+        strumLines.members[3].characters[0].visible = true;
+
         dadTrail.visible = false;
-        isRun = false;
+        isRun = true;
         bgF.visible = true;
         //shadowFake.visible = true;
         ostrov.visible = true;
         shadowBig.visible = true;
+        strumLines.members[0].characters[0].zoomFactor = 1;
     }
     if (phace == 'final3'){
 
@@ -108,8 +112,10 @@ function phaceChange(phace:Bool) {
         shadowFake.visible = true;
         ostrov.visible = true;
         shadowBig.visible = true;
+        strumLines.members[0].characters[0].zoomFactor = 1;
     }
     if (phace == 'end'){
+        strumLines.members[0].characters[0].zoomFactor = 1;
 
         glitchTween = FlxTween.tween(snowfall, {glitchAmount: 1}, 10);
         FlxTween.tween(camGame, {alpha: 0}, 10);
@@ -117,7 +123,7 @@ function phaceChange(phace:Bool) {
 }
 
 function pretrans() {
-    
+    glitchTween = FlxTween.tween(snowfall, {glitchAmount: 10}, 2);
     FlxTween.tween(s2.scale, {x: 10, y:10}, 2);
 }
 
@@ -220,6 +226,7 @@ function postCreate() {
     //     i.visible = false;
     // }
     strumLines.members[4].characters[0].visible = false;
+    strumLines.members[3].characters[0].visible = false;
     
     importScript("data/huds/maniav1");
 
@@ -423,7 +430,7 @@ function postCreate() {
     bglight.visible = false;
     bglight.zoomFactor = 0;
     
-    shadowBig = new FlxSprite(-800,-300).loadGraphic(Paths.image('stages/pace/v2/finale/shadow big'));
+    shadowBig = new FlxSprite(-1500,-850).loadGraphic(Paths.image('stages/pace/v2/finale/shadow big'));
     shadowBig.scale.set(1.5, 1.5);
     shadowBig.updateHitbox();
     insert(members.indexOf(gf), shadowBig);
