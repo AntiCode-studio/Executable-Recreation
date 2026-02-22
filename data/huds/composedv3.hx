@@ -19,7 +19,7 @@ function postCreate() {
     for(i in [iconP2, iconP1, scoreTxt, accuracyTxt, healthBar, healthBarBG]) remove(i);
 
     timeBG = new FlxSprite();
-    timeBG.frames = Paths.getSparrowAtlas('game/hud/v3/time');
+    timeBG.frames = Paths.getSparrowAtlas('game/hud/composed/time');
     timeBG.animation.addByPrefix('idle', 'time', 2, true);
     timeBG.scale.set(1.1, 1.1);
     timeBG.animation.play('idle');
@@ -27,86 +27,97 @@ function postCreate() {
     
     timeBG.alpha = 0;
 
+    hudBG = new FlxSprite().loadGraphic(Paths.image('game/hud/composed/hud'));
+    hudBG.scale.set(0.4, 0.4);
+    hudBG.updateHitbox();
+    insert(0,hudBG);
+
+    sunBG = new FlxSprite().loadGraphic(Paths.image('game/hud/composed/sun'));
+    sunBG.scale.set(0.4, 0.4);
+    sunBG.updateHitbox();
+    insert(1,sunBG);
+
     hpBG = new FlxSprite();
-    hpBG.frames = Paths.getSparrowAtlas('game/hud/v3/hp');
+    hpBG.frames = Paths.getSparrowAtlas('game/hud/composed/hp');
     hpBG.animation.addByPrefix('idle', 'hpf', 2, true);
     hpBG.scale.set(1.1, 1.1);
     hpBG.animation.play('idle');
     add(hpBG);
 
     hpBar1 = new FlxSprite();
-    hpBar1.frames = Paths.getSparrowAtlas('game/hud/v3/healthanim');
+    hpBar1.frames = Paths.getSparrowAtlas('game/hud/composed/healthanim');
     hpBar1.animation.addByPrefix('idle', '1', 2, true);
     hpBar1.scale.set(1.1, 1.1);
     hpBar1.animation.play('idle');
     add(hpBar1);
     hpBar2 = new FlxSprite();
-    hpBar2.frames = Paths.getSparrowAtlas('game/hud/v3/healthanim');
+    hpBar2.frames = Paths.getSparrowAtlas('game/hud/composed/healthanim');
     hpBar2.animation.addByPrefix('idle', '2', 2, true);
     hpBar2.scale.set(1.1, 1.1);
     hpBar2.animation.play('idle');
     add(hpBar2);
     hpBar3 = new FlxSprite();
-    hpBar3.frames = Paths.getSparrowAtlas('game/hud/v3/healthanim');
+    hpBar3.frames = Paths.getSparrowAtlas('game/hud/composed/healthanim');
     hpBar3.animation.addByPrefix('idle', '3', 2, true);
     hpBar3.scale.set(1.1, 1.1);
     hpBar3.animation.play('idle');
     add(hpBar3);
     hpBar4 = new FlxSprite();
-    hpBar4.frames = Paths.getSparrowAtlas('game/hud/v3/healthanim');
+    hpBar4.frames = Paths.getSparrowAtlas('game/hud/composed/healthanim');
     hpBar4.animation.addByPrefix('idle', '4', 2, true);
     hpBar4.scale.set(1.1, 1.1);
     hpBar4.animation.play('idle');
     add(hpBar4);
     hpBar5 = new FlxSprite();
-    hpBar5.frames = Paths.getSparrowAtlas('game/hud/v3/healthanim');
+    hpBar5.frames = Paths.getSparrowAtlas('game/hud/composed/healthanim');
     hpBar5.animation.addByPrefix('idle', '5', 2, true);
     hpBar5.scale.set(1.1, 1.1);
     hpBar5.animation.play('idle');
     add(hpBar5);
     hpBar6 = new FlxSprite();
-    hpBar6.frames = Paths.getSparrowAtlas('game/hud/v3/healthanim');
+    hpBar6.frames = Paths.getSparrowAtlas('game/hud/composed/healthanim');
     hpBar6.animation.addByPrefix('idle', '6', 2, true);
     hpBar6.scale.set(1.1, 1.1);
     hpBar6.animation.play('idle');
     add(hpBar6);
     hpBar7 = new FlxSprite();
-    hpBar7.frames = Paths.getSparrowAtlas('game/hud/v3/healthanim');
+    hpBar7.frames = Paths.getSparrowAtlas('game/hud/composed/healthanim');
     hpBar7.animation.addByPrefix('idle', '7', 2, true);
     hpBar7.scale.set(1.1, 1.1);
     hpBar7.animation.play('idle');
     add(hpBar7);
     hpBar8 = new FlxSprite();
-    hpBar8.frames = Paths.getSparrowAtlas('game/hud/v3/healthanim');
+    hpBar8.frames = Paths.getSparrowAtlas('game/hud/composed/healthanim');
     hpBar8.animation.addByPrefix('idle', '8', 2, true);
     hpBar8.scale.set(1.1, 1.1);
     hpBar8.animation.play('idle');
     add(hpBar8);
 
-    ramka = new FlxSprite().loadGraphic(Paths.image('game/hud/v3/ramka'));
+    ramka = new FlxSprite().loadGraphic(Paths.image('game/hud/composed/ramka'));
     ramka.scale.set(0.5, 0.5);
     add(ramka);
 
-    ramka1 = new FlxSprite().loadGraphic(Paths.image('game/hud/v3/ramka'));
+    ramka1 = new FlxSprite().loadGraphic(Paths.image('game/hud/composed/ramka'));
     ramka1.scale.set(ramka.scale.x, ramka.scale.y);
     ramka1.flipX = true;
     add(ramka1);
 
-    hpFG = new FlxSprite().loadGraphic(Paths.image('game/hud/v3/hpBarFrame'));
+    hpFG = new FlxSprite().loadGraphic(Paths.image('game/hud/composed/hpBarFrame'));
     hpFG.scale.set(1.1, 1.1);
     add(hpFG);
 
     rating = new FlxSprite();
-    rating.frames = Paths.getSparrowAtlas('game/hud/v3/rating');
+    rating.frames = Paths.getSparrowAtlas('game/hud/composed/rating');
     rating.animation.addByPrefix('idle', 'rating', 2, true);
     rating.scale.set(1.1, 1.1);
     rating.animation.play('idle');
     add(rating);
 
-    for(i in [timeBG, hpBG, hpBar1, hpBar2, hpBar3, hpBar4, hpBar5, hpBar6, hpBar7, hpBar8, hpFG, rating, ramka1, ramka]){
+    for(i in [timeBG, hpBG, hpBar1, hpBar2, hpBar3, hpBar4, hpBar5, hpBar6, hpBar7, hpBar8, hpFG, rating, ramka1, ramka, hudBG, sunBG]){
+        i.camera = camHUD;
         i.screenCenter();
         //i.scale.set(1, 1);
-        i.camera = camHUD;
+        
     };
     timerTxt.camera = camHUD;
     timerTxt.updateHitbox();
@@ -117,6 +128,7 @@ function postCreate() {
 
     timeBG.y -= 250;
     timeBG.y -= 50;
+    timeBG.x += 250;
     hpBG.y += 300;
     hpBar1.y += 300;
     hpBar2.y += 300;
@@ -134,9 +146,14 @@ function postCreate() {
     ramka1.y = ramka.y;
     ramka.x += 480;
     ramka1.x -= 480;
+    hudBG.x = 200;
+    hudBG.y = 45;
+    sunBG.screenCenter();
+    sunBG.x -= 390;
+    sunBG.y -= 250;
 
     for (i in 1...6) {
-        star = new FlxSprite().loadGraphic(Paths.image('game/hud/v3/stars'));
+        star = new FlxSprite().loadGraphic(Paths.image('game/hud/composed/stars'));
         star.updateHitbox();
         star.screenCenter();
         star.camera = camHUD;
@@ -220,6 +237,7 @@ function onSongStart() {
     if(timeVisible){
         FlxTween.tween(timeBG, {y: timeBG.y + 50, alpha: 1}, 0.5, {ease: FlxEase.quintOut});
         createText(timeString(), timerTxt, 0.40, scaleTimer);
+        timerTxt.x += 250;
     }else {
         timeBG.visible = false;
     }
@@ -336,7 +354,7 @@ static function createText(txt:String = '', textgroup:FlxSpriteGroup, spacing:Fl
 
 	for (char in 0...txt.length) {
 		var newChar = new FlxSprite(85 * char * spacing * scale, 0);
-		newChar.loadGraphic(Paths.image('game/hud/v3/timeNumbers'),true,36,54);
+		newChar.loadGraphic(Paths.image('game/hud/composed/timeNumbers'),true,36,54);
         
 		for (code in numberFontCodes) newChar.animation.add(code, [code]);
 		for (i in ['-1', '-']) newChar.animation.add(i, [10]);
@@ -352,6 +370,14 @@ static function timeString() {
 	final minutes = Math.floor(remainingTime / 60);
 	final seconds = Math.floor(remainingTime % 60);
 	return minutes + ' ' + (seconds < 10 ? '0' + seconds : seconds);
+}
+function onNoteCreation(note){
+
+    note.noteSprite = "game/notes/ManiaNotesPvz";
+}
+
+function onStrumCreation(note){
+    note.sprite = "game/notes/ManiaNotesPvz";
 }
 function postUpdate(){
 

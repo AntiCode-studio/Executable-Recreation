@@ -8,6 +8,9 @@ vhsCompoced = new CustomShader('vhsCompoced');
 importScript("data/scripts/resizing");
 ratioThing(960, 720, false);
 
+importScript("data/huds/composedv3");
+portVisible = false;
+
 wave = new CustomShader('wave');
 
 chromCushion = new CustomShader('ChromCushion');
@@ -206,17 +209,6 @@ function postUpdate(elapsed:Float) {
 
 function destroy() {
     ratioThing(1280, 720, false);
-}
-
-function onNoteCreation(e)
-    e.noteSprite = 'game/notes/pvzNOTE_assets2'; // replaces default noteskin
-
-function onStrumCreation(e)
-    e.sprite = 'game/notes/pvzNOTE_assets2'; // same as above
-
-function onPlayerHit(e)
-{
-    e.note.splash = "pvz";
 }
 function stepHit(curStep:Int) {
     switch (curStep) {

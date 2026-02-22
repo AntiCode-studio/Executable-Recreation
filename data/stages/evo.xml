@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/evo/" name="evo" zoom="4.5">
+	<dad camxoffset="-125" camyoffset="10" x="20" y="-175"/>
+	<boyfriend camxoffset="310" x="-180" camyoffset="-10" y="-155"/>
+	<girlfriend x="-100" scroll="1" y="-130"/>
+</stage>

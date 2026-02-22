@@ -4,13 +4,9 @@ colorShader.hue = 0;
 colorShader.contrast = 0;
 colorShader.saturation = 0;
 
-function create() {
-    camGame.addShader(colorShader);
-}
-
 // чем гуще лес, if else if else....
 function flashFunc(type:String, int:Int) {
-	var bebe:Int = Std.parseInt(int);
+	var bebe:Int = Std.parseFloat(int);
 	switch (type) {
 		case 'Brightness':
 			colorShader.brightness = bebe;
@@ -43,6 +39,17 @@ function onEvent(event) {
             }else{
                 flashFunc(event.event.params[0], event.event.params[1]);
             }
+			switch(event.event.params[4]){
+				case 'Game':
+					camHUD.removeShader(colorShader);
+					camGame.addShader(colorShader);
+				case 'HUD':
+					camGame.removeShader(colorShader);
+					camHUD.addShader(colorShader);
+				case 'Both':
+					camGame.addShader(colorShader);
+					camHUD.addShader(colorShader);
+			}
 	}
 }
 

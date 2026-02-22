@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="rating.png" width="214" height="96">
+	<SubTexture name="rating1" x="1" y="1" width="209" height="46" frameX="1" frameY="6" frameWidth="209" frameHeight="46"/>
+	<SubTexture name="rating2" x="1" y="57" width="212" height="38" frameX="-0" frameY="0" frameWidth="212" frameHeight="38"/>
+</TextureAtlas>

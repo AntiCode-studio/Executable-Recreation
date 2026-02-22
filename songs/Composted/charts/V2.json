@@ -353,9 +353,12 @@
 			"name": "Camera Movement"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -2044,20 +2047,18 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"Plants/mother"
+			],
+			"type": 0,
 			"visible": false,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"Plants/mother"
-			]
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
@@ -4110,9 +4111,9 @@
 				50
 			],
 			"position": "boyfriend",
-			"strumScale": 1,
+			"strumScale": 0.8,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.35,
+			"strumLinePos": 0.4,
 			"type": 1,
 			"characters": [
 				"Plants/sunfriend"
@@ -4120,24 +4121,26 @@
 		},
 		{
 			"keyCount": 4,
-			"notes": [],
-			"position": "girlfriend",
 			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": false,
-			"type": 2,
+			"position": "girlfriend",
+			"notes": [],
 			"characters": [
 				"nikto"
 			],
+			"type": 2,
+			"visible": false,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -4458,23 +4461,20 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"Plants/compostedSpirit"
+			],
+			"type": 0,
 			"visible": false,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"Plants/compostedSpirit"
-			]
+			"vocalsSuffix": ""
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 3.2,
 	"chartVersion": "1.6.0",
 	"stage": "composted",
