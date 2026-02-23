@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character>
+<character antialiasing="false" x="30" camx="-50" y="400" sprite="sunk/sunkle" camy="-70">
+	<anim name="idle" anim="sunky idle" fps="20"/>
+
+	<anim x="-10" name="singDOWN" anim="sunky down" y="-90"/>
+
+	<anim x="-130" name="singRIGHT" anim="sunky right" y="-10"/>
+
+	<anim x="170" name="singLEFT" anim="sunky left" y="30"/>
+
+	<anim x="20" name="singUP" anim="sunky up" y="135"/>
+
+	<anim x="75" loop="true" anim="sunky car" y="-10" name="car"/>
+
+	<anim x="-30" name="singRIGHT-alt" anim="sunky hump0" y="35"/>
+
+	<anim x="70" name="singLEFT-alt" anim="sunky hump one" y="50"/>
+</character>

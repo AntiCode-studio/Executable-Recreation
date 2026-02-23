@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/sunk/" name="sunk" zoom="0.55">
+	<sprite antialiasing="false" x="-879" scroll="0.05" sprite="sky" y="-378" type="none" name="sky"/>
+	<sprite antialiasing="false" x="-725" scroll="0.2" sprite="disco" y="-287" type="none" name="disco"/>
+	<sprite antialiasing="false" x="-489" scroll="0.5" sprite="city1" y="-229" type="none" name="city1"/>
+	<sprite antialiasing="false" x="-476" scroll="0.6" sprite="city2" y="-164" type="none" name="city2"/>
+	<sprite type="none" antialiasing="false" sprite="flor" name="flor"/>
+	<sprite type="none" antialiasing="false" sprite="lamp" name="lamp"/>
+	<sprite antialiasing="false" scroll="1" sprite="ri" type="none" name="ri"/>
+	<sprite antialiasing="false" scroll="1" sprite="ring" type="none" name="ring"/>
+	<girlfriend x="1169" y="238" scroll="1"/>
+	<dad x="999" y="269"/>
+	<boyfriend x="1712" y="276"/>
+</stage>

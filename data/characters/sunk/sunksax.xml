@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" camx="60" icon="sunk/sunksax" sprite="sunk/sunklesax" y="370" camy="-50">
+	<anim fps="20" anim="sunky sax idle" name="idle"/>
+
+	<anim x="-80" y="-75" anim="sunky sax down" name="singDOWN"/>
+
+	<anim x="-30" y="10" anim="sunky sax right" name="singRIGHT"/>
+
+	<anim x="90" y="-5" anim="sunky sax left" name="singLEFT"/>
+
+	<anim x="35" y="45" anim="sunky sax up" name="singUP"/>
+
+	<anim loop="true" x="75" y="35" anim="transition" name="transition"/>
+</character>

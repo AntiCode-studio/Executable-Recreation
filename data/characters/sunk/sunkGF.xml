@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character antialiasing="false" x="150" camx="-210" sprite="sunk/gfsunkle" y="100" camy="-70">
+	<anim name="danceLeft" anim="gf idle dance" indices="0..11"/>
+
+	<anim name="danceRight" anim="gf idle dance" indices="12..23"/>
+</character>
