@@ -5,7 +5,7 @@
 	<sprite antialiasing="false" x="2719" sprite="chars/faker" y="489" type="beat" name="faker"/>
 	<sprite type="none" sprite="tables" name="tables"/>
 	<sprite antialiasing="false" x="884" sprite="chars/greenguy" y="688" type="beat" name="greenguy"/>
-	<sprite x="1652" sprite="chars/kidDANGER" y="506" type="beat" name="kidDANGER"/>
+	<sprite antialiasing="false" x="1652" sprite="chars/kidDANGER" y="506" type="beat" name="kidDANGER"/>
 	<sprite x="476" sprite="chars/shadowxpaceguy" y="381" type="beat" name="shadowxpaceguy"/>
 	<sprite type="none" sprite="tabletree" name="tabletree"/>
 	<sprite x="2103" sprite="chars/registed" y="763" type="beat" name="registed"/>

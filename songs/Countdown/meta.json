@@ -3,7 +3,8 @@
 	"color": "#230079",
 	"opponentModeAllowed": false,
 	"difficulties": [
-		"Pendrive"
+		"Pendrive",
+		"new"
 	],
 	"icon": "pen1",
 	"coopAllowed": false,

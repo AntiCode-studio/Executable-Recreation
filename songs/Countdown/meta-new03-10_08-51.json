@@ -1,15 +1,16 @@
 {
 	"customValues": {},
-	"color": "#9271FD",
+	"color": "#230079",
 	"opponentModeAllowed": false,
 	"difficulties": [
-		"pokemon"
+		"Pendrive",
+		"new"
 	],
-	"icon": "face",
+	"icon": "pen1",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
-	"displayName": "Prevention",
+	"displayName": "Countdown",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"bpm": 190
+	"bpm": 182
 }

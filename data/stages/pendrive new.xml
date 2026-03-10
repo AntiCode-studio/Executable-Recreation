@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="2.2" name="pendrive" folder="bgs/" startCamPosY="370" startCamPosX="160">
+	<gf x="160" y="370" visible="false"/>
+	
+	<sprite x="0" y="50" sprite="penbg" scale="1" name="swirlsbg"/>
+	<dad x="835" y="475" camxoffset="100" camyoffset="350"/>
+	<bf x="400" y="130" camxoffset="-200" camyoffset="0"/>
+	<combo x="9999" y="99999"/>
+</stage>
