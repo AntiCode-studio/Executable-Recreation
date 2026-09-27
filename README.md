@@ -7,6 +7,7 @@ It includes not only the tracks created for the original release but also adds o
 
 This project has been completely cancelled.
 I handled the code NikkiRemo/[Anticode](https://www.youtube.com/@Ant1C0de)
+
 Thanks to [Yururyu](https://t.me/notnamspublic), [ℕ𝕖𝕞𝕖𝕫𝕚𝕤](https://www.youtube.com/@NemezisOfficial), and [Rabty](https://www.youtube.com/@Rabtyone) for their help with development.
 
 Recommended version of Codename Engine: [here](https://github.com/CodenameCrew/CodenameEngine/actions/runs/30316787901/artifacts/8672917339)
@@ -18,3 +19,10 @@ At the moment, the following list of tracks is available here:
 * [Epilepcia(unfinished)](https://www.youtube.com/watch?v=y8gYC6rdHxg)
 * Countdown(unfinished)
 * Composted v2
+What might be released in the near future:
+* Countdown
+* Epilepcia
+* Self Paced v2
+* Unregistered v2
+* Wonkers v1 and yt
+* Aftershock v1 and yt
