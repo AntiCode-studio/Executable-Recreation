@@ -45,6 +45,7 @@ brightnes = new CustomShader('shader');
 
 var bgSpeed = -100;
 
+var flicker:FlxFlicker;
 
 function bgSpeedChange(values) {
     bgSpeed = values;
@@ -56,7 +57,7 @@ function postCreate() {
 
     stageStart1.blend = 0;
     stageStart1.alpha = 0.5;
-    flicker = new FlxFlicker().flicker(stageStart1,99999 ,0.01 , true, true,(flicker)->{});
+    // flicker = new FlxFlicker().flicker(stageStart1, 5000, 0.01, true, true);
 
     screen.visible = false;
     //FlxG.cameras.add(camMania, false);
@@ -334,7 +335,7 @@ function stepMania(par) {
     switch (Std.parseInt(par)) {
         case 0:
             camHUD.alpha = 1;
-            flicker.stopFlickering();
+            // flicker.stopFlickering();
             stageStart.visible=false;
             stageStart1.alpha = 0;
             camGame.setFilters();
