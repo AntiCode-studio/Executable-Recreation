@@ -6,7 +6,7 @@ This is an attempt to restore the *Executable Mania* mod.
 It includes not only the tracks created for the original release but also adds old or cut tracks.
 
 This project has been completely cancelled.
-
+I handled the code NikkiRemo/[Anticode](https://www.youtube.com/@Ant1C0de)
 Thanks to [Yururyu](https://t.me/notnamspublic), [ℕ𝕖𝕞𝕖𝕫𝕚𝕤](https://www.youtube.com/@NemezisOfficial), and [Rabty](https://www.youtube.com/@Rabtyone) for their help with development.
 
 At the moment, the following list of tracks is available here:
