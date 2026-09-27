@@ -12,14 +12,15 @@ Thanks to [Yururyu](https://t.me/notnamspublic), [ℕ𝕖𝕞𝕖𝕫𝕚𝕤](h
 
 Recommended version of Codename Engine: [here](https://github.com/CodenameCrew/CodenameEngine/actions/runs/30316787901/artifacts/8672917339)
 
-At the moment, the following list of tracks is available here:
+## At the moment, the following list of tracks is available here:
 * Unregistered v1 [v3](https://www.youtube.com/watch?v=bqo53Msb6Oo)
 * Self Paced [v1](https://www.youtube.com/watch?v=1C5qH8T5Wjo) [v2(unfinished)](https://www.youtube.com/watch?v=99Y22uroW_U)
 * [Prevention](https://www.youtube.com/watch?v=xR2Zr2sXtHk&t=2s)
 * [Epilepcia(unfinished)](https://www.youtube.com/watch?v=y8gYC6rdHxg)
 * Countdown(unfinished)
 * Composted v2
-What might be released in the near future:
+
+## What might be released in the near future:
 * Countdown
 * Epilepcia
 * Self Paced v2
