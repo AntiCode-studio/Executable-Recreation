@@ -1,4 +1,7 @@
 # Executable Mania Recreation
+
+![](https://github.com/NikkiRemo76/Executable-Recreation/blob/main/art/logo.png)
+
 This is an attempt to restore the *Executable Mania* mod.
 It includes not only the tracks created for the original release but also adds old or cut tracks.
 
